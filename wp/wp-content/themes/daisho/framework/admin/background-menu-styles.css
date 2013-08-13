@@ -1,0 +1,120 @@
+.flow-styling-title { font-weight: bold; text-align: right; display: block; line-height: 100%; margin-top: 8px; }
+.flow-styling-subtitle { clear: both; color: #AAAAAA; display: block; font-size: 11px; font-style: italic; font-weight: normal; line-height: 130%; margin-top: 5px; text-align: right; }
+.flow_styling_input { float: left; min-width: 150px; padding: 7px; width: 15%; margin-right: 10px; }
+.colorSelector { float: left; margin-top: -2px; margin-left: 0px!important; }
+.briskuploader_preview {
+    clear: both;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.ui-widget-content { 
+	 background: none repeat-x scroll 50% 50% #FFFFFF;
+	border: 1px solid #AAAAAA;
+	color: #222222;
+	display: block;
+	float: left;
+	height: 3px;
+	position: relative;
+	width: 200px;
+	margin-top: 14px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background: none repeat scroll 0 0 #BBBBBB;
+    border: 1px solid #999999;
+	color: #555555;
+	display: block;
+	font-weight: normal;
+	height: 20px;
+	position: relative;
+	width: 10px;
+}
+.ui-slider .ui-slider-handle {
+	cursor: default;
+	height: 1.2em;
+	position: absolute;
+	width: 1.2em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+	margin-left: -0.6em;
+	top: -0.55em;
+}
+.ui-slider-range-min {
+	background: none repeat scroll 0 0 #DDDDDD;
+	display: block;
+	height: 3px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 42.4893%;
+}
+.ui-slider-handle[style*="left: 0%"]:after {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #EE5555;
+    content: "OFF";
+    font-size: 10px;
+    font-weight: bold;
+    left: 15px;
+    line-height: 145%;
+    padding-left: 5px;
+    padding-right: 2px;
+    position: absolute;
+    text-transform: uppercase;
+    width: 105px;
+	
+	background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+}
+.ui-slider-handle[style*="left: 0%"] {
+    background-color: #EE5555;
+    border: 1px solid #AA4444;
+    border-radius: 3px 3px 3px 3px;
+}
+/* all */
+::-webkit-input-placeholder  { font-style:italic; color:#ccc; }
+.flow_styling_input:-moz-placeholder { font-style:italic; color:#ccc; }
+
+/* individual: webkit */
+.flow_styling_input::-webkit-input-placeholder { font-style:italic; color:#ccc; }
+
+/* individual: mozilla */
+.flow_styling_input::-moz-placeholder { font-style:italic; color:#ccc; }
+
+.form-table td p {
+    clear: both;
+    color: #AAAAAA;
+    display: block;
+    float: left;
+    font-size: 12px!important;
+    margin: 5px 0;
+}
+
+pre code{
+	background-color: #F9F9F9;
+    border: 1px solid #EEEEEE;
+    display: block;
+    font-size: 12px;
+    line-height: 125%;
+    padding: 20px;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+.flow-styling-info {
+	font-size: 15px; 
+	line-height: 150%;
+}
+.flow-styling-info-list {
+	font-size: 15px;
+    line-height: 150%;
+    list-style: square outside none;
+    margin-left: 50px;
+}
+.flow-styling-info-list li {
+	padding-left: 10px;
+}
+.form-table.flow-styling-table th { text-align: left; }

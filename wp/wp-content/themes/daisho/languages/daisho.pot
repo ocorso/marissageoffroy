@@ -1,0 +1,2544 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Daisho\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-13 22:56+0100\n"
+"PO-Revision-Date: 2013-02-13 22:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_x;_n;_ex;__;esc_attr_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:48 search.php:25 single.php:17 template-blog.php:85
+msgid "1k+"
+msgstr ""
+
+#: archive.php:55 search.php:32 template-blog.php:92
+#, php-format
+msgid ""
+"Written by <a href=\"%1$s\" title=\"Posts by %2$s\" rel=\"author\">%2$s</a>"
+msgstr ""
+
+#: archive.php:57 recent-posts.php:58 recent-posts.php:93 search.php:34
+#: single.php:22 template-blog.php:94 framework/miscellaneous/comments.php:12
+msgid "F jS, Y"
+msgstr ""
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:14
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:15
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgid "<div class=\"comment-nav-older-text\">Older Comments</div> %s"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgid "%s <div class=\"comment-nav-newer-text\">Newer Comments</div>"
+msgstr ""
+
+#: comments.php:31
+msgid "There are no comments yet, add one below."
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:56
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Logout</a>."
+msgstr ""
+
+#: comments.php:60 comments.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:60 comments.php:62 comments.php:64 comments.php:66
+msgid " *"
+msgstr ""
+
+#: comments.php:64 comments.php:66
+msgid "Email"
+msgstr ""
+
+#: comments.php:68 comments.php:70
+msgid "Website"
+msgstr ""
+
+#: comments.php:76 comments.php:77
+msgid "Comment"
+msgstr ""
+
+#: comments.php:80
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:33
+msgid "Powered by Devatic"
+msgstr ""
+
+#: functions.php:176
+msgid "(This page is a placeholder for front page)"
+msgstr ""
+
+#: header.php:28 project-loop.php:372
+#, php-format
+msgid "%s - Home"
+msgstr ""
+
+#: header.php:30
+#, php-format
+msgid "Browsing the Category %s"
+msgstr ""
+
+#: header.php:32
+#, php-format
+msgid "Browsing Archives of %s"
+msgstr ""
+
+#: header.php:34
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: header.php:36
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: header.php:61
+msgid ""
+"It looks like your browser doesn't fully support HTML5 and CSS3. You need a "
+"recent version of Internet Explorer, Firefox, Chrome or Safari to display "
+"this website correctly."
+msgstr ""
+
+#: header.php:209
+#: framework/shortcodes/mobile-application/mobile-application.php:42
+msgid "Back"
+msgstr ""
+
+#: header.php:214
+msgid "Search"
+msgstr ""
+
+#: nav.php:4
+msgid "Next"
+msgstr ""
+
+#: nav.php:5
+msgid "Previous"
+msgstr ""
+
+#: nav.php:8
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: nav.php:9
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: nav.php:14
+msgid "Older Entries "
+msgstr ""
+
+#: nav.php:17
+msgid " Newer Entries"
+msgstr ""
+
+#: page.php:53
+msgid "Previous page"
+msgstr ""
+
+#: page.php:53
+msgid "Next page"
+msgstr ""
+
+#: project-container.php:33 project-container.php:87
+msgid "DATE"
+msgstr ""
+
+#: project-container.php:37 project-container.php:91
+msgid "CLIENT"
+msgstr ""
+
+#: project-container.php:41 project-container.php:95
+msgid "AGENCY"
+msgstr ""
+
+#: project-container.php:47 project-container.php:101
+msgid "OUR ROLE"
+msgstr ""
+
+#: project-loop.php:38
+msgid "All Works"
+msgstr ""
+
+#: project-loop.php:101
+msgid "Shuffle"
+msgstr ""
+
+#: recent-posts.php:11
+msgid "Recent Projects"
+msgstr ""
+
+#: recent-posts.php:13
+msgid "View Portfolio"
+msgstr ""
+
+#: recent-posts.php:48
+msgid "New Blog Posts"
+msgstr ""
+
+#: recent-posts.php:50
+msgid "View Blog"
+msgstr ""
+
+#: search.php:49
+msgid "Nothing Found."
+msgstr ""
+
+#: searchform-header.php:4
+msgid "Press Enter to Search"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search..."
+msgstr ""
+
+#: template-news.php:38
+msgid "F d, Y"
+msgstr ""
+
+#: framework/admin/about-menu.php:11 framework/admin/background-menu.php:821
+#: framework/admin/blog-menu.php:7 framework/admin/footer-menu.php:6
+#: framework/admin/main-menu.php:6 framework/admin/portfolio-menu.php:7
+#: framework/admin/slideshow-menu.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: framework/admin/about-menu.php:34
+#, php-format
+msgid "%1$s is version %2$s"
+msgstr ""
+
+#: framework/admin/about-menu.php:40
+msgid "Welcome to Daisho!"
+msgstr ""
+
+#: framework/admin/about-menu.php:41
+msgid ""
+"You are running Daisho theme. If you need help getting started, check out "
+"our <a href=\"http://www.youtube.com/watch?v=Yvf2dcPfiHM\" target=\"_blank"
+"\">Installation Video (8:06)</a> and documentation on <a href=\"http://docs."
+"devatic.com/daisho/index.html#firstSteps\" target=\"_blank\">First Steps "
+"with Daisho</a>. If you'd rather dive right in, here are a few things most "
+"people do first when they set up a new Daisho site. If you need help, use "
+"the Daisho button in the top admin toolbar to get information on how to "
+"setup and use your website and where to go for more assistance."
+msgstr ""
+
+#: framework/admin/about-menu.php:44
+msgid "Basic Settings"
+msgstr ""
+
+#: framework/admin/about-menu.php:45
+msgid ""
+"When you first activated the theme we imported some demo settings to your "
+"database. Here is their raw list (one-to-one database match):"
+msgstr ""
+
+#: framework/admin/about-menu.php:55
+msgid ""
+"You can now modify them in Admin Panel in left sidebar under \"Daisho\". "
+"They all come from that area."
+msgstr ""
+
+#: framework/admin/about-menu.php:59
+msgid "Add Real Content"
+msgstr ""
+
+#: framework/admin/about-menu.php:60
+msgid ""
+"Check out sample pages, posts, portfolio projects and editors to see how it "
+"all works, then delete the default content and write your own!"
+msgstr ""
+
+#: framework/admin/about-menu.php:62
+msgid ""
+"<strong><a href=\"http://support.forcg.com/bb-templates/kakumei-flow/help/"
+"daisho/index.html#firstSteps\" target=\"_blank\">Import Demo Content</a></"
+"strong>"
+msgstr ""
+
+#: framework/admin/about-menu.php:63
+#, php-format
+msgid ""
+"View your <a href=\"%s/wp-admin/edit.php?post_type=page\" target=\"_blank"
+"\">pages</a> and <a href=\"%s/wp-admin/edit.php\" target=\"_blank\">blog "
+"posts</a>"
+msgstr ""
+
+#: framework/admin/about-menu.php:64
+#, php-format
+msgid ""
+"View your <a href=\"%s/wp-admin/edit.php?post_type=portfolio\" target="
+"\"_blank\">portfolio projects</a> and <a href=\"%s/wp-admin/edit.php?"
+"post_type=slideshow\" target=\"_blank\">slideshow slides</a>"
+msgstr ""
+
+#: framework/admin/about-menu.php:65
+msgid "Go ahead and edit demo content or remove it and add your own!"
+msgstr ""
+
+#: framework/admin/about-menu.php:69
+msgid "Customize Your Site"
+msgstr ""
+
+#: framework/admin/about-menu.php:70
+msgid ""
+"Your current theme &mdash; Daisho &mdash; offers some customization options. "
+"Here are a few ways to make your site look unique."
+msgstr ""
+
+#: framework/admin/about-menu.php:72
+msgid "Styling Tool"
+msgstr ""
+
+#: framework/admin/about-menu.php:73
+msgid "Customize Typography"
+msgstr ""
+
+#: framework/admin/about-menu.php:74
+msgid "Add some widgets"
+msgstr ""
+
+#: framework/admin/about-menu.php:75
+msgid "Add Custom CSS Style"
+msgstr ""
+
+#: framework/admin/about-menu.php:77
+msgid ""
+"If you need more complex changes, our support forum is divided into two "
+"sections:"
+msgstr ""
+
+#: framework/admin/about-menu.php:79
+msgid "Free Support"
+msgstr ""
+
+#: framework/admin/about-menu.php:79
+msgid "Paid Support"
+msgstr ""
+
+#: framework/admin/about-menu.php:80
+msgid ""
+"Installation, configuration, general questions, bug reports, suggestions"
+msgstr ""
+
+#: framework/admin/about-menu.php:80
+msgid "Custom Modifications"
+msgstr ""
+
+#: framework/admin/about-menu.php:81
+msgid "Go ahead and let us know if you have any questions!"
+msgstr ""
+
+#: framework/admin/about-menu.php:81
+msgid ""
+"Find a developer</a> to configure website for you or do custom modifications!"
+msgstr ""
+
+#: framework/admin/about-menu.php:105
+msgid "Utilities"
+msgstr ""
+
+#: framework/admin/about-menu.php:109
+msgid ""
+"Do you really want to remove all theme settings from database and restore "
+"demo settings? This can not be undone."
+msgstr ""
+
+#: framework/admin/about-menu.php:112
+msgid ""
+"Do you really want to remove all theme settings from database? This can not "
+"be undone."
+msgstr ""
+
+#: framework/admin/about-menu.php:117
+msgid ""
+"<strong>Restore Demo Settings</strong><p>You can restore demo settings by "
+"clicking this button. Please note that all theme settings will get erased - "
+"including Custom CSS Code and other settings that may be important to you. "
+"This can not be undone.</p>"
+msgstr ""
+
+#: framework/admin/about-menu.php:121
+msgid "Restore Demo Settings"
+msgstr ""
+
+#: framework/admin/about-menu.php:125
+msgid ""
+"<strong>Delete all theme settings from the database</strong><p>When you "
+"deactivate theme, settings don't get removed - just in case you wanted to re-"
+"activate it. To permanently remove them please click this button. This can "
+"not be undone. Demo settings will import again once you re-activate the "
+"theme.</p>"
+msgstr ""
+
+#: framework/admin/about-menu.php:129
+msgid "Clean Database"
+msgstr ""
+
+#: framework/admin/about-menu.php:132
+msgid ""
+"Warning! All users with \"manage_options\" capability have access to these "
+"buttons - which is usually \"Administrator\", \"Super Administrator\" and "
+"nobody else (see <a href=\"http://codex.wordpress.org/Roles_and_Capabilities"
+"\" target=\"_blank\">WordPress - Roles and Capabilities</a>)."
+msgstr ""
+
+#: framework/admin/about-menu.php:136
+msgid "Information"
+msgstr ""
+
+#: framework/admin/about-menu.php:148
+#, php-format
+msgid ""
+"Max Upload File Size Limit is set to <strong>%s</strong> - sets an upper "
+"limit on the size of uploaded files."
+msgstr ""
+
+#: framework/admin/about-menu.php:149
+#, php-format
+msgid ""
+"Max PHP POST Size Limit is set to <strong>%s</strong> - it limits the total "
+"size of posted data, including file data."
+msgstr ""
+
+#: framework/admin/about-menu.php:150
+#, php-format
+msgid "PHP Memory Limit is set to <strong>%s</strong>."
+msgstr ""
+
+#: framework/admin/about-menu.php:151
+#, php-format
+msgid "Max Execution Time is set to <strong>%s</strong>."
+msgstr ""
+
+#: framework/admin/about-menu.php:153
+#, php-format
+msgid "Current PHP version: <strong>%s</strong>"
+msgstr ""
+
+#: framework/admin/about-menu.php:157
+#, php-format
+msgid "Current WP version: <strong>%s</strong>"
+msgstr ""
+
+#: framework/admin/admin-menu.php:23 framework/admin/toolbar.php:9
+msgid "Daisho"
+msgstr ""
+
+#: framework/admin/admin-menu.php:24
+msgid "General"
+msgstr ""
+
+#: framework/admin/admin-menu.php:28
+msgid "Footer"
+msgstr ""
+
+#: framework/admin/admin-menu.php:36 framework/admin/slideshow-post-type.php:7
+#: framework/admin/slideshow-post-type.php:18
+msgid "Slideshow"
+msgstr ""
+
+#: framework/admin/admin-menu.php:40
+msgid "Blog"
+msgstr ""
+
+#: framework/admin/admin-menu.php:44
+msgid "Styling"
+msgstr ""
+
+#: framework/admin/admin-menu.php:49
+msgid "About"
+msgstr ""
+
+#: framework/admin/background-menu.php:23
+msgid "Global Background"
+msgstr ""
+
+#: framework/admin/background-menu.php:32
+msgid "Background Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:39
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/background-menu.php:46 framework/admin/meta-boxes.php:128
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/admin/background-menu.php:52
+msgid "Background Position (vertiacal)"
+msgstr ""
+
+#: framework/admin/background-menu.php:58
+msgid "Background Position (horizontal)"
+msgstr ""
+
+#: framework/admin/background-menu.php:64 framework/admin/meta-boxes.php:127
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/admin/background-menu.php:75
+msgid "Pages"
+msgstr ""
+
+#: framework/admin/background-menu.php:84
+msgid "Page Title Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:91
+msgid "Page Title Font Size"
+msgstr ""
+
+#: framework/admin/background-menu.php:98
+msgid "Page Title Line Height"
+msgstr ""
+
+#: framework/admin/background-menu.php:105
+msgid "Page Title Bottom Margin"
+msgstr ""
+
+#: framework/admin/background-menu.php:112
+msgid "Page Title Bottom Padding"
+msgstr ""
+
+#: framework/admin/background-menu.php:124
+msgid "Page Description Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:131
+msgid "Page Description Font Size"
+msgstr ""
+
+#: framework/admin/background-menu.php:138
+msgid "Page Description Line Height"
+msgstr ""
+
+#: framework/admin/background-menu.php:145
+msgid "Page Description Bottom Margin"
+msgstr ""
+
+#: framework/admin/background-menu.php:152
+msgid "Page Description Bottom Padding"
+msgstr ""
+
+#: framework/admin/background-menu.php:166
+msgid "Info Box"
+msgstr ""
+
+#: framework/admin/background-menu.php:176
+msgid "Info Box Background Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:177
+msgid ""
+"Changing background color and text color of \"Info Box\" is not enough - "
+"there is also a raster arrow in /images/ folder that needs manual color "
+"change."
+msgstr ""
+
+#: framework/admin/background-menu.php:189
+msgid "Info Box Text Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:201
+msgid "Info Box Headings Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:215 framework/admin/main-menu.php:175
+msgid "Logo"
+msgstr ""
+
+#: framework/admin/background-menu.php:224
+msgid "Text Logo Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:237
+msgid "Mouse Over Text Logo Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:250
+msgid "Image Logo Vertical Position"
+msgstr ""
+
+#: framework/admin/background-menu.php:251
+#: framework/admin/background-menu.php:265
+msgid ""
+"It starts centered. Negative value (like -10px) moves it up and positive "
+"value (like 10px) moves it down."
+msgstr ""
+
+#: framework/admin/background-menu.php:264
+msgid "Language Switcher Vertical Position"
+msgstr ""
+
+#: framework/admin/background-menu.php:272
+msgid "Language Switcher Horizontal Position"
+msgstr ""
+
+#: framework/admin/background-menu.php:273
+msgid ""
+"Negative value (like -10px) moves it to the left and positive value (like "
+"10px) moves it to the right."
+msgstr ""
+
+#: framework/admin/background-menu.php:286
+msgid "Menu"
+msgstr ""
+
+#: framework/admin/background-menu.php:295
+msgid "Hide Menu Icons"
+msgstr ""
+
+#: framework/admin/background-menu.php:306
+msgid "Navigation Top Spacing"
+msgstr ""
+
+#: framework/admin/background-menu.php:307
+msgid ""
+"It is useful especially to position your menu vertically in relation to logo "
+"or when you decide to remove icons."
+msgstr ""
+
+#: framework/admin/background-menu.php:319
+msgid "Compact Menu Top Spacing"
+msgstr ""
+
+#: framework/admin/background-menu.php:331
+msgid "Menu Item Spacing"
+msgstr ""
+
+#: framework/admin/background-menu.php:332
+msgid "Please note that it will be reduced to 20-25px on smaller resolutions."
+msgstr ""
+
+#: framework/admin/background-menu.php:344
+msgid "Menu Text and Icon Colors"
+msgstr ""
+
+#: framework/admin/background-menu.php:357
+msgid "Menu Text and Icon Colors - Current Item"
+msgstr ""
+
+#: framework/admin/background-menu.php:369
+msgid "Menu Text and Icon Colors - Hover"
+msgstr ""
+
+#: framework/admin/background-menu.php:381 framework/admin/meta-boxes.php:154
+msgid "Welcome Text"
+msgstr ""
+
+#: framework/admin/background-menu.php:390
+msgid "Welcome Text Top Spacing"
+msgstr ""
+
+#: framework/admin/background-menu.php:398
+msgid "Welcome Text Bottom Spacing"
+msgstr ""
+
+#: framework/admin/background-menu.php:406
+msgid "Welcome Text Font Size"
+msgstr ""
+
+#: framework/admin/background-menu.php:420
+msgid "Portfolio Grid"
+msgstr ""
+
+#: framework/admin/background-menu.php:429
+msgid "Hide Size Sorter"
+msgstr ""
+
+#: framework/admin/background-menu.php:440
+msgid "Hide Categories Filter"
+msgstr ""
+
+#: framework/admin/background-menu.php:451
+msgid "Hide \"All Works\" link"
+msgstr ""
+
+#: framework/admin/background-menu.php:452
+msgid "This will still show all works on start and not the next item selected."
+msgstr ""
+
+#: framework/admin/background-menu.php:463
+msgid "Thumbnails Border Radius"
+msgstr ""
+
+#: framework/admin/background-menu.php:475
+msgid "Project Title Size"
+msgstr ""
+
+#: framework/admin/background-menu.php:487
+msgid "Filter Text Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:499
+msgid "Filter Text Color (Selected Item)"
+msgstr ""
+
+#: framework/admin/background-menu.php:506
+msgid "Filter Background Color (Selected Item)"
+msgstr ""
+
+#: framework/admin/background-menu.php:513
+msgid "Filter Border Radius (Selected Item)"
+msgstr ""
+
+#: framework/admin/background-menu.php:525
+msgid "Filter Text Color (Mouse Over)"
+msgstr ""
+
+#: framework/admin/background-menu.php:532
+msgid "Filter Background Color (Mouse Over)"
+msgstr ""
+
+#: framework/admin/background-menu.php:539
+#: framework/admin/background-menu.php:577
+msgid "Filter Border Radius (Mouse Over)"
+msgstr ""
+
+#: framework/admin/background-menu.php:551
+msgid "Sharing Icons Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:563
+msgid "Tooltip Text Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:570
+msgid "Tooltip Background Color"
+msgstr ""
+
+#: framework/admin/background-menu.php:627 framework/admin/main-menu.php:179
+#: framework/admin/main-menu.php:191 framework/admin/main-menu.php:223
+#: framework/admin/main-menu.php:235
+#: framework/admin/shortcodes/shortcode-generator.php:97
+#: framework/admin/superslide/superslide-original.php:647
+#: framework/admin/superslide/superslide-original.php:652
+#: framework/admin/superslide/superslide-original.php:657
+#: framework/admin/superslide/superslide-original.php:662
+#: framework/admin/superslide/superslide-original.php:738
+msgid "Upload"
+msgstr ""
+
+#: framework/admin/background-menu.php:828 framework/admin/blog-menu.php:40
+#: framework/admin/portfolio-menu.php:36 framework/admin/slideshow-menu.php:31
+msgid "Settings saved."
+msgstr ""
+
+#: framework/admin/background-menu.php:920
+msgid "Skins"
+msgstr ""
+
+#: framework/admin/background-menu.php:962
+msgid "Update Settings"
+msgstr ""
+
+#: framework/admin/blog-menu.php:43
+msgid "Blog Settings"
+msgstr ""
+
+#: framework/admin/blog-menu.php:47
+msgid "Posts per page"
+msgstr ""
+
+#: framework/admin/blog-menu.php:50
+msgid "Posts per blog page. Use -1 for all the posts."
+msgstr ""
+
+#: framework/admin/blog-menu.php:55
+msgid "Show Author"
+msgstr ""
+
+#: framework/admin/blog-menu.php:67 framework/admin/main-menu.php:276
+#: framework/admin/main-menu.php:296 framework/admin/main-menu.php:316
+#: framework/admin/main-menu.php:421 framework/admin/meta-boxes.php:127
+#: framework/admin/meta-boxes.php:128 framework/admin/meta-boxes.php:131
+#: framework/admin/meta-boxes.php:153 framework/admin/slideshow-menu.php:61
+msgid "Disable"
+msgstr ""
+
+#: framework/admin/blog-menu.php:68 framework/admin/main-menu.php:275
+#: framework/admin/main-menu.php:295 framework/admin/main-menu.php:315
+#: framework/admin/main-menu.php:420 framework/admin/meta-boxes.php:131
+#: framework/admin/meta-boxes.php:153 framework/admin/slideshow-menu.php:60
+msgid "Enable"
+msgstr ""
+
+#: framework/admin/blog-menu.php:70
+msgid "Show author on blog listing pages and in archives."
+msgstr ""
+
+#: framework/admin/blog-menu.php:75
+msgid "Exclude Categories From Blog"
+msgstr ""
+
+#: framework/admin/blog-menu.php:91 framework/admin/news-post-type.php:33
+#: framework/admin/portfolio-post-type.php:34
+msgid "All Categories"
+msgstr ""
+
+#: framework/admin/blog-menu.php:112
+msgid ""
+"By default posts from all categories you created as well as all sub-pages "
+"are displayed on blog page.<br/> You may exclude some post categories by "
+"selecting them on the list."
+msgstr ""
+
+#: framework/admin/blog-menu.php:119 framework/admin/footer-menu.php:250
+#: framework/admin/main-menu.php:520 framework/admin/portfolio-menu.php:53
+#: framework/admin/slideshow-menu.php:70
+#: framework/admin/superslide/superslide-original.php:641
+#: framework/admin/superslide/superslide-original.php:680
+#: framework/admin/superslide/superslide-original.php:714
+#: framework/admin/superslide/superslide-original.php:748
+#: framework/admin/superslide/superslide-original.php:759
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/footer-menu.php:39 framework/admin/main-menu.php:166
+msgid "Settings Saved"
+msgstr ""
+
+#: framework/admin/footer-menu.php:42
+msgid "Footer Settings"
+msgstr ""
+
+#: framework/admin/footer-menu.php:47
+msgid "Footer columns"
+msgstr ""
+
+#: framework/admin/footer-menu.php:50
+msgid ""
+"Put here a list of comma-separated CSS classes to create footer columns and "
+"widget areas. For instance if you'd like to create 4 equal columns (25% "
+"each) you would use: grid_3,grid_3,grid_3,grid_3. To create 3 columns (33% "
+"each) you would use grid_4,grid_4,grid_4. Each column is 8.(3)% wide. When "
+"you create column, new sidebar gets created with <code>flow-footer-ID</code> "
+"ID (where ID is number like 1, 2, 3 etc.)."
+msgstr ""
+
+#: framework/admin/footer-menu.php:55
+msgid "Custom Code (like Google Analytics Tracking Code)"
+msgstr ""
+
+#: framework/admin/footer-menu.php:59
+msgid ""
+"Put Google Analytics code here to instantly start tracking your stats.<br/> "
+"(Optional: You may also put here any code (HTML or JS) that should appear "
+"just before &lt;/body&gt; tag). Adding &lt;script&gt; tag is necessary! "
+"Usage: <code>&lt;script&gt;code goes here&lt;/script&gt;</code> or <code>&lt;"
+"style type=\"text/css\"&gt;CSS code goes here&lt;/style&gt;</code>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:62 framework/admin/main-menu.php:482
+msgid ""
+"<a href=\"javascript:autoFormatSelection()\">Autoformat Selected</a> - "
+"Select entire code and click this to clean it."
+msgstr ""
+
+#: framework/admin/footer-menu.php:63 framework/admin/main-menu.php:483
+msgid ""
+"<a href=\"javascript:commentSelection(true)\">Comment Selected</a> - Select "
+"a part of code and click this to comment it out."
+msgstr ""
+
+#: framework/admin/footer-menu.php:64 framework/admin/main-menu.php:484
+msgid ""
+"<a href=\"javascript:commentSelection(false)\">Uncomment Selected</a> - "
+"Select a part of commented out code and click this to uncomment."
+msgstr ""
+
+#: framework/admin/footer-menu.php:67 framework/admin/main-menu.php:487
+msgid ""
+"<dt>Matches Highlighter</dt><dd>Matches of selected text will highlight on "
+"select.</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:68 framework/admin/main-menu.php:488
+msgid "<dt>Ctrl-F / Cmd-F</dt><dd>Start searching</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:69 framework/admin/main-menu.php:489
+msgid "<dt>Ctrl-G / Cmd-G</dt><dd>Find next</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:70 framework/admin/main-menu.php:490
+msgid "<dt>Shift-Ctrl-G / Shift-Cmd-G</dt><dd>Find previous</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:71 framework/admin/main-menu.php:491
+msgid "<dt>Shift-Ctrl-F / Cmd-Option-F</dt><dd>Replace</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:72 framework/admin/main-menu.php:492
+msgid "<dt>Shift-Ctrl-R / Shift-Cmd-Option-F</dt><dd>Replace all</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:73 framework/admin/main-menu.php:493
+msgid ""
+"<dt>F11</dt><dd>Press F11 when cursor is in the editor to toggle full screen "
+"editing.</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:74 framework/admin/main-menu.php:494
+msgid "<dt>Esc</dt><dd>Esc can also be used to exit full screen editing.</dd>"
+msgstr ""
+
+#: framework/admin/footer-menu.php:81
+msgid "Link Back"
+msgstr ""
+
+#: framework/admin/footer-menu.php:84
+msgid ""
+"Small link back in footer. It is not required but much appreciated. Please "
+"note that checking this disables link and unchecking enables it."
+msgstr ""
+
+#: framework/admin/main-menu.php:169
+msgid "General Settings"
+msgstr ""
+
+#: framework/admin/main-menu.php:182
+msgid ""
+"WordPress will display text logo and tagline unless you put a link to image "
+"logo here or below. Allowed formats: PNG, JPG, GIF, ICO. Recommended size "
+"(demo size): around 150x40px. Text logo and tagline can be modified under "
+"[Settings > General]."
+msgstr ""
+
+#: framework/admin/main-menu.php:187
+msgid "SVG Logo"
+msgstr ""
+
+#: framework/admin/main-menu.php:194
+msgid ""
+"You can upload here SVG (vector) logo. It is supported by all modern "
+"browsers and devices. For IE6, IE7 and IE8 you still need to provide raster "
+"logo."
+msgstr ""
+
+#: framework/admin/main-menu.php:199
+msgid "Tagline"
+msgstr ""
+
+#: framework/admin/main-menu.php:211
+msgid "Show tagline"
+msgstr ""
+
+#: framework/admin/main-menu.php:212
+msgid "Disable tagline"
+msgstr ""
+
+#: framework/admin/main-menu.php:214
+msgid ""
+"You can enable or disable logo tagline here. It works only with text logo."
+msgstr ""
+
+#: framework/admin/main-menu.php:219
+msgid "Favicon"
+msgstr ""
+
+#: framework/admin/main-menu.php:226
+msgid ""
+"Favicon (Favorite icon) is most commonly 16x16px in ICO format. Other "
+"formats such as PNG, JPG, SVG are also allowed but browser compatibility may "
+"be worse."
+msgstr ""
+
+#: framework/admin/main-menu.php:231
+msgid "Mobile Application Icon"
+msgstr ""
+
+#: framework/admin/main-menu.php:238
+msgid "Optional 114x114px (PNG) icon for mobile devices and tablets."
+msgstr ""
+
+#: framework/admin/main-menu.php:243
+msgid "Homepage Mode"
+msgstr ""
+
+#: framework/admin/main-menu.php:255
+msgid "Classic"
+msgstr ""
+
+#: framework/admin/main-menu.php:256
+msgid "Thumbnail grid"
+msgstr ""
+
+#: framework/admin/main-menu.php:258
+msgid "Pick homepage mode here."
+msgstr ""
+
+#: framework/admin/main-menu.php:263
+msgid "Frontpage slideshow (Classic Mode only)"
+msgstr ""
+
+#: framework/admin/main-menu.php:278
+msgid "You can add slides under [Slideshow > Add New]."
+msgstr ""
+
+#: framework/admin/main-menu.php:283
+msgid "Frontpage recent portfolio entries (Classic Mode only)"
+msgstr ""
+
+#: framework/admin/main-menu.php:298
+msgid ""
+"Choose if you'd like to display recent portfolio entries on front page or "
+"not."
+msgstr ""
+
+#: framework/admin/main-menu.php:303
+msgid "Frontpage recent blog entries (Classic Mode only)"
+msgstr ""
+
+#: framework/admin/main-menu.php:318
+msgid ""
+"Choose if you'd like to display recent blog entries on front page or not."
+msgstr ""
+
+#: framework/admin/main-menu.php:323
+msgid "Front Page"
+msgstr ""
+
+#: framework/admin/main-menu.php:326 framework/admin/main-menu.php:342
+#: framework/admin/main-menu.php:356 framework/admin/main-menu.php:370
+msgid "None"
+msgstr ""
+
+#: framework/admin/main-menu.php:334
+msgid ""
+"Pick some page that will be displayed as your front page. This page's "
+"options (custom field values) will take effect on front page! So, please use "
+"this page to exclude footer columns from front page or to exclude portfolio "
+"categories from front page. Please set [Settings > Reading] to \"Your Latest "
+"Posts\" and both \"Front Page\" and \"Posts Page\" to \"None\"."
+msgstr ""
+
+#: framework/admin/main-menu.php:339
+msgid "Top Drag-down Panel"
+msgstr ""
+
+#: framework/admin/main-menu.php:350
+msgid "Specify the page that will be displayed as the top Drag-down Panel."
+msgstr ""
+
+#: framework/admin/main-menu.php:355
+msgid "Portfolio Page"
+msgstr ""
+
+#: framework/admin/main-menu.php:362
+msgid ""
+"Select your main portfolio page (used to setup permalinks such as \"back\" "
+"or \"view portfolio\"). \"Back\" button can be specified per-item basis as "
+"well."
+msgstr ""
+
+#: framework/admin/main-menu.php:367
+msgid "Blog Page"
+msgstr ""
+
+#: framework/admin/main-menu.php:378
+msgid ""
+"Select your main blog page (used to setup permalinks such as \"back\" or "
+"\"view blog\")."
+msgstr ""
+
+#: framework/admin/main-menu.php:395
+msgid "WPML Language Switcher (Header)"
+msgstr ""
+
+#: framework/admin/main-menu.php:402
+msgid "This is used only if you have WPML plugin installed."
+msgstr ""
+
+#: framework/admin/main-menu.php:407
+msgid "SEO Module"
+msgstr ""
+
+#: framework/admin/main-menu.php:423
+msgid ""
+"This theme has some SEO tools added (see \"SEO\" section in the "
+"documentation for details). You can disable SEO module here if you are "
+"planning to use some other plugin to handle that."
+msgstr ""
+
+#: framework/admin/main-menu.php:475
+msgid "Custom CSS Code"
+msgstr ""
+
+#: framework/admin/main-menu.php:479
+msgid ""
+"Put here your custom CSS code in addition to standard CSS code or overwrite "
+"existing CSS. The advantage of this field is that the code here will not get "
+"overwritten when you update theme! It will be stored in the database in "
+"\"custom_css_style\" custom field."
+msgstr ""
+
+#: framework/admin/main-menu.php:501
+msgid "Support Forum Login and Password"
+msgstr ""
+
+#: framework/admin/main-menu.php:511
+msgid ""
+"Your login and/or password are missing. Auto-update module is disabled "
+"without this information."
+msgstr ""
+
+#: framework/admin/main-menu.php:514
+msgid "Login:"
+msgstr ""
+
+#: framework/admin/main-menu.php:515
+msgid "Password:"
+msgstr ""
+
+#: framework/admin/main-menu.php:516
+msgid ""
+"Password is NOT encrypted in the local database (but it is encrypted on our "
+"server)."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:22
+msgid "Post options"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:23
+msgid "Page options"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:24
+msgid "Project Settings"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:25
+msgid "Slide options"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:39
+msgid "Thumbnail (custom code)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:39
+msgid ""
+"WordPress Thumbnails don't allow videos (iframes, embed codes), shortcodes "
+"and other useful pieces of code as thumbnails. You can put such code here. "
+"Please make sure to leave \"post thumbnail\" blank if you want to use this "
+"field. This field also accepts plain image URLs. <br><b>Example:</b> "
+"<code>&lt;div class=\"youtube_container\"&gt;&lt;iframe frameborder=\"0\" "
+"src=\"http://www.youtube.com/embed/Yvf2dcPfiHM?wmode=opaque\" type=\"text/"
+"html\" class=\"youtube-player\"&gt;&lt;/iframe&gt;&lt;/div&gt;</code> "
+"(additional container is required to keep 16:9 aspect ratio when scaling "
+"website down)."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:40 framework/admin/meta-boxes.php:160
+msgid "Layout:"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:40 framework/admin/meta-boxes.php:160
+msgid "Full Width"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:40 framework/admin/meta-boxes.php:160
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:40 framework/admin/meta-boxes.php:160
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:40
+msgid "Pick post layout here."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:49 framework/admin/meta-boxes.php:94
+#: framework/admin/meta-boxes.php:123
+#: framework/admin/shortcodes/shortcode-generator.php:62
+#: framework/admin/superslide/superslide-original.php:6
+#: framework/admin/superslide/superslide-original.php:16
+msgid "Title"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:50 framework/admin/meta-boxes.php:95
+#: framework/admin/meta-boxes.php:124
+#: framework/admin/superslide/superslide-original.php:7
+#: framework/admin/superslide/superslide-original.php:8
+#: framework/admin/superslide/superslide-original.php:9
+#: framework/admin/superslide/superslide-original.php:10
+#: framework/admin/superslide/superslide-original.php:11
+#: framework/admin/superslide/superslide-original.php:12
+#: framework/admin/superslide/superslide-original.php:17
+#: framework/admin/superslide/superslide-original.php:18
+#: framework/admin/superslide/superslide-original.php:19
+#: framework/admin/superslide/superslide-original.php:20
+#: framework/admin/superslide/superslide-original.php:21
+#: framework/admin/superslide/superslide-original.php:22
+#: framework/admin/superslide/superslide-original.php:33
+#: framework/admin/superslide/superslide-original.php:34
+#: framework/admin/superslide/superslide-original.php:35
+#: framework/admin/superslide/superslide-original.php:36
+#: framework/admin/superslide/superslide-original.php:37
+#: framework/admin/superslide/superslide-original.php:38
+#: framework/admin/superslide/superslide.php:41
+#: framework/admin/superslide/superslide.php:55
+#: framework/admin/superslide/superslide.php:69
+msgid "Description"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:50
+#: framework/admin/superslide/superslide-original.php:7
+#: framework/admin/superslide/superslide-original.php:8
+#: framework/admin/superslide/superslide-original.php:9
+#: framework/admin/superslide/superslide-original.php:10
+#: framework/admin/superslide/superslide-original.php:11
+#: framework/admin/superslide/superslide-original.php:12
+#: framework/admin/superslide/superslide-original.php:17
+#: framework/admin/superslide/superslide-original.php:18
+#: framework/admin/superslide/superslide-original.php:19
+#: framework/admin/superslide/superslide-original.php:20
+#: framework/admin/superslide/superslide-original.php:21
+#: framework/admin/superslide/superslide-original.php:22
+#: framework/admin/superslide/superslide-original.php:33
+#: framework/admin/superslide/superslide-original.php:34
+#: framework/admin/superslide/superslide-original.php:35
+#: framework/admin/superslide/superslide-original.php:36
+#: framework/admin/superslide/superslide-original.php:37
+#: framework/admin/superslide/superslide-original.php:38
+msgid "Slide description."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:51
+msgid "Slide image:"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:51
+msgid ""
+"Put slide image here. Recommended size is around 700x300px and no more than "
+"100-200kb."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:52
+msgid "Button Link"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:53
+msgid "Button Link Name"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:56
+msgid "Buttons X axis offset"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:57
+msgid "Buttons Y axis offset"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:57
+msgid ""
+"Specify Y offset of your button (starting from the top). Examples: "
+"<strong>10px</strong> will move it 10px to the bottom."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:58
+msgid "Buttons icon (optional)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:58
+msgid ""
+"Button icon. You can put here UTF-8 icons - search engines will give you "
+"lists and codes of available icons."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:61
+msgid "Slide color"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:62
+msgid "Title Text Color"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:63
+msgid "Description Text Color"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:64
+msgid "Button Text Color"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:64
+msgid "Default is #f1f1f1."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:67
+msgid "Image's X axis offset"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:67
+msgid ""
+"Specify left X offset of your slide image (starting from the middle of "
+"slide). Examples: <strong>10px</strong> will move it 10px to the right. "
+"<strong>-10px</strong> will move it 10px to the left. Technical limitation "
+"for this is ((1120px-(width_of_your_image))/2) so like 200-300px."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:68
+msgid "Image's Y axis offset"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:68
+msgid ""
+"Specify top Y offset of your slide image. Examples: <strong>10px</strong> "
+"will move it 10px downwards. <strong>-10px</strong> will move it 10px to the "
+"top."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:83
+msgid "=== not set ==="
+msgstr ""
+
+#: framework/admin/meta-boxes.php:89
+msgid "Thumbnail image:"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:89
+msgid "Manage your slides here."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:90
+msgid "Thumbnail image"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:90
+msgid ""
+"<b>Thumbnail link and mouse over color.</b> If your thumbnail is supposed to "
+"be small (220x150px) (see drop-down below for list of dimensions) then "
+"please either upload 220x150px or 440x300px (to make it sharp on Retina "
+"displays please use twice as large numbers). Hosting thumbnails on your own "
+"server is recommended. If you specify external URL then to process such "
+"image your server will need to download it first - the script does this, too "
+"as long as this server supports any file operations like \"file open\". If "
+"not - please contact Server Administrator and/or our support."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:91
+msgid "Thumbnail mouse over color:"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:91
+msgid ""
+"Pick some color that will be used as mouse over color for this project's "
+"thumbnail on front page."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid "Thumbnail size"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid "Random"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid "Large (670x305px)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid "Medium (445x305px)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid "Vertical (220x305px)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid "Horizontal (445x150px)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid "Small (220x150px)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:92
+msgid ""
+"Use as many \"Small\" thumbnails as you can and as few \"Large\" and \"Medium"
+"\" as you can. Recommended is:<br>- 1 Large,<br>- 2-4 Medium<br>- Some "
+"Vertical and Horizontal<br>- Many Small."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:93
+msgid "Thumbnail meta data"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:93
+msgid "Don't display"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:93
+msgid "Display"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:93
+msgid ""
+"Display thumbnail meta data without hover? This is useful for solid color "
+"thumbnails."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:94
+msgid ""
+"You can add title to your post using this custom field. It will be displayed "
+"above post. It's not very useful for posts but it's useful for pages. I "
+"don't recommend using this field for posts but it's here for your "
+"convenience."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:95
+msgid ""
+"You can add description to your post using this custom field. It will be "
+"displayed above post. It's not very useful for posts but it's useful for "
+"pages. I don't recommend using this field for posts but it's here for your "
+"convenience."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:99
+msgid "Project date"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:99
+msgid ""
+"Date - use any date format but please keep it consistend in other projects "
+"too. If you can't choose any format I suggest this: dd.mm.yyyy (like "
+"20.07.2011). (will be displayed in description)."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:100
+msgid "Project client"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:100
+msgid "Client name (will be displayed in description)."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:101
+msgid "Project agency"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:101
+msgid "Agency name (will be displayed in description)."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:102
+msgid "Project role"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:102
+msgid ""
+"Your role (will be displayed in description). Please use &lt;br&gt; HTML tag "
+"to add multi-line roles (&lt;br&gt; starts new line)."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:103
+msgid "Thumbnail External Link (optional)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:103
+msgid ""
+"If you'd like this project to link to external website (like blog post), "
+"please put your link here. It will overwrite all portfolio functionality and "
+"your thumbnail will link to external place."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:104
+msgid "Open link in new window?"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:104
+msgid ""
+"This option works only if you have specified external link for this "
+"thumbnail."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:104
+msgid "Same window"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:104
+msgid "New window (target=\"_blank\")"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:105
+msgid "Back button"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:105
+msgid ""
+"Back button usually goes back to the homepage when you enter project "
+"directly (not through portfolio page). If homepage is not your portfolio "
+"page - please set different back button location here. The portfolio page "
+"that you link this entry to must contain this project (it can't be present "
+"in its excluded categories) - otherwise the project will be blank."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:123
+msgid ""
+"You can add title to your page using this custom field. It will be displayed "
+"above page. We do not use main WordPress title field because it would not "
+"allow you to specify blank title."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:124
+msgid ""
+"You can add description to your page using this custom field. It will be "
+"displayed above page. It's optional."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:125
+msgid "Background image:"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:125
+msgid ""
+"Optional background image. For fullscreen background recommended ratio is "
+"4:3 or 16:9 and dimensions up to 1920x1080px. For patterns it can be less."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:126
+msgid "Background color:"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:126
+msgid ""
+"Pick background color here. If you're not planning to use background image "
+"you should set some color instead. It should be in this format: "
+"<strong>#ffffff</strong> (for white background)."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:127
+msgid "Scroll (Default)"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:127
+msgid "Fixed"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:127
+msgid ""
+"Scroll - the background image scrolls with the rest of the page. Fixed - the "
+"background image is fixed."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:128
+msgid "Repeat"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:128
+msgid "No-repeat"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:128
+msgid "Repeat X"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:128
+msgid "Repeat Y"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:129
+msgid "Background Position"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:129
+msgid ""
+"Use like: left top OR center center OR 20% 20% OR center etc. Default: left "
+"top."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:130
+msgid "Background Size"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:130
+msgid ""
+"Use like: 100px 100px OR 10px 150px OR 200px OR 50% OR 100% 100% OR cover OR "
+"contain etc. Default: auto."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:131
+msgid "Fullscreen mode"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:131
+msgid ""
+"You can't have \"correct\" fullscreen background with just CSS on all "
+"resolutions. That's why we created special fullscreen background mode that "
+"will scale, position and crop your background image with Javascript."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:132
+msgid "Background Opacity"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:132
+msgid ""
+"This works only with fullscreen background mode enabled. Use like: 0 or 0.1 "
+"or 0.5 or 1."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:149
+msgid "Operator for categories box"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:149
+msgid ""
+"You can make below box INCLUDE only selected categories or EXCLUDE selected "
+"categories. When you're using INCLUDE you must select at least 1 category "
+"(and 2 if you'd like filter to do anything at all). Otherwise it's going to "
+"display everything."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:149
+msgid "Exclude"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:149
+msgid "Include"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:150
+msgid "Exclude portfolio categories"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:150
+msgid ""
+"Select categories that should be excluded from this portfolio page. You can "
+"select multiple categories if you hold Ctrl / CMD and click on them."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:151
+msgid "Thumbnails order by"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:151
+msgid "Default is by date."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:152
+msgid "Thumbnails order"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:152
+msgid "Default is DESC."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:153
+msgid "Shuffle Button"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:153
+msgid "Select if you'd like shuffle button to appear on this portfolio page."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:154
+msgid "Set welcome text for this portfolio page."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:155
+msgid "Loop through selected category projects only?"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:155
+msgid "No"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:155
+msgid "Yes"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:155
+msgid ""
+"By default entering project will make left/right arrows go to the next "
+"project regardless of what category is it in. Select this to yes if you want "
+"arrows to loop through projects from currently selected category only. This "
+"does not work for \"Recent Projects\" component because it does not have "
+"filter and thus it is always set to \"all\" categories (you can exlucde some "
+"of them on this page). Entering any project using that module will make left/"
+"right arrows go through entire portfolio."
+msgstr ""
+
+#: framework/admin/meta-boxes.php:156
+msgid "Boundary arrows disappear or loop from the start/end?"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:156
+msgid "Loop"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:156
+msgid "Do not loop"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:156
+msgid ""
+"When user sees the first/last project in current projects set should the "
+"first/last arrow disappear or should it be looped?"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:160
+msgid "No boundaries"
+msgstr ""
+
+#: framework/admin/meta-boxes.php:160
+msgid "Pick page layout here."
+msgstr ""
+
+#: framework/admin/news-post-type.php:7 framework/admin/news-post-type.php:18
+msgid "News"
+msgstr ""
+
+#: framework/admin/news-post-type.php:8
+msgid "News Item"
+msgstr ""
+
+#: framework/admin/news-post-type.php:9
+#: framework/admin/portfolio-post-type.php:9
+msgid "Add New"
+msgstr ""
+
+#: framework/admin/news-post-type.php:10
+msgid "Add New News Item"
+msgstr ""
+
+#: framework/admin/news-post-type.php:11
+msgid "Edit News Item"
+msgstr ""
+
+#: framework/admin/news-post-type.php:12
+msgid "New News Item"
+msgstr ""
+
+#: framework/admin/news-post-type.php:13
+msgid "View News Item"
+msgstr ""
+
+#: framework/admin/news-post-type.php:14
+msgid "Search News Items"
+msgstr ""
+
+#: framework/admin/news-post-type.php:15
+msgid "No news items found"
+msgstr ""
+
+#: framework/admin/news-post-type.php:16
+msgid "No news items found in Trash"
+msgstr ""
+
+#: framework/admin/news-post-type.php:29
+msgid "News Categories"
+msgstr ""
+
+#: framework/admin/news-post-type.php:30
+msgid "News Category"
+msgstr ""
+
+#: framework/admin/news-post-type.php:31
+#: framework/admin/portfolio-post-type.php:32
+msgid "Search Categories"
+msgstr ""
+
+#: framework/admin/news-post-type.php:32
+#: framework/admin/portfolio-post-type.php:33
+msgid "Popular Categories"
+msgstr ""
+
+#: framework/admin/news-post-type.php:36
+msgid "Edit News Category"
+msgstr ""
+
+#: framework/admin/news-post-type.php:37
+msgid "Update News Category"
+msgstr ""
+
+#: framework/admin/news-post-type.php:38
+msgid "Add New News Category"
+msgstr ""
+
+#: framework/admin/news-post-type.php:39
+msgid "New News Category Name"
+msgstr ""
+
+#: framework/admin/news-post-type.php:40
+msgid "Separate News category with commas"
+msgstr ""
+
+#: framework/admin/news-post-type.php:41
+msgid "Add or remove news category"
+msgstr ""
+
+#: framework/admin/news-post-type.php:42
+msgid "Choose from the most used news category"
+msgstr ""
+
+#: framework/admin/portfolio-menu.php:39
+msgid "Portfolio Settings"
+msgstr ""
+
+#: framework/admin/portfolio-menu.php:43
+msgid "Portfolio Option Title"
+msgstr ""
+
+#: framework/admin/portfolio-menu.php:46
+msgid "Portfolio Option Description"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:7
+#: framework/admin/portfolio-post-type.php:18
+msgid "Portfolio"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:8
+msgid "Portfolio Item"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:10
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:11
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:12
+msgid "New Portfolio Item"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:13
+msgid "View Portfolio Item"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:14
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:15
+msgid "No portfolio items found"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:16
+msgid "No portfolio items found in Trash"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:30
+msgid "Portfolio Categories"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:31
+msgid "Portfolio Category"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:37
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:38
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:39
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:40
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:41
+msgid "Separate Portfolio category with commas"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:42
+msgid "Add or remove portfolio category"
+msgstr ""
+
+#: framework/admin/portfolio-post-type.php:43
+msgid "Choose from the most used portfolio category"
+msgstr ""
+
+#: framework/admin/slideshow-menu.php:34
+msgid "Slideshow Settings"
+msgstr ""
+
+#: framework/admin/slideshow-menu.php:39
+msgid "Slideshow Autoplay Time"
+msgstr ""
+
+#: framework/admin/slideshow-menu.php:42
+msgid ""
+"A value in milliseconds (1 second = 1000 milliseconds) indicating after how "
+"much time slideshow should automatically advance slides. Default is 12000 "
+"(12 seconds). Leave blank if you wish to disable autoplay feature. Value "
+"should be a single number like: <strong>12000</strong> (without any prefixes "
+"or suffixes)."
+msgstr ""
+
+#: framework/admin/slideshow-menu.php:47
+msgid "Slideshow mousewheel"
+msgstr ""
+
+#: framework/admin/slideshow-menu.php:63
+msgid "You can enable or disable navigation by mousewheel here."
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:8
+msgid "Slideshow Item"
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:9
+#: framework/admin/slideshow-post-type.php:10
+msgid "Add New Slide"
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:11
+msgid "Edit Slide"
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:12
+msgid "New Slide"
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:13
+msgid "View Slide"
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:14
+msgid "Search Slides"
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:15
+msgid "No slides found"
+msgstr ""
+
+#: framework/admin/slideshow-post-type.php:16
+msgid "No slides found in Trash"
+msgstr ""
+
+#: framework/admin/toolbar.php:16
+msgid "Daisho Documentation"
+msgstr ""
+
+#: framework/admin/toolbar.php:24
+msgid "Daisho Installation Video"
+msgstr ""
+
+#: framework/admin/toolbar.php:32
+msgid "Typography Plugin Video"
+msgstr ""
+
+#: framework/admin/toolbar.php:40
+msgid "Daisho Item Page"
+msgstr ""
+
+#: framework/admin/toolbar.php:54
+msgid "Daisho Support"
+msgstr ""
+
+#: framework/admin/toolbar.php:62
+msgid "About Daisho"
+msgstr ""
+
+#: framework/admin/seo/flow-seo.php:45 framework/admin/seo/flow-seo.php:46
+msgid "SEO"
+msgstr ""
+
+#: framework/admin/seo/flow-seo.php:141
+msgid "Snippet Preview"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:8
+#: framework/admin/shortcodes/shortcode-generator.php:9
+msgid "Shortcode generator"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:16
+msgid "YouTube Video"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:19
+msgid "YouTube Video Link"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:19
+msgid ""
+"Put your YouTube link here. Allowed formats include standard link or video "
+"ID."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:23
+msgid "Vimeo Video"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:26
+msgid "Vimeo Video Link"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:26
+msgid ""
+"Put your Vimeo link here. Allowed formats include standard link or video ID."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:30
+msgid "Highlight"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:33
+msgid "Highlight Text Color"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:33
+msgid "Highlight text color"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:34
+msgid "Highlight Background Color"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:34
+msgid "Highlight background color"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:38
+msgid "HTML5 Video"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:41
+msgid "MP4 File"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:41
+msgid "Link to *.mp4 version of your video."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:42
+msgid "OGG File"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:42
+msgid "Link to *.ogg version of your video."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:43
+msgid "WEBM File"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:43
+msgid "Link to *.webm version of your video."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:44
+msgid "Poster"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:44
+msgid "Poster image"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:48
+msgid "Google Map"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:51
+msgid "Latitude"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:51
+msgid "Latitude of the location."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:52
+msgid "Longitude"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:52
+msgid "Longitude of the location."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:53
+msgid "Zoom"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:53
+msgid "Choose zoom. It should be number from 1 to around 15."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:54
+msgid "Width"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:54
+msgid "Width of the map (recommended 100%)."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:55
+msgid "Height"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:55
+msgid "Height of the map (recommended around 350px)."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:59
+msgid "Toggle Content"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:62
+msgid "Toggle title."
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:63
+msgid "Type"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:63
+msgid "1 or empty = normal toggle, 2 = FAQ style toggle"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:64
+msgid "Opened on Start"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:64
+msgid "0 or empty = closed, 1 = opened"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:72
+msgid "Shortcode Generator"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:75
+msgid ""
+"Shortcode Generator is a tool that enables you to quickly insert Shortcodes "
+"(YouTube Videos, Highlighted text etc.) to the Editor above. <ol><li>Some "
+"shortcodes require that you select some text prior to inserting shortcode "
+"(they allow enclosed content). Example: [highlight]required enclosed content"
+"[/highlight] - select some content in Editor prior to sending this shortcode."
+"</li><li>Other shortcodes don't allow enclosed content, so it's enough to "
+"place your mouse cursor there where you want to insert such shortcode. "
+"Example: [youtube link=\"\"] - it's single tag Shortcode, it doesn't allow "
+"enclosed content.</li></ol>"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:77
+msgid "--- Please Select Shortcode ---"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:108
+msgid "Send Shortcode to Editor"
+msgstr ""
+
+#: framework/admin/shortcodes/shortcode-generator.php:143
+msgid "There was an error while performing this request. Error description: "
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:25
+#: framework/admin/superslide/superslide.php:37
+msgid "Slide video (MP4):"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:26
+#: framework/admin/superslide/superslide.php:38
+msgid "Slide video (OGG):"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:27
+#: framework/admin/superslide/superslide.php:39
+msgid "Slide video (WEBM):"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:28
+#: framework/admin/superslide/superslide.php:40
+msgid "Slide video (Poster):"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:32
+#: framework/admin/superslide/superslide-original.php:42
+#: framework/admin/superslide/superslide.php:54
+#: framework/admin/superslide/superslide.php:68
+msgid "Slide video:"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:135
+#: framework/admin/superslide/superslide-original.php:168
+#: framework/admin/superslide/superslide-scripts.php:25
+msgid "Are you sure you want to remove it? You will not be able to restore it."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:617
+msgid "Image slide link"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:619
+msgid "Specify image URL here."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:622
+#: framework/admin/superslide/superslide-original.php:666
+#: framework/admin/superslide/superslide-original.php:690
+#: framework/admin/superslide/superslide-original.php:724
+msgid "Text color (and cursor color)"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:624
+#: framework/admin/superslide/superslide-original.php:668
+#: framework/admin/superslide/superslide-original.php:692
+#: framework/admin/superslide/superslide-original.php:726
+msgid "White color"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:625
+#: framework/admin/superslide/superslide-original.php:669
+#: framework/admin/superslide/superslide-original.php:693
+#: framework/admin/superslide/superslide-original.php:727
+msgid "Dark color"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:627
+#: framework/admin/superslide/superslide-original.php:671
+#: framework/admin/superslide/superslide-original.php:695
+#: framework/admin/superslide/superslide-original.php:729
+msgid ""
+"Specify the slide text and cursor colors. Dark (#464646) text for light "
+"slides or light (#ffffff) text for dark slides."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:630
+#: framework/admin/superslide/superslide-original.php:674
+#: framework/admin/superslide/superslide-original.php:708
+#: framework/admin/superslide/superslide-original.php:742
+msgid "Slide Title (optional)"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:632
+#: framework/admin/superslide/superslide-original.php:676
+#: framework/admin/superslide/superslide-original.php:710
+#: framework/admin/superslide/superslide-original.php:744
+#: framework/admin/superslide/superslide.php:24
+msgid ""
+"Specify slide description here. It will be displayed in the bottom left "
+"corner of each slide. Keep it short. Use <b>new line</b> or &lt;h4&gt; HTML "
+"tag to define heading.<br/> Example 1:<br/> <b>Slide Title</b><br/"
+"><b>Project description.</b> <br/> Example 2: <b>&lt;h4&gt;Slide Title&lt;/"
+"h4&gt; Project description."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:635
+msgid "Fit screen mode (prevents image cropping)"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:637
+msgid ""
+"If this is vertical image (like portrait photo with ratio like 1:2) or "
+"horizontal image (like panorama photo with ratio like 2:1) you can disable "
+"cropping for it (select checkbox). This prevents cropping of parts of image "
+"(like head of a person in case of portraits)."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:646
+msgid "Video slide (MP4)"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:648
+msgid ""
+"Specify video URL here (*.mp4). Leave blank if you want to use image or "
+"different video format."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:651
+msgid "Video slide (Ogg) (*.ogv)"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:653
+msgid ""
+"Specify video URL here (*.ogv). Leave blank if you want to use image or "
+"different video format."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:656
+msgid "Video slide (WebM)"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:658
+msgid ""
+"Specify video URL here (*.webm). Leave blank if you want to use image or "
+"different video format."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:661
+msgid "Video poster"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:663
+msgid ""
+"Specify video poster image URL here (*.png or *.jpg). Leave blank if you "
+"want video player to create it for you. Video posters are images that are "
+"displayed before video is played."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:685
+msgid "Vimeo video link"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:687
+msgid ""
+"Specify Vimeo <strong>video ID</strong> or video LINK here. Please note that "
+"only default video link will work. Shortlinks and link without ID in it will "
+"not work."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:698
+#: framework/admin/superslide/superslide-original.php:732
+msgid "Fit screen mode (prevents video resizing)"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:700
+#: framework/admin/superslide/superslide-original.php:734
+msgid ""
+"Select checkbox to disable video resizing. Original dimenions will be kept "
+"(640x360px only - higher resolutions work worse on smaller resolutions). You "
+"need to specify video poster below if this mode is selected."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:703
+msgid "Vimeo poster"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:705
+#: framework/admin/superslide/superslide-original.php:739
+msgid ""
+"Specify video poster image URL here (*.png or *.jpg). Leave blank if you "
+"want video player to create it for you. Video posters are images that are "
+"displayed before video is played or as background images when you keep "
+"original dimensions."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:719
+msgid "YouTube video link"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:721
+msgid "Specify YouTube <strong>video ID</strong> or video LINK here."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:737
+msgid "YouTube poster"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:753
+#: framework/admin/superslide/superslide-original.php:1090
+#: framework/admin/superslide/superslide.php:83
+#: framework/admin/superslide/superslide.php:313
+msgid "Custom Code"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:755
+msgid ""
+"Caution! You should not use \"Custom Code\" unless you know what you are "
+"doing. Without coding knowledge it may break your portfolio! This mode "
+"allows you to specify custom code to display on project page as slide. You "
+"can put here <b>SoundCloud</b> iframe to embed audio player or other custom "
+"code. <br/><br/> This field allows: \\', \", < and > but it does not allow * "
+"symbol. It sends raw data to shortcode, so some characters may not be "
+"allowed."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:779
+#: framework/admin/superslide/superslide-original.php:1005
+#: framework/admin/superslide/superslide.php:223
+msgid "Add Image Slide"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:793
+msgid "Add Self-hosted Video Slide"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:807
+msgid "Add Vimeo Video Slide"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:821
+msgid "Add YouTube Video Slide"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:835
+#: framework/admin/superslide/superslide-original.php:1009
+#: framework/admin/superslide/superslide.php:227
+msgid "Add Custom Code"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:998
+msgid "Upload Files"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1000
+msgid ""
+"If you see this message then your browser doesn't support native upload or "
+"more likely something is broken because HTML5 Drag&Drop uploader couldn't be "
+"loaded. Please try deactivating some plugins and make sure that the theme is "
+"installed on fresh installation of the newest WordPress. If you still see "
+"this message, please checks errors in Javascript console or contact our "
+"support. This issue is surely related to your server configuration or admin "
+"panel configuration."
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1003
+#: framework/admin/superslide/superslide.php:221
+msgid "Slide management"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1006
+#: framework/admin/superslide/superslide.php:224
+msgid "Add Self-hosted Video"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1007
+#: framework/admin/superslide/superslide.php:225
+msgid "Add Vimeo Video"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1008
+#: framework/admin/superslide/superslide.php:226
+msgid "Add YouTube Video"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1011
+#: framework/admin/superslide/superslide.php:229
+msgid "Shuffle Slides"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1071
+#: framework/admin/superslide/superslide-original.php:1083
+#: framework/admin/superslide/superslide.php:303
+#: framework/admin/superslide/superslide.php:308
+msgid "External"
+msgstr ""
+
+#: framework/admin/superslide/superslide-original.php:1109
+#: framework/admin/superslide/superslide.php:325
+msgid "Click here to display SuperSlide output as raw code"
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:22
+msgid "Slide Image"
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:23
+msgid "Image Alternative Text"
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:24
+msgid "Slide Description (optional)"
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:41
+msgid "Optional video description that will be displayed below the video."
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:55
+msgid ""
+"Optional video description that will be displayed below the video. Keep it "
+"short. Use <b>new line</b> or &lt;h4&gt; HTML tag to define heading.<br/> "
+"Example 1:<br/> <b>Slide Title</b><br/><b>Project description.</b> <br/> "
+"Example 2: <b>&lt;h4&gt;Slide Title&lt;/h4&gt; Project description."
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:69
+msgid ""
+"Optional video description that will be displayed below the video. Keep it "
+"short. Use <b>new line</b> or &lt;h4&gt; HTML tag to define a heading.<br/> "
+"Example 1:<br/> <b>Slide Title</b><br/><b>Project description.</b> <br/> "
+"Example 2: <b>&lt;h4&gt;Slide Title&lt;/h4&gt; Project description."
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:84
+msgid "CSS class(es)"
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:230
+msgid "Media Library"
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:298
+msgid "Internal"
+msgstr ""
+
+#: framework/admin/superslide/superslide.php:493
+msgid "This slide has no image. Would you like to emove it?"
+msgstr ""
+
+#: framework/miscellaneous/comments.php:9
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: framework/miscellaneous/comments.php:12
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/miscellaneous/comments.php:12
+msgid "(Edit)"
+msgstr ""
+
+#: framework/miscellaneous/comments.php:18
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/miscellaneous/sidebars.php:18
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#: framework/miscellaneous/sidebars.php:20
+#, php-format
+msgid "This footer column has the following CSS classes: %s"
+msgstr ""
+
+#: framework/miscellaneous/updater.php:95
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: framework/miscellaneous/updater.php:100
+msgid "An unknown error occurred"
+msgstr ""

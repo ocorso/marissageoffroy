@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+#blog-cat-1 #post_area	{width:720px; float:left; }
+
+#blog-cat-1 #post_wrapper	{ }
+#blog-cat-1 #post_wrapper .entry { width:700px; margin-right:10px; margin-left:10px; }
+#blog-cat-6 #post_wrapper .entry .entry_holder { }
+
+#blog-cat-1 #post_wrapper .entry .post_info_holder {  }
+#blog-cat-1 #post_wrapper .entry .post_info { }
+#blog-cat-1 #post_wrapper .entry .post_title { }
+
+#blog-cat-1 #post_wrapper .entry .post_content { float:right; width:460px; }
+
+#blog-cat-1 #post_wrapper .entry .big_image_wrapper	{ float:left; }
+#blog-cat-1 #post_wrapper .entry .big_image { display: block; }
+
+#blog-cat-1 .sidebar { padding-top: 40px; }
+
+
+/* POST */
+/*
+#blog-cat-1 #cat_title_wrapper	{ width:940px; padding: 0 0 0 20px; font-size: 12px; }
+#blog-cat-1 #cat_title h1	{ float: left; width:220px; padding: 30px 0 30px 0; font-size: 29px; line-height:40px; text-transform: uppercase; letter-spacing: -1px;}
+#blog-cat-1 #cat_title h1 a	{ text-decoration:none;}
+#blog-cat-1 #cat_title p {float:right; padding: 40px 20px 0 0; width: 680px; text-transform: uppercase;}
+#blog-cat-1 #post_area	{width:719px; float:left; }
+
+/* POST CONTENT */
+/*
+#blog-cat-1 #post_wrapper	{ padding:60px 0 40px 10px;}
+#blog-cat-1 #post_wrapper .entry { width: 679px; padding: 0 20px 40px 0; margin: 0 0 0px 10px; }
+#blog-cat-1 #post_wrapper .entry .post_title { font-size:32px; line-height:34px; letter-spacing: -2px; }
+#blog-cat-1 #post_wrapper .entry .post_title a { text-decoration:none; position: relative; left: -5px; padding: 0 5px 0 4px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+#blog-cat-1 #post_wrapper .entry .post_info { padding: 5px 0 0 0; font-size:12px; text-transform: uppercase;}
+#blog-cat-1 #post_wrapper .entry .post_info span	{ padding:0 8px 0 0; margin:0 8px 0 0;}
+#blog-cat-1 #post_wrapper .entry .post_info a	{ font-weight: bold; text-decoration: none;}
+#blog-cat-1 #post_wrapper .entry .big_image_wrapper	{ float:left; margin:0 0 20px 0; }
+#blog-cat-1 #post_wrapper .entry .big_image { display: block; }
+#blog-cat-1 #post_wrapper .entry .post_content { float:right; width: 439px; font-size:13px; }
+#blog-cat-1 .sidebar { padding: 100px 10px 0 10px; }

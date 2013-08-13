@@ -1,0 +1,56 @@
+<?php 
+if(is_admin()){
+update_option('portfolio_category_children', array());
+update_option('blog_exclude_categories', '');
+update_option('blog_css_style', '');
+update_option('blog_items_per_page', '5');
+update_option('blog_date', '');
+update_option('blog_author', '');
+update_option('blog_post_author', '');
+update_option('blog_related_posts', '');
+update_option('home_blog', '');
+update_option('blog_post_tags', '');
+update_option('transition_effect', 'random');
+update_option('transition_time', '');
+update_option('slider_category', '');
+update_option('slider_posts_count', '');
+update_option('mainpage_page_title', '1');
+update_option('mainpage_custom_text', '');
+update_option('display_breadcrumb', '');
+update_option('custom_css_style', '');
+update_option('custom_favicon', 'http://themes.devatic.com/konzept/wp-content/uploads/2012/04/favicon.png');
+update_option('logo_type', 'http://themes.devatic.com/konzept/wp-content/uploads/2012/03/logo.png');
+update_option('tagline_disable', '0');
+update_option('analytics_code', '');
+update_option('front_page', '1436');
+update_option('flow_testimonials', '');
+update_option('footer_copyright', 'Copyright (c) 1995–2012 konzept. all rights reserved.');
+update_option('footer_col_count', '');
+update_option('footer_col_countcustom', '');
+update_option('footer_aff_link', 'on');
+update_option('footer_affiliate', '');
+update_option('footer_top_footer', '');
+//update_option('flow_typography',  array ( 0 => array ( 'fs' => '.excerpt h1', 'fd' => 'Blog titles', 'tc' => '', 'ts' => '32', 'tsu' => 'px', 'tlh' => '33', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'normal', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 1 => array ( 'fs' => '#menu li a', 'fd' => '', 'tc' => '#bdbdbd', 'ts' => '18', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'normal', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 2 => array ( 'fs' => '.portfolio-meta', 'fd' => 'pf meta', 'tc' => '', 'ts' => '14', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Terminal Dosis Light', 2 => 'regular')), 3 => array ( 'fs' => '.dribbble-over strong', 'fd' => '', 'tc' => '#464646', 'ts' => '18', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => '400', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 4 => array ( 'fs' => '.page-title', 'fd' => '', 'tc' => '#464646', 'ts' => '670', 'tsu' => '%', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 5 => array ( 'fs' => '.excerpt-blog h1', 'fd' => 'Excerpt blog', 'tc' => '#464646', 'ts' => '32', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 6 => array ( 'fs' => 'ul.pf_nav a:hover', 'fd' => '', 'tc' => '#ffffff', 'ts' => '', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'bold', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'bold')), 7 => array ( 'fs' => '.menu-title', 'fd' => '', 'tc' => '#464646', 'ts' => '', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => '100', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Terminal Dosis', 2 => 'regular')), 8 => array ( 'fs' => '.contact-page h2', 'fd' => '', 'tc' => '', 'ts' => '', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 9 => array ( 'fs' => '#menu li a:hover', 'fd' => '', 'tc' => '#bdbdbd', 'ts' => '18', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'bold', 'fi' => 'normal', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 10 => array ( 'fs' => '#footer_copyright', 'fd' => '', 'tc' => '#494949', 'ts' => '10', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Terminal Dosis', 2 => 'regular')), 11 => array ( 'fs' => '.current-menu-item', 'fd' => '', 'tc' => '#ffffff', 'ts' => '', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'bold', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 12 => array ( 'fs' => '.blog-date', 'fd' => 'Blog date font', 'tc' => '#888888', 'ts' => '14', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'lighter', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Terminal Dosis Light', 2 => 'regular')), 13 => array ( 'fs' => '#menu li a, ul.pf_nav a', 'fd' => '', 'tc' => '#bdbdbd', 'ts' => '18', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'normal', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'inherit', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 14 => array ( 'fs' => '.input span', 'fd' => 'Contact form labels', 'tc' => '', 'ts' => '14', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Terminal Dosis Light', 2 => 'regular')), 15 => array ( 'fs' => '.thumb_title', 'fd' => 'Thumbnail hover title font', 'tc' => '#ffffff', 'ts' => '18', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => '600', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Quicksand', 2 => 'regular')), 16 => array ( 'fs' => '.thumb_cats', 'fd' => 'Thumbnail hover cats font', 'tc' => '#ffffff', 'ts' => '14', 'tsu' => 'px', 'tlh' => '', 'tlhu' => 'px', 'tfs' => 'inherit', 'tls' => '', 'tlsu' => 'px', 'tfv' => 'inherit', 'fb' => 'inherit', 'fi' => 'inherit', 'fu' => false, 'fdo' => false, 'fdb' => false, 'ftt' => 'uppercase', 'flt' => false, 'fip' => false, 'tff' => array ( 0 => 'g', 1 => 'Terminal Dosis Light', 2 => 'regular'))) );
+//update_option('nt_segments', '12');
+//update_option('nt_tween_time', '1.2');
+//update_option('nt_tween_delay', '0.1');
+//update_option('nt_tween_type', 'easeOutSine');
+//update_option('nt_z_distance', '265');
+//update_option('nt_expand', '9');
+//update_option('nt_inner_color', '0x000000');
+//update_option('nt_text_background', '0x666666');
+//update_option('nt_text_distance', '25');
+//update_option('nt_shadow_darkness', '25');
+//update_option('nt_autoplay', '2');
+update_option('bgchanger_color', '#191718');
+update_option('bgchanger_imgsrc', 'http://themes.devatic.com/konzept/wp-content/uploads/2012/05/konzept_wallpaper.jpg');
+update_option('bgchanger_posx', 'center');
+update_option('bgchanger_posy', 'top');
+update_option('bgchanger_attach', 'fixed');
+update_option('bgchanger_repeat', 'repeat-x');
+update_option('category_children', array());
+update_option('flow_portfolio_fixed_menu', '2');
+update_option('flow_portfolio_hover_type', '1');
+update_option('flow_featured_slideshow', '1');
+}
+?>

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+#portfolio-cat-8 #post_area	{width:960px; float:left;  }
+
+/* POST CONTENT */
+#portfolio-cat-8 #post_wrapper	{}
+#portfolio-cat-8 #post_wrapper .entry { width: 940px; float:left; padding-right: 10px; padding-bottom: 40px; padding-left: 10px; }
+#portfolio-cat-8 #post_wrapper .entry .big_image_wrapper	{ margin: 0;}
+#portfolio-cat-8 #post_wrapper .entry .big_image	{ display: block;}
+#portfolio-cat-8 #post_wrapper .entry .post_title { font-size:20px; line-height:20px; text-transform:uppercase; margin: 15px 0 5px 0; text-decoration:none; display:block; font-weight: bold; letter-spacing: 0; text-indent: 0; }
+#portfolio-cat-8 #post_wrapper .entry .post_info { font-size:10px;}
+#portfolio-cat-8 #post_wrapper .entry .post_info span	{ padding:0 10px 0 0; margin:0 5px 0 0;}
+#portfolio-cat-8 #post_wrapper .entry .post_info_holder { float:left; }
+#portfolio-cat-8 #post_wrapper .entry .post_content {  font-size:12px; }
+
+
+
+
+
+
+
+/* POST *//*
+#portfolio-cat-8 #cat_title_wrapper { width:940px;padding: 0 20px 0 20px; font-size: 13px; }
+#portfolio-cat-8 #cat_title h2{ float: left; width:220px; padding: 58px 0 61px 0; font-size: 25px; line-height:24px;}
+#portfolio-cat-8 #cat_title h2 a{ text-decoration:none;}
+#portfolio-cat-8 #cat_title p {float:right; padding: 65px 0 0 0;  font-style: italic; width: 700px; }
+#portfolio-cat-8 #post_area	{width:980px; float:left;  }
+
+/* POST CONTENT *//*
+#portfolio-cat-8 #post_wrapper	{ padding:42px 10px 0 10px;}
+#portfolio-cat-8 #post_wrapper .entry { width: 940px; padding: 0 10px 21px 10px; margin: 0 0 2px 0; float:left; }
+#portfolio-cat-8 #post_wrapper .entry .big_image	{ display: block;}
+#portfolio-cat-8 #post_wrapper .entry .post_title { font-size:11spx; line-height:15px; text-transform:uppercase; text-decoration:none; display:block; padding:10px; font-weight: bold; }
+#portfolio-cat-8 #post_wrapper .entry .post_info { font-size:10px;}
+#portfolio-cat-8 #post_wrapper .entry .post_info span	{ padding:0 10px 0 0; margin:0 5px 0 0;}
+#portfolio-cat-8 #post_wrapper .entry .post_info_holder { float:left; }
+#portfolio-cat-8 #post_wrapper .entry .post_content {  font-size:12px; }

@@ -1,0 +1,176 @@
+/*
+ * jQuery FlexSlider v1.8
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; } /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+.flexslider .slides iframe {max-width: 100%; }
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;line-height:0px;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption {width: 96%; padding: 2%; margin: 0; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 18px;}
+
+/* Direction Nav */
+.flex-direction-nav { height: 0; }
+.flex-direction-nav li a {
+	width: 52px; 
+	height: 52px; 
+	margin: -26px 0 0; 
+	display: block; 
+	/*background: url(theme/bg_direction_nav.png) no-repeat;*/ 
+	position: absolute; 
+	top: 50%; 
+	cursor: pointer; 
+	text-indent: -999em;
+}
+.flex-direction-nav li .flex-next {background-position: -52px 0; right: -21px;}
+.flex-direction-nav li .flex-prev {left: -20px;}
+.flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {
+	width: 14px; 
+	height: 14px; 
+	display: block;  
+	cursor: pointer; 
+	text-indent: -999em;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 4px 0px #ffffff; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    box-shadow: 0px 0px 4px 0px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+
+/* =============================================================================
+   QUEED THEME - OVERRIDE DEFAULTS
+   ========================================================================== */
+
+.flexslider {
+	margin: 0px auto 0px auto; 
+	padding: 0;
+	background-color: transparent; 
+	border: 0px solid #fff; position: relative; 
+	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px; 
+	-o-border-radius: 0px; 
+	border-radius: 0px;
+	min-height:300px;
+	overflow:visible !important;
+	}
+	.flexslider .slider_text_holder {
+		position:absolute;
+		bottom:45px;
+		right:0px;
+		width:600px;
+	}
+.flexslider .headings_top
+{
+	position:relative;
+	opacity:0;
+	filter: alpha(opacity=0); /* IE6-IE8 */
+	top:0px;
+	right:0px;
+	padding: 6px 12px 5px 12px;
+	margin-right:10px;
+	cursor:default;
+	float:right;
+}
+.flexslider .headings_body
+{
+	position:absolute;
+	opacity:0;
+	filter: alpha(opacity=0); /* IE6-IE8 */
+	top:39px;
+	right:0px;
+	padding: 9px 12px 7px;
+	margin-right:10px;
+	cursor:default;
+	float:right;
+}
+.flex-direction-nav li .flex-next {
+	right: -13px;
+	background-position: -52px 0;
+	
+	z-index:9999;
+}
+.flex-direction-nav li .flex-prev {
+	left: -13px;
+	z-index:9999;
+}
+.flex-control-nav
+{
+	bottom:10px;	
+}
+/*STYLES FOR THE SINGLE PAGES SLIDER*/
+#single_slider .flex-direction-nav {
+	
+	
+}
+#single_slider .flex-direction-nav li a,
+.shortcode_slider .flex-direction-nav li a {
+	width: 24px; 
+	height: 24px; 
+	margin: -13px 0 0; 
+	display: block; 
+	/*background: url(theme/bg_direction_nav.png) no-repeat;*/ 
+	position: absolute;  
+	cursor: pointer; 
+	text-indent: -999em;
+	top:50%;
+	margin-top:-12px;
+}
+#single_slider .flex-direction-nav li .flex-prev,
+.shortcode_slider .flex-direction-nav li .flex-prev {
+	background-position: -117px -14px;
+	left:-6px;
+}
+#single_slider .flex-direction-nav li .flex-next,
+.shortcode_slider .flex-direction-nav li .flex-next {
+	right: -6px;
+	background-position: -171px -14px;
+}

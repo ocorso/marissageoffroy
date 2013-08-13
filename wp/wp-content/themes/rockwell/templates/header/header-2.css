@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* HEADER-2 */
+#navigation	{ width: 100%; float:left; font-size: 13px; font-weight: bold;}
+#navigation ul	{list-style:none; margin: 0;}
+#navigation li	{ float:left; position: relative; z-index:3;}
+#navigation li a	{ padding:10px 20px 10px 20px; display:block; text-decoration:none; text-transform: uppercase; }
+
+#navigation ul.sub-menu {position:absolute; list-style-position:outside; top:141px; width:120px; font-size: 10px; line-height: 40px; z-index:11; font-weight: bold; text-transform: uppercase;}
+#navigation ul.sub-menu li a {padding:0 0 0 20px; width: 100px; }
+
+#header-2 #navigation ul li ul li .sub-menu	{top:auto; margin: 120px; margin-top: -40px;}
+
+.header .logo_holder {float:left; padding:39px 0 30px 0;}
+.header .contact_holder {float:right; padding:30px 0 30px 0; width: 220px;}
+
+.top-menu-item	{ }
+
+li.has-sub-menu .top-menu-item	{ background-repeat: no-repeat; background-position: right 5px; padding: 0 10px 0 0;}
+li.has-sub-menu:hover .top-menu-item	{ background-position: right -295px; }
+
+.sub-menu .has-sub-menu	{ background-repeat: no-repeat; background-position: 106px 17px; }
+.sub-menu .has-sub-menu:hover	{ background-position: 106px -83px; }
+
+/* FADING ANIMATION FOR THE TOP-LEVEL MENU ITEM  */
+#header-2 #navigation ul li	{ -webkit-transition-property:background-color; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-out; -moz-transition-property:background-color; -moz-transition-duration: 0.25s; -moz-transition-timing-function: ease-out; -o-transition-property:background-color; -o-transition-duration: 0.25s; -o-transition-timing-function: ease-out; }
+
+/* FADING ANIMATION FOR THE TOP-LEVEL MENU ITEM DESCRIPTION  */
+#header-2 #navigation ul li .menu-description	{ -webkit-transition-property:color; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-out; -moz-transition-property:color; -moz-transition-duration: 0.25s; -moz-transition-timing-function: ease-out; -o-transition-property:color; -o-transition-duration: 0.25s; -o-transition-timing-function: ease-out;}
+
+/* FADING ANIMATION FOR OPENING THE SUB-MENUS  */
+#header-2 #navigation ul li .sub-menu	{ -webkit-transition-property:opacity; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-out; -moz-transition-property:opacity; -moz-transition-duration: 0.25s; -moz-transition-timing-function: ease-out; -o-transition-property:opacity; -o-transition-duration: 0.25s; -o-transition-timing-function: ease-out;}
+
+/* FADING ANIMATION FOR TEXT COLOR IN SUB-MENUS  */
+#header-2 #navigation ul li ul li:hover a	{  -webkit-transition-property:color; -webkit-transition-duration: 0.25s; -webkit-transition-timing-function: ease-out; -moz-transition-property:color; -moz-transition-duration: 0.25s; -moz-transition-timing-function: ease-out; -o-transition-property:color; -o-transition-duration: 0.25s; -o-transition-timing-function: ease-out;}
+
+/* HANDLES THE OPENING AND CLOSING OF SUBMENUS */
+#header-2 #navigation ul li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+#header-2 #navigation ul li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block; }
+
+#header-2 #navigation ul li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none; }
+#header-2 #navigation ul li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}
+
+#header-2 #navigation ul li:hover .sub-menu li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+#header-2 #navigation ul li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}
+
+#header-2 #navigation ul li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+#header-2 #navigation ul li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}
+
+#header-2 #navigation ul li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li .sub-menu	{ opacity: 0; visibility: hidden; display: none;}
+#header-2 #navigation ul li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu li:hover .sub-menu	{ opacity: 1; visibility: visible; display: block;}

@@ -1,0 +1,340 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.8.1 - Dec 13, 2012
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+Improved - Faster tabs switching in freshpanel
+
+Changed Files
+~~~~~~~~~~~~~
+freshwork/freshpanel/js/controls.js
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.8 - Oct 29, 2012
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Search Widget showing title only
+
+Changed Files
+~~~~~~~~~~~~~
+functions.php
+global.css
+style.css
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.7.1 - Sep 9, 2011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Changing posts per page and Order by settings worked only in 1-word-name categories
+
+Changed Files
+~~~~~~~~~~~~~
+style.css
+functions.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.7 - Sep 6, 2011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Category Manager wasn't saving on some installations
+   Fixed - Better timthumb support for WPMU
+Improved - You can now easily adjust gallery image size
+     New - ReCaptcha support added
+     New - Slider now supports empty title
+
+Changed Files
+~~~~~~~~~~~~~
+style.css
+/recaptcha/
+functions.php
+page-contact-fullwidth.php
+page-contact-left.php
+page-contact-right.php
+/freshwork/freshpanel/data-array.php
+/templates/sidebar/sidebars.css
+/freshwork/freshslider/freshslider.php
+functions.php
+page-fullwidth.php
+page-left.php
+page-right.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.6 - Aug 19, 2011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Category Manager wasn't saving on some installations
+   Fixed - Better timthumb support for WPMU
+     New - You can select which categories you want to appear at homepage
+     New - Added favicon.ico (which you can change) to the root and connected it to the theme
+     New - Added "Order By" for Category Manager
+     New - You can add image description for lightbox
+     New - Support for "Featured Image". !!! Please note that this will become default in upcoming v2.0 so we highly recommend you to go ahead now and upload all your main post's images again using this feature. In v2.0 the previous image solution will not work !!!
+
+Changed Files
+~~~~~~~~~~~~~
+favicon.ico
+/freshwork/freshpanel/freshpanel.css
+/freshwork/freshpanel/freshpanel.php
+/freshwork/freshcategory/data-array.php
+/freshwork/freshcategory/freshcategory.css
+/freshwork/freshcategory/freshcategory.js
+/freshwork/freshcategory/freshcategory.php
+/freshwork/freshcategory/view.php
+functions.php
+/scripts/timthumb.php
+style.css
+/templates/header/header-1.css
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.5 - Jul 21, 2011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Disabled the js fading of big_image class when there is no wrapping link
+   Fixed - Fixed the exluding and including of categories in "Rockwell - Recent Post" Widget
+   Fixed - IE7 z-index in header-1 and header-2
+   Fixed - Disabled the looping slideshow in prettyPhoto lightbox
+   Fixed - Fixed the home widgets shifting to the left side
+Improved - Timthumb better WPML support
+
+Changed Files
+~~~~~~~~~~~~~
+header.php
+/templates/header/header-1.css
+/templates/header/header-2.css
+/freshwork/functions/freshwidgets.php
+/js/main.js
+/scripts/timthumb.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.4.9 - Jul 12, 2011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Some options in Category Manager won't save on second load
+
+Changed Files
+~~~~~~~~~~~~~
+style.css
+/freshwork/freshcategory/data-array.php
+/freshwork/freshpanel/freshpanel.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.4.7 - Jul 12, 2011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Recent Post Widget won't render the set number of posts, PART2
+   Fixed - Category Area on Home Page is now disabled by default, PART2
+   Fixed - Galleries won't render the set number of images, PART2
+   Fixed - Some options in Category Manager won't save, PART2
+   Fixed - Missing translation for "website" in Contact Form Page., PART2
+
+Changed Files
+~~~~~~~~~~~~~
+functions.php
+style.css
+/freshwork/freshcategory/data-array.php
+/freshwork/freshpanel/data-array.php
+/freshwork/freshpanel/freshpanel.php
+/freshwork/freshcategory/freshcategory.js
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.4.5 - Jul 11, 2011
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Recent Post Widget won't render the set number of posts, PART1
+   Fixed - Category Area on Home Page is now disabled by default, PART1
+   Fixed - Galleries won't render the set number of images, PART1
+   Fixed - Some options in Category Manager won't save, PART1
+   Fixed - Missing translation for "website" in Contact Form Page., PART1
+
+Changed Files
+~~~~~~~~~~~~~
+functions.php
+style.css
+/freshwork/freshcategory/data-array.php
+/freshwork/freshpanel/data-array.php
+/freshwork/freshpanel/freshpanel.php
+/freshwork/freshcategory/freshcategory.js
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.4
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Missing stencils in the white skin
+   Fixed - Collision in Category Manager when "Clickable Title: NO" and "Open image in Lighbox: YES" were set
+   Fixed - Style for "tags" widget have not been separated in the skin styles
+   Fixed - When using a category template on your Home Page, the Read More button didn't show up
+   Fixed - Some styling were missing when some widgets have been added to the Home Page Widget Area
+   Fixed - Missing styling for some Home Page's columns
+Improved - WordPress 3.2 support
+Improved - Better support for timthumb script on multisite
+     New - Slider transition called "simple"
+     New - Added support for the default WP gallery inside post - images now open in Lightbox
+     New - You can now exclude categories for the "RockWell - Recent Post" widget
+     New - We ditched the "Layouts" in freshpanel and integrated this nicely into "Category Manager". Please note that for Home Page you need to have this functionality turned on in "freshpanel -> home page -> general -> enable category area". So now you can VERY easily have blog under the home page. You can turn on/off the elements above in "freshpanel -> homepage -> general"
+
+Changed Files
+~~~~~~~~~~~~~
+archive.php
+author.php
+functions.php
+global.css
+header.php
+index.php
+search.php
+style.css
+/freshwork/freshcategory/
+/freshwork/freshpanel/data-array.php
+/freshwork/freshpanel/freshpanel.php
+/freshwork/freshslider/freshslider.php
+/freshwork/functions/freshwidgets.php
+/js/prettyphoto/js/jquery.prettyPhoto.js
+/skins/army/army.css
+/skins/black/black.css
+/skins/emo/emo.css
+/skins/grey/grey.css
+/skins/party/party.css
+/skins/summer/summer.css
+/skins/white/white.css
+/templates/sidebar/sidebar-1.php
+/templates/sidebar/sidebar-2.php
+/templates/sidebar/sidebars.css
+/templates/slider/*.php
+/templates/slider/*.js
+/templates/home/home-1.css
+/templates/home/home-1.php
+/templates/home/message-1.css
+/templates/home/message-1.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+Improved - Everything
+   Fixed - Page Fullwidth issues
+   Fixed - Read More button issues
+   Fixed - Reset issue
+     New - You can hide title and post meta in post writepanels
+
+Changed Files
+~~~~~~~~~~~~~
+functions.php
+/freshwork/freshcategory/freshcategory.php
+/freshwork/freshpanel/data-array.php
+/templates/blog/*.php
+header-1.css
+header-1.js
+header-2.css
+header-2.js
+/skins/army/army.css
+/skins/black/black.css
+/skins/emo/emo.css
+/skins/grey/grey.css
+/skins/party/party.css
+/skins/summer/summer.css
+/skins/white/white.css
+style.css
+/freshwork/freshpanel/freshpanel.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Contact Form issues
+   Fixed - Scandir folder
+   Fixed - "Message" not showing up on "Home Page" if you set a different template other than "Your blog posts"
+     Nex - Slider-3 -> images can be opened in lightbox
+     New - You can now set the width of "Top Menu" and "Sub Menu" in "freshpanel -> general -> header"
+
+Changed Files
+~~~~~~~~~~~~~
+page-contact-fullwidth.php
+page-contact-left.php
+page-contact-right.php
+/freshwork/functions/freshwidgets.php
+/js/main.js
+/templates/sliders/slider-3.php
+/templates/home/message-1.css
+/skins/army/army.css
+/skins/black/black.css
+/skins/emo/emo.css
+/skins/grey/grey.css
+/skins/party/party.css
+/skins/summer/summer.css
+/skins/white/white.css
+/freshwork/freshpanel/data-array.php
+header.php
+header-1.css
+header-1.js
+header-2.css
+header-2.js
+style.css
+/freshwork/freshpanel/freshpanel.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+Improved - Logo and prettyPhoto
+
+Changed Files
+~~~~~~~~~~~~~
+header.php
+functions.php
+functions-template-final.php
+functions-template-preview.php
+style.css
+/freshwork/freshpanel/freshpanel.php
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Release Notes
+~~~~~~~~~~~~~
+   Fixed - Nothing
+     New - Everything
+Improved - Everything
+ Removed - Nothing
+
+Changed Files
+~~~~~~~~~~~~~
+none
+

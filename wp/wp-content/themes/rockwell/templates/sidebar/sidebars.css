@@ -1,0 +1,62 @@
+#sidebar-1 { width:240px; float:right; padding: 100px 0 0 0; }
+#sidebar-1 ul	{ list-style:none; margin:0;}
+#sidebar-1 a	{ text-decoration:none; font-weight: bold; }
+#sidebar-1 .widget	{ margin: 0 10px 40px 10px; width: 220px;  float: left;}
+#sidebar-1 .widget_archive, #sidebar-1 .widget_category	{ width: 100px; }
+#sidebar-1 .widget h2	{ font-weight: bold; margin: 0 0 20px 0; padding: 0;}
+
+#sidebar-2 	{ width:240px; float:left; padding: 100px 0 0 0; }
+#sidebar-2  ul	{ list-style:none; margin:0;}
+#sidebar-2  a	{ text-decoration:none; font-weight: bold; }
+#sidebar-2  .widget	{ margin: 0 10px 40px 10px; width: 220px;  float:left;}
+#sidebar-2  .widget_archive, #sidebar-2 .widget_category	{ width: 100px; }
+#sidebar-2  .widget h2	{ font-weight: bold; margin: 0 0 20px 0; padding: 0;}
+
+.fresh_recent_posts a	{ font-weight: bold; text-decoration: none;}
+.fresh_recent_posts ul	{ list-style:none;}
+.fresh_recent_posts li	{ padding: 0 0 20px 0;}
+.fresh_recent_posts li:last-child	{ padding-bottom: 0;}
+.fresh_recent_posts li .fresh_recent_posts_image_wrapper	{ float: left; display: block; }
+.fresh_recent_posts li .fresh_recent_posts_image	{ display: block; }
+.fresh_recent_posts li .fresh_recent_posts_title	{ margin: 0 0 0 55px; display: block; }
+.fresh_recent_posts li .fresh_recent_posts_date	{ font-size: 9px; margin: 0 0 0 55px; display: block;}
+
+.widget_recent_entries li	{ padding: 0 0 20px 0;}
+.widget_recent_entries li:last-child	{ padding-bottom: 0;}
+
+
+ul.tweets	{ margin:0; padding:0;  word-wrap: break-word;}
+ul.tweets li	{ padding:20px; position:relative; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; margin:0 0 40px 0; border:none;}
+ul.tweets li:after	{ /* TRIANGLE ARROW - SMALL */	content:"\00a0"; display:block;	position:absolute; bottom:-34px; left:110px; width:0; height:0;	border-width:14px 0px 20px 30px; /* vary these values to change the angle of the vertex */ border-style:solid; }
+ul.tweets li a	{display:inline; background:none; padding:0;}
+ul.tweets li a.timesince	{ position:absolute; bottom:-25px; right:6px; font-size:10px;}
+
+.recentcomments	{ padding: 0 0 0 20px; background-repeat: no-repeat; background-position: 0 6px;}
+.recentcomments a	{ font-weight: bold; text-decoration: none;}
+
+
+/* SEARCH WIDGET */
+#searchform	.screen-reader-text	{ display: none;}
+#searchform	#s	{ width: 67%; line-height: 13px; font-size: 11px; padding: 4px 5px 4px 5px; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; margin: 0; }
+#searchform	#searchsubmit	{ float: right; line-height: 13px; font-size: 10px; padding: 3px 5px; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; text-transform: uppercase; font-weight: bold; cursor: pointer; position: relative; top: 1px; margin:0;}
+
+/* CONTACT WIDGET */
+#widget_contact p	{ padding-bottom: 15px;}
+#widget_contact label	{ font-size:11px;  padding: 0 0 0 12px; }
+#widget_contact input	{ width: 56%; border:none; font-size:11px; padding: 5px 0 5px 8px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+#widget_contact textarea	{ width:90%; margin-bottom: -2px; border:none; height:89px; line-height: 20px; padding:7px 10px 7px 8px; font-size:11px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+#widget_contact	#fc_submit	{ width: auto; font-size: 10px; padding: 4px 5px; border: none; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; text-transform: uppercase; font-weight: bold; cursor: pointer; position: relative; top: 1px; margin:0;}
+
+/* SOCIAL WIDGET */
+#widget_social a img	{ margin: 0 10px 10px 0; }
+
+
+/* CALENDAR WIDGET */
+#wp-calendar	{ width: 100%; border-collapse: collapse;}
+#wp-calendar caption	{ margin-bottom: 20px; }
+#wp-calendar th, #wp-calendar td { padding: 1%; text-align: center;}
+#wp-calendar thead tr th	{ font-weight: bold; padding-bottom: 10px;}
+#wp-calendar #prev, #wp-calendar #next	{ font-weight: bold; padding-top: 20px;}
+
+/* TAGS */
+.tagcloud a	{ font-size: 10px !important; padding: 5px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; text-transform: uppercase; margin: 3px 3px 3px 0; padding: 0 6px; display: inline-block;}

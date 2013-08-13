@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+#blog-single-7 .post_title	{ padding-right:10px; padding-bottom: 40px; padding-left:10px; }
+#blog-single-7 .post_title h1	{ padding: 0; }
+
+#blog-single-7 #post_area	{ width:720px; float:right; }
+
+#blog-single-7 #post_wrapper	{ padding-top: 0; padding-left: 0; }
+#blog-single-7 #post_wrapper .post_content	{ width: 460px; float:left; padding-top: 20px; padding-right: 10px; padding-left: 10px; } 
+
+#blog-single-7 #post_wrapper .post_meta	{ width:240px; float: right; padding-top: 20px; }
+#blog-single-7 #post_wrapper .post_meta .post_gallery	{  }
+
+#blog-single-7 .big_image_wrapper { display: block; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 20px; }
+#blog-single-7 img.big_image	{ display: block; }
+#blog-single-7 .post_meta .post_gallery .small_image_wrapper { }
+#blog-single-7 .post_meta .post_gallery img.small_image	{ }
+
+#blog-single-7 #post_wrapper .post_meta .post_info_single	{ }
+#blog-single-7 #post_wrapper .post_meta .post_info_single span	{ }
+
+#blog-single-7 .sidebar	{ padding-top: 20px;}
+
+
+
+
+
+/* POST *//*
+#blog-single-7 #post_title	{ padding: 0 20px 0 20px; width:940px; }
+#blog-single-7 #post_title h1	{ width:940px; padding: 58px 0 37px 0; font-size: 24px; line-height:24px;}
+#blog-single-7 #post_title h1 a	{ text-decoration:none;}
+
+#blog-single-7 #post_area	{width:739px; float:right; padding: 0 0 0 0px; }
+
+/* POST CONTENT *//*
+#blog-single-7 #post_wrapper	{ padding:0 0 0 10px;}
+#blog-single-7 #post_wrapper .post_content	{ width: 459px; float:left; padding: 0 0 32px 10px ; }
+#blog-single-7 #post_wrapper .post_meta	{ width:240px; float: right; padding:0 10px 30px 0;}
+#blog-single-7 #post_wrapper .post_meta .post_gallery	{ padding: 2px 0 10px 0; }
+#blog-single-7 .big_image_wrapper { display: block; margin: 0 20px 36px;}
+#blog-single-7 img.big_image	{display:block;}
+#blog-single-7 #post_wrapper .post_meta .post_gallery img.small_image	{margin: 0 10px 20px 10px; float:left; display:block;}
+#blog-single-7 #post_wrapper .post_meta .post_info	{ padding: 0 0 0 10px; font-size:10px; }
+#blog-single-7 #post_wrapper .post_meta .post_info span	{ width:230px; display:block;}
+#blog-single-7 #sidebar-2 	{ width:220px; float:left; padding: 0px 10px 0 10px; }

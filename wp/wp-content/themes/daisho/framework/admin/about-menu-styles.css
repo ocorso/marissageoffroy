@@ -1,0 +1,104 @@
+.flow-welcome-panel {
+    border-style: solid;
+    border-width: 1px 0;
+    line-height: 1.6em;
+    margin: 20px 8px;
+    overflow: auto;
+    padding: 30px 10px 20px;
+    position: relative;
+}
+.flow-welcome-panel {
+    border-color: #DFDFDF;
+}
+.flow-welcome-panel h3 {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0.1em 0 0.8em;
+}
+.flow-welcome-panel h4 {
+    font-size: 14px;
+}
+.flow-welcome-panel .flow-welcome-panel-close {
+    font-size: 13px;
+    padding: 8px 3px;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    top: 0;
+}
+.flow-welcome-panel .flow-welcome-panel-close:before {
+    background: url("images/xit.gif") no-repeat scroll 0 17% transparent;
+    content: " ";
+    height: 100%;
+    left: -12px;
+    position: absolute;
+    width: 10px;
+}
+.flow-welcome-panel .flow-welcome-panel-close:hover:before {
+    background-position: 100% 17%;
+}
+.flow-welcome-panel .wp-badge {
+    float: left;
+    margin-bottom: 20px;
+}
+.flow-welcome-panel-content {
+    max-width: 1500px;
+}
+.flow-welcome-panel-content .about-description, .flow-welcome-panel h3 {
+    margin-left: 190px;
+}
+.flow-welcome-panel p.flow-welcome-panel-dismiss {
+    clear: both;
+    padding: 1em 0 0;
+}
+.flow-welcome-panel .flow-welcome-panel-column-container {
+    clear: both;
+    overflow: hidden;
+    padding-left: 26px;
+    position: relative;
+}
+.flow-welcome-panel .flow-welcome-panel-column {
+    float: left;
+    margin: 0 5% 0 -25px;
+    min-width: 200px;
+    padding-left: 25px;
+    width: 30%;
+}
+.flow-welcome-panel .flow-welcome-panel-column.flow-welcome-panel-last {
+    margin-right: 0;
+}
+.flow-welcome-panel h4 .icon16 {
+    margin-left: -32px;
+}
+.flow-welcome-panel .flow-welcome-panel-column ul {
+    margin: 1.6em 1em 1em 1.3em;
+}
+.flow-welcome-panel .flow-welcome-panel-column li {
+    list-style-type: disc;
+    padding-left: 2px;
+}
+.about-wrap {
+    font-size: 15px;
+    margin: 25px 40px 0 20px;
+    max-width: 1050px;
+    position: relative;
+}
+.flow-about-description {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+.flow-about-description {
+    margin-top: 1.4em;
+}
+
+.flow-welcome-panel-content .flow-about-description, .flow-welcome-panel h3 {
+    margin-left: 190px;
+}
+.flow-welcome-panel p {
+    color: #777777;
+}
+.form-table.about-table th { text-align: left; }

@@ -1,0 +1,32 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">slideshow</custom-type>
+		<custom-type translate="1">news</custom-type>
+	</custom-types>
+	<custom-fields>
+		<custom-field action="translate">Title</custom-field>
+		<custom-field action="translate">Description</custom-field>
+		<custom-field action="translate">portfolio_client</custom-field>
+		<custom-field action="translate">portfolio_cagency</custom-field>
+		<custom-field action="translate">portfolio_ourrole</custom-field>
+		<custom-field action="copy">slide-image</custom-field>
+		<custom-field action="translate">slide-link</custom-field>
+		<custom-field action="translate">slide-link-name</custom-field>
+		<custom-field action="copy">slide-text-color</custom-field>
+	</custom-fields>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_category</taxonomy>
+		<taxonomy translate="1">news_category</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="welcome_text" />
+		<key name="info_box" />
+		<key name="front_page" />
+		<key name="flow_portfolio_page" />
+		<key name="flow_blog_page" />
+		<key name="footer_copyright" />
+		<key name="logo_type" />
+		<key name="blog_exclude_categories" />
+	</admin-texts>
+</wpml-config>

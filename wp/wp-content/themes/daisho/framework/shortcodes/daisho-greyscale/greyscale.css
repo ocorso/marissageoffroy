@@ -1,0 +1,61 @@
+/* 
+	Daisho Grayscale by Flow
+*/
+
+/* #text-5 img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%); -o-filter: grayscale(100%);
+	filter: url(grayscale.svg#grayscale);
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+#text-5 img:hover {
+	filter: none;
+    -webkit-filter: grayscale(0);
+	
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+} */
+
+.news-image {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%); -o-filter: grayscale(100%);
+	filter: url(grayscale.svg#grayscale);
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+.news-image:hover {
+	filter: none;
+    -webkit-filter: grayscale(0);
+	
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+.news-title {
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+.news-image:hover + .news-title { color: #00a4a7; }

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.tweet
+{
+	padding:0px 0px 10px 0px;	
+}
+.twitter_avatar
+{
+	width:32px;
+	float:left;
+}
+.twitter_link
+{
+	position:relative;
+    display: inline-block;
+    height: 24px;
+    line-height: 30px;
+    margin-left: 5px;
+    padding-bottom: 1px;
+    padding-left: 9px;
+    padding-right: 11px;
+    padding-top: 7px;
+}
+a.lk_text :after {
+	content: "";
+  	position: absolute;
+ 	top: 0;
+ 	right: -16px;
+  	width: 0;
+ 	height: 0;
+	border-style: solid;
+  	border-width: 16px 0 16px 16px;    
+}
+a.lk_text {
+	font-style:italic;
+
+}
+.tweet_body {
+	display:inline-block;
+	margin-left:36px;
+	margin-top:-26px;
+}
+.tweet_body a:hover{
+	text-decoration:underline;
+}
+.tweet p {
+	font-style:italic;
+	margin-top:0px;
+	font-size: 11px;
+}
+.tw_img {
+	opacity: 0.6; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
+	filter: alpha(opacity=60); /* IE6-IE8 */
+}

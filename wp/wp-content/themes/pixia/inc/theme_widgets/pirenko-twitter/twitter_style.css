@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.tweet
+{
+	padding:0px 0px 10px 0px;	
+}
+#twitter_avatar {
+	float:left;
+}
+.tweet_body {
+	display:inline-block;
+	margin-left:36px;
+	margin-top:-6px;
+}
+.tweet_body a:hover,
+#twitter_avatar a:hover,
+#twitter_avatar:hover {
+	text-decoration:underline;
+}
+.tweet p {
+	font-style:italic;
+	margin-top:0px;
+	font-size: 11px;
+}
+.tw_img {
+	position:absolute;
+}

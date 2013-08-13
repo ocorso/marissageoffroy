@@ -1,0 +1,62 @@
+/*!
+ * decent-comments-widget.css
+ * 
+ * Copyright (c) 2011 "kento" Karim Rahimpur www.itthinx.com
+ * 
+ * This code is released under the GNU General Public License.
+ * See COPYRIGHT.txt and LICENSE.txt.
+ * 
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * This header and all notices must be kept intact.
+ * 
+ * @author Karim Rahimpur
+ * @package decent-comments
+ * @since decent-comments 1.0.0
+ */
+ #comments_slider {
+	min-height:76px; 
+	opacity:0;
+	filter: alpha(opacity=0); /* IE6-IE8 */
+ }
+#comments_slider .comment {
+	padding-top: 4px;
+	padding-left:2px;
+}
+#comments_slider ul li {
+	display:none;	
+	list-style:none;
+}
+#comments_slider ul li:first-child {
+	display:inline;	
+}
+#comments_slider .comment-avatar {
+	padding-right: 4px;
+}
+#comments_slider .comment-link {
+	font-size:12px;
+}
+#comments_slider .comment-author {
+	font-size:12px;
+}
+#comments_slider .comment-link:after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	overflow: auto;
+	visibility: hidden;
+}
+#comments_slider .comment-body,
+#comments_slider .comment-excerpt {
+	display: block;
+	font-style:italic;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	width:100%;
+}

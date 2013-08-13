@@ -1,0 +1,13 @@
+/* ----- HTML5 Videos - [video mp4="" webm="" ogg="" poster=""] ----- */
+video { max-width: 100%; margin-bottom: 3em; display: block; }
+
+/* ----- YouTube Videos - [youtube link=""] ----- */
+/* ----- Vimeo Videos - [vimeo link=""] ----- */
+.youtube_container { padding-bottom: 56.25%; position: relative; margin-bottom: 3em; }
+.youtube_container iframe, .youtube_container embed { position: absolute; left: 0; top: 0; height: 100%; width: 100%; }
+
+.project-slide-video video { display: block; margin: 0 auto; }
+.project-slide-youtube .youtube_container { margin-bottom: 0; }
+.project-slide-vimeo .youtube_container { margin-bottom: 0; }
+
+.element video { max-width: none; z-index: -1; }

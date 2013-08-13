@@ -1,0 +1,9 @@
+.flowuploader { }
+	.flowuploader_media_url { }
+	.flowuploader_upload_button { }
+	.flowuploader_media_preview_image { position: relative; display: table; clear: both; }
+	.flowuploader_media_preview_image img { margin-bottom: 10px; margin-top: 10px; max-width: 390px; display: table-cell; }
+	.flowuploader_remove { background-image: url(cross.png); height: 17px; width: 17px; text-indent: -9999px; position: absolute; right: -9px; top: 0; cursor: pointer; z-index: 1; }
+	
+	.flowuploader_media_preview_image .empty-canvas { width: 390px; height: 292px; border: 3px dashed #eee; display: table; margin-top: 10px; }
+	.flowuploader_media_preview_image .empty-canvas > p { display: table-cell; font-size: 24px!important; line-height: 110%; text-align: center; vertical-align: middle; padding: 40px; }

@@ -1,0 +1,287 @@
+.myScrollBarV { position:absolute; z-index:100;width:8px;bottom:7px;top:2px;right:1px; }
+
+.myScrollBarV > div { position:absolute; z-index:100; width:100%;
+
+	/* The following is probably what you want to customize */
+	background:-webkit-gradient(linear, 0 0, 100% 0, from(#f00), to(#900));
+	border:1px solid #800;
+	-webkit-background-clip:padding-box;
+	-webkit-box-sizing:border-box;
+	-webkit-border-radius:4px;
+	-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.5);
+}
+.scrollbar { display: none; }
+#scrollbar2 { margin: 0 0 10px!important; }
+#scrollbar2 .overview img { border: 10px solid #ffffff; }
+#scrollbar2 .overview img:hover { background-color: #ffffff; opacity: 0.8; }
+
+/* ----------------------------------------*/
+/* ----------->>> PORTFOLIO <<<------------*/
+/* ----------------------------------------*/
+
+/* Portfolio v7 */
+#applications {display:block;float:left;width:1000px;}
+ #applications li {height:185px;} 
+#filter input {display:none;}
+#filter label {cursor:pointer;color:#343434;}
+
+.pf_category{text-align:center;font-family:"Trebuchet MS", Arial;font-size:12px;margin-bottom:20px;clear:both;}
+.pf_category a{color:#aaa;text-decoration:none;}
+.pf_title {text-align:center;font-weight:bold;font-family:"Trebuchet MS", Arial;font-size:14px;margin-top:0;clear:both;}
+.pf_title a{font-weight:bold;color:#222;text-decoration:none;}
+.pf_title a:hover{color:#444;}
+.pf_item li{float:left;margin-right:20px;}
+.gallery-mag-glass{background:transparent url(images/magnifying-glass2.png) no-repeat scroll center center;}
+.gallery-mag-glass{top:0;left:0;height:160px;width:300px;position:absolute;z-index:2;opacity:0;}
+
+
+/* --------------------------------------*/
+/* ----------->>> SLIDERS <<<------------*/
+/* --------------------------------------*/
+
+#slideshow { margin: 0 auto; margin-bottom: -100px; max-width: 1000px; position: relative; border: 1px solid #e5e5e5; border-bottom: none; border-radius: 6px 6px 0px 0px; background-color: #ffffff; }
+
+/* --------------------------------------*/
+/* ---------->>> 3D SLIDER <<<-----------*/
+/* --------------------------------------*/
+
+#flashcontent { left: 50%;
+    margin: -20px 0 0 -600px;
+    overflow: hidden;
+    position: absolute; }
+
+/* --------------------------------------------*/
+/* ---------->>> ANYTHING SLIDER <<<-----------*/
+/* --------------------------------------------*/
+
+.anything-slider{ background-color: transparent; height:360px; }
+.anything-slider img{ border-radius: 6px 6px 0 0; }
+
+/* Image/video left - content right */
+.anything-slider-content-right{float:right;padding:30px;width:300px;}
+.anything-slider-content-right .excerpt{color:#777777;}
+.anything-slider-content-right h2 a{text-decoration:none;color:#dddddd;}
+.anything-slider-image-left img,.anything-slider-video-left iframe{position:absolute;left:0;}
+
+/* Content left - image/video right */
+.anything-slider-content-left{float:left;padding:30px;width:300px;}
+.anything-slider-content-left .excerpt{color:#777777;}
+.anything-slider-content-left h2 a{text-decoration:none;color:#dddddd;}
+.anything-slider-video-right{position:relative;width:1000px;}
+.anything-slider-image-right img,.anything-slider-video-right iframe{position:absolute;right:0;}
+
+/* Background (full, right, left) */
+.anything-slider-full {height:360px;width:1000px;}
+.anything-slider-right{height:360px;margin:0px auto auto;width:1000px;background-color:#161616;}
+.anything-slider-left{height:360px;margin:0px auto auto;width:1000px;background-color:#161616;}
+
+/* Read more */
+.anything-slider-read-more{background-color:#363636;float:right;padding:6px 26px;}
+.anything-slider-read-more:hover{text-decoration:none;}
+
+/* Nav Pager */
+#nav{top:30px;position:absolute;right:25px;z-index:7;}
+#nav a{ background:url(images/bullets-2.png) no-repeat scroll 0 0 transparent;border:0 none;display:block;float:left;height:10px;margin-right:5px;text-indent:-9999px;width:10px;}
+#nav a.activeSlide{background-position:-10px 0;}
+
+/* ----------------------------------------*/
+/* ---------->>> NIVO SLIDER <<<-----------*/
+/* ----------------------------------------*/
+
+#slider .nivo-controlNav  {bottom:110px;left: auto;position: absolute; right: 40px; z-index: 234455; }
+#slider .nivo-controlNav a {
+	background:url(images/bullets.png) no-repeat scroll 0 0 transparent;
+	border:0 none;
+	display:block;
+	float:left;
+	height:20px;
+	margin-right:3px;
+	text-indent:-9999px;
+	width:20px;
+}
+#slider .nivo-controlNav a.active { background-position:-20px 0; }
+.nivo-controlNav { bottom:-30px; left:47%; position:absolute; z-index: 56; }
+#slider { position:relative; background:url("images/loading.gif") no-repeat 50% 50%; }
+#slider img { position:absolute; top:0px; left:0px; display:none; }
+#slider .nivo-controlNav img { display:inline; position:relative; }
+
+.nivoSlider {position:relative;}
+.nivoSlider img {position:absolute;top:0px;left:0px;}
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:60;display:none;}
+.nivo-slice {display:block;position:absolute;z-index:50;height:100%;}
+.nivo-caption {position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8; /* Overridden by captionOpacity setting */width:100%;z-index:89;}
+.nivo-caption p {padding:5px;margin:0;}
+.nivo-directionNav a {position:absolute;top:45%;z-index:99;cursor:pointer;}
+.nivo-prevNav {left:0px;}
+.nivo-nextNav {right:0px;}
+.nivo-controlNav a {position:relative;z-index:99;cursor:pointer;}
+.nivo-controlNav a.active { font-weight:bold; }
+
+/*
+ * Note: Include the nivo-slider.css file that comes
+ * with the main download before including this file.
+ */
+
+#slider { position:relative; background:#202834 url(loading.gif) no-repeat 50% 50%; width: 1000px; overflow:auto; border-radius: 6px 6px 6px 6px; }
+#slider img { position:absolute; top:0px; left:0px; display:none; }
+#slider a { border:0; }
+.nivo-controlNav { position:absolute; left:47%; bottom:-30px; }
+.nivo-controlNav a {
+	display:block;
+	width:10px;
+	height:10px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-directionNav { display: block!important; }
+.nivo-controlNav a.active { background-position:-10px 0; }
+.nivo-directionNav a {
+	display:block;
+	width:31px;
+	height:34px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav { background-position:-31px 0; right:0px; display: inline; width:31px; }
+a.nivo-prevNav { left:0px; background-position:left 0; }
+a.nivo-nextNav:hover { background-position:-31px bottom;}
+a.nivo-prevNav:hover  { background-position:left bottom; }
+
+/* Front page Bx Slider */
+#bxslider { list-style: none; padding: 0px; }
+#bxslider li { float:left; width: 960px; }
+.bxslider_wrap { min-height: 370px; color: #8a8a8a; margin-bottom: 30px; margin-top: 20px; margin-left:-10px; position: relative; }
+.bx_pager a {
+	background:url("images/bullets-2.png") no-repeat scroll 0 0 transparent;
+	border:0 none;
+	display:block;
+	float:left;
+	height:15px;
+	margin-right:5px;
+	text-indent:-9999px;
+	width:15px;
+	outline: 0;
+}
+.bxslider_container{height:365px;}
+.bx_pager a.active { background-position:-15px 0; }
+.bx_pager { margin-top: -40px; right: 30px; position:absolute; }
+a.bx_pager { background-position:-30px 0; }
+
+/* Small Bx Slider */
+.bxslider_wrap2 #contentslider { list-style: none; padding: 0px; margin: 0px 0px 0px 0px; }
+.bxslider_wrap2 #contentslider li { float: left; width: 288px; }
+.bxslider_wrap2 .bxslider_wrap { min-height: 50px; color: #8a8a8a; margin-bottom: 45px; }
+.bxslider_wrap2 .bx_pager a {
+	background:url("images/bullets-2.png") no-repeat scroll 0 0 transparent;
+	border:0 none;
+	display:block;
+	float:left;
+	height:13px;
+	margin-right:5px;
+	text-indent:-9999px;
+	width:13px;
+	outline: 0;
+}
+.bxslider_wrap2 .bx_pager a.active { background-position:-13px 0; }
+.bxslider_wrap2 .bx_pager { float: right; position: relative; left: 0px; }
+.bxslider_wrap2 .bxslider_container { height: auto!important; }
+.bxslider_wrap2 a.bx_pager { background-position:-30px 0; }
+
+/* Accordion Slider Meta Data */
+.sm { list-style:none; padding: 0px; height:360px; display:block; overflow:hidden;position:relative; list-style:none outside none; z-index: 2; }
+.sm li {float:left; display:inline; overflow:hidden;
+	border-style:none;
+	cursor:pointer;
+	height:360px;
+	margin:0;
+	padding:0;
+	position:relative;
+	list-style: none;
+}
+.te { height:360px; width:1000px; }
+.accordion_meta {
+	position: absolute;
+	bottom: 0px;
+	min-width: 500px;
+	color: #fff;
+	padding-left: 30px;
+	z-index: 456;
+	text-align: left;
+	line-height: 15px;
+	padding-bottom: 20px;
+}
+.accordion_meta2 {
+	position: absolute;
+	bottom: 0px;
+	min-width: 520px;
+	color: #fff;
+	z-index: 455;
+	padding-left: 30px;
+	background-color: #000;
+	opacity: 0.35;
+	filter: alpha(opacity=35);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+	line-height: 15px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.accordion_meta h3{ color: #ddd; }
+div#test-accordion{ margin: 10px 0px 10px 0px; border: 1px solid #aaa; }
+
+div.accordion {
+    position: relative; /* required for bounding--works around a "peculiarity" in Prototype */
+}
+
+div.accordion-toggle{
+    position: relative; /* required for effect */
+    z-index: 10;		/* required for effect */
+    background: #eee;   /* required for effect--can be anything except "transparent" */
+    cursor: pointer;
+	padding: 5px;
+}
+div.accordion-toggle-active{ background: #fff; }
+div.accordion-content{
+    overflow: hidden;	/* required for effect */
+    background: #aaa;
+}
+div#accordion-flow { background-color: #21201f; }
+div.accordion { position: relative; /* required for bounding */ }
+div.accordion-toggle{
+	position: relative; /* required for effect */
+	z-index: 10;		/* required for effect */
+	background: #3f3c38 url(../img/off.jpg) repeat-x;
+	background-position: bottom;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 1px;
+	padding: 9px 14px 6px 14px;
+	border-top: 1px solid #5d5852;
+}
+div.accordion-toggle:hover, div.accordion-toggle-active{
+	background-image: url(../img/on.jpg);
+	background-color: #6d493a;
+	border-top: 1px solid #a06b55;
+}
+div.accordion-content{
+	overflow: hidden;	/* required for effect */
+	color: #c4bab1;
+    background-color: #F6F6F6;
+    border: 1px solid #EAEAEA;
+}
+div.accordion-content p{ margin: 9px 24px 6px 24px; }
+
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+.cs-buttons { position: absolute !important; z-index: 1270; left: auto!important; margin-left: 0!important; right: 40px; top: 35px; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -9999px; }
+.cs-active { background-color: #B8C4CF; }
+.cs-title { width: 960px; padding: 10px 20px; background-color: #000000; color: #FFFFFF; display:none; }
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; text-decoration: none!important; }
+.cs-prev:hover, .cs-next:hover { color: #3d3d3d!important; }

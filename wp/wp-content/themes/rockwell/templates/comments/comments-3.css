@@ -1,0 +1,8 @@
+#post_comments-3 #post_comments { padding: 0 20px 13px 20px; width:940px; }
+
+#post_comments-3 #comment_form_wrapper { width:940px; padding:0 0 0 20px;}
+#post_comments-3 #comment_form { margin: 36px 20px 63px 0; width:920px;}
+#post_comments-3 #post_comments .comment_message_wrapper { width:700px; }
+
+#post_comments-3 #post_comments .commentlist { padding: 22px 0 0 0; }
+#post_comments-3 #post_comments .commentlist ul.children li .comment_wrapper .comment_message_wrapper { width:650px}

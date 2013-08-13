@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+.pirenko_tags {
+	margin-top:6px;	
+}
+
+/*
+.pirenko_tags a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -14px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 0 14px 14px;  
+  background-image:
+}
+.tags_hole {
+	position:relative;
+	font-size: 24px;
+	top:-2px;
+	left:-5px;
+	float:left;
+	cursor:pointer;
+}*/

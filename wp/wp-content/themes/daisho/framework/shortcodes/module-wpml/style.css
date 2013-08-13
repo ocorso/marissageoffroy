@@ -1,0 +1,42 @@
+/* ----- WPML Language Switcher ----- */
+.conatainer_language_selector { cursor: pointer; float: left; font-family: "Dosis", Arial, sans-serif; color: #000000; position: absolute; top: 0; left: 170px; bottom: 0; margin: auto; height: 28px; z-index: 1; }
+#flags_language_selector { float: left; position: relative; }
+.current_language { text-transform: uppercase; font-weight: 700; font-size: 16px; /* margin-bottom: 10px; */ margin-bottom: 3px; border: 1px solid #000000; border-radius: 20px; padding: 5px 25px 5px 15px; line-height: 100%; background-color: #ffffff; }
+.current_language:after { content: "["; font-family: "WebSymbolsRegular", Arial, sans-serif; padding-left: 6px; position: absolute; font-size: 13px; }
+#lang_ul { display: none; position: absolute; width: inherit; border-radius: 7px; min-width: 100px; margin: 0; padding: 0; list-style: none; }
+.language-li { background-color: #000000; opacity: 0.9; cursor: pointer; clear: both; border-bottom: 1px solid #3B3B3B; }
+.language-li:last-child { border-bottom: 0 none; }
+
+.language-name { clear: both; display: block; font-size: 14px; font-weight: 500; color: #bababa; text-transform: uppercase; padding: 8px 15px; padding-right: 50px; line-height: 100%; position: absolute; }
+.language-name-bold { clear: both; display: block; font-size: 14px; color: #bababa; text-transform: uppercase; padding: 8px 15px; padding-right: 50px; line-height: 100%; visibility: hidden; font-weight: 900; }
+.language-name:hover { font-weight: 700; color: #000000; }
+.language-li:hover a { text-decoration: none; }
+.language-li:hover { background-color: #b9baba; opacity: 1; }
+.language-li:first-child { border-radius: 7px 7px 0 0; }
+.language-li:last-child { border-radius: 0 0 7px 7px; }
+.language-li:only-child { border-radius: 7px 7px 7px 7px; }
+
+#flags_language_selector:hover .current_language { margin-right: 70px; }
+#flags_language_selector:hover #lang_ul { display: block; }
+/* #flags_language_selector #lang_ul .language-li { opacity: 1; height: 0px; overflow:hidden;
+	transition: height 0.2s;
+	-moz-transition: height 0.2s;
+	-webkit-transition: height 0.2s;
+	-o-transition: height 0.2s; 
+}
+#flags_language_selector:hover #lang_ul .language-li { opacity: 1; height: 30px; 
+	transition: height 0.2s;
+	-moz-transition: height 0.2s;
+	-webkit-transition: height 0.2s;
+	-o-transition: height 0.2s;
+} */
+
+.language-name { }
+.active_lng { }
+
+@media (max-width: 850px){
+	.conatainer_language_selector { clear: both; display: none; } 
+}
+@media (max-width: 950px){
+	.daisho-portfolio .conatainer_language_selector { clear: both; display: none; } 
+}

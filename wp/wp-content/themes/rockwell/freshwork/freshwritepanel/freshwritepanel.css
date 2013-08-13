@@ -1,0 +1,113 @@
+/* MAIN */
+#wpbody	{position:relative;}
+
+#post_templates	{ padding: 10px 0 0 4px;}
+#post_templates img.waiting	{display:none;vertical-align:middle;}
+
+/* LEFT COLUMN */
+#post_templates #left-column	{display:inline;width:281px;margin-left:-300px;clear:both;float:left;padding-top:24px;}
+
+#post_templates .postbox h3 {cursor: default;}
+#post_templates .postbox h3.postbox-title span {padding:6px 0;}
+#post_templates .postbox .inside	{clear:both;padding:0 10px;}
+
+#post_templates #select-category .howto select	{width:100%;}
+
+#post_templates #select-category .button-controls	{text-align:right; clear:both; margin:10px 0;}
+
+#post_templates ul#cat-list	{ padding-top: 10px;}
+#post_templates ul#cat-list li	{ width: 140px; padding: 8px 10px; margin-bottom: 8px; background:url("gray-grad.png") repeat-x #DFDFDF; cursor: pointer; font-size: 11px; color: #444444; font-weight: bold; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
+#post_templates ul#cat-list li:hover	{color:#21759B;}
+#post_templates ul#cat-list li.active	{ background:url("gray-grad-active.png") repeat-x #595959; color: #FFFFFF; text-shadow: 0 1px 0px #000000;}
+
+#post_templates .cat-list-0	{ margin-left: 0px;}
+#post_templates .cat-list-1	{ margin-left: 20px;}
+#post_templates .cat-list-2	{ margin-left: 40px;}
+#post_templates .cat-list-3	{ margin-left: 60px;}
+#post_templates .cat-list-4	{ margin-left: 80px;}
+#post_templates .cat-list-5	{ margin-left: 100px;}
+#post_templates .cat-list-6	{ margin-left: 100px;}
+#post_templates .cat-list-7	{ margin-left: 100px;}
+#post_templates .cat-list-8	{ margin-left: 100px;}
+#post_templates .cat-list-9	{ margin-left: 100px;}
+
+
+
+/* RIGHT COLUMN */
+#post_templates #right-column	{float:left;min-width:100%;}
+
+#post_templates .another_template	{ padding: 0 0 15px 0;}
+#post_templates .another_template_button	{ }
+#post_templates .another_template_button:hover	{ border: 1px solid #555555;}
+#post_templates .another_template_or	{ font-family: Georgia; font-style: italic; font-size: 11px; float: left; margin: 6px 7px 0 0;}	
+#post_templates .another_template_cancel	{ color: #FF0000; text-decoration: underline; font-size: 11px; float: left; margin: 5px 7px 0 0; padding: 1px 2px; cursor: pointer;}
+#post_templates .another_template_cancel:hover	{ background: #FF0000; color: #FFFFFF; text-decoration: none;}
+
+#post_templates .close	{ background: url(close.png) no-repeat; float: left; width: 16px; height: 16px; margin: 4px 0 0 0; cursor: pointer;}
+
+
+#post_templates #single-options	{position:relative;margin-right:20px;width:100%; display:none;}
+#post_templates  .category-options-body-wrapper	{margin-bottom:20px;}
+
+#post_templates .nav-menu-header	{border-width:1px 1px 0 1px;-moz-border-radius-topleft:6px;-webkit-border-top-left-radius:6px;-khtml-border-top-left-radius:6px;border-top-left-radius:6px;-moz-border-radius-topright:6px;-webkit-border-top-right-radius:6px;-khtml-border-top-right-radius:6px;border-top-right-radius:6px;}
+#post_templates .nav-menu-header, #post_templates .category-options-body	{border-color:#ccc;border-style:solid;}
+
+#post_templates .nav-menu-title	{ font-size: 11px; color:#666; clear:both; padding:5px 10px;}
+
+#post_templates .nav-tabs-wrapper	{ padding: 0 0 15px 0;}
+#post_templates .sidebar_option_wrapper	{ padding: 0 0 15px 0;}
+
+#post_templates .select_name	{ padding:6px 20px 0 0; float: left; font-size: 11px;}
+#post_templates .select_button	{  float: left; margin-right: 10px; -moz-border-radius: 99px; -webkit-border-radius: 99px; border-radius: 99px; border: 1px solid #BBB; background: url("white-grad.png") repeat-x #F2F2F2; cursor: pointer; padding: 6px 30px; font-size: 11px; text-align: center; color: #464646;   }
+
+
+#post_templates .nav-tabs-wrapper .nav-tabs span:hover	{ border: 1px solid #555555; }
+#post_templates .nav-tab-active	{background:url("gray-grad-active.png") repeat-x #595959; border: 1px solid #555555; color: #FFFFFF; text-shadow: 0 1px 0px #000000;}
+
+
+
+#post_templates .category-options-body	{background:#fff;-moz-border-radius-bottomleft:6px;-webkit-border-bottom-left-radius:6px;-khtml-border-bottom-left-radius:6px;border-bottom-left-radius:6px;-moz-border-radius-bottomright:6px;-webkit-border-bottom-right-radius:6px;-khtml-border-bottom-right-radius:6px;border-bottom-right-radius:6px;}
+#post_templates .category-options-body-content	{position:relative; border: 1px solid #CCC;}
+
+
+#post_templates ul.templates_wrapper	{}
+#post_templates ul.templates_wrapper li	{ float: left; margin: 0 20px 20px 0; background: #FFF; border: 1px solid #CCC; -moz-border-radius:0 0 6px 6px; -webkit-border-radius: 0 0 6px 6px; border-radius: 0 0 6px 6px; -moz-box-shadow: 0 1px 4px #CCC; border-radius: 6px; }
+#post_templates ul.templates_wrapper li a	{ display: block;}
+#post_templates ul.templates_wrapper li img:hover	{opacity: 0.9;}
+#post_templates ul.templates_wrapper li label	{border-top: 1px solid #CCC; }
+#post_templates ul.templates_wrapper li label:hover	{background: #EEE; }
+
+
+#post_templates .select_template_value	{ display:block; padding: 10px 20px; text-align: center; }
+#post_templates .select_template_radio	{ display:block; padding: 0 20px 10px 20px; text-align: center; }
+
+#post_templates .sidebar_option_wrapper	{ width: 100%;}
+/*#post_templates #blog-subnav-left, #post_templates #blog-subnav-right, #post_templates #blog-subnav-no, #post_templates #portfolio-subnav-left, #post_templates #portfolio-subnav-right, #post_templates #portfolio-subnav-no	{ padding: 20px 0; float: left; text-align: center;}
+#post_templates #blog-subnav-left, #post_templates #portfolio-subnav-left	{background: #CCC; width: 33%;}
+#post_templates #blog-subnav-right, #post_templates #portfolio-subnav-right	{background: #BBB; width: 34%;}
+#post_templates #blog-subnav-no, #post_templates #portfolio-subnav-no	{background: #AAA; width: 33%;}
+*/
+
+/* default display */
+#category-blog	{display: block;}
+#category-portfolio	{display: none;}
+#post_templates #category-blog-left	{display: block;}
+#post_templates #category-blog-right	{display: none;}
+#post_templates #category-blog-no	{display: none;}
+#post_templates #category-portfolio-left	{display: block;}
+#post_templates #category-portfolio-right	{display: none;}
+#post_templates #category-portfolio-no	{display: none;}
+
+/* bg image */
+#post_templates .nav-menu-header, .menu-item-handle	{ background:url("gray-grad.png") repeat-x scroll left top #DFDFDF;}
+
+/* MAIN IMAGE HEIGHT */
+#post_image h4	{ margin: 20px 6px 0 6px;}
+#post_image	input	{ margin: 0 10px 20px 0; text-align: right;   float: left; display: block;}
+#post_image	label	{ line-height: 16px; color: #777777; font-style: italic; margin: 0 0 0 0; display: block;}
+#post_image	p	{ }
+
+
+
+
+

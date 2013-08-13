@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#freshslider .fs_slide_box	{ margin:10px 0 10px 0;}
+.description, .description_label {display:none;}
+#freshslider .fs_slide_preview	{ margin:20px 0 0 0; width:100%;}
+
+#freshslider .column-name	{ padding:10px 10px 20px 10px;}
+#freshslider select, #freshslider input	{ margin:10px 0 0 0;}
+#freshslider input	{ padding:6px;}
+#freshslider select	{ padding:4px 2px 4px 2px; height:2.4em;}
+#freshslider #fs_head_order	{ width:12%;}
+#freshslider #fs_image_url	{ width:99%; padding-left:26px; background:url(gfx/image_url.png) no-repeat 5px 5px #FFF;}
+#freshslider #fs_link_url	{ width:79%; padding-left:26px; background:url(gfx/link_url.png) no-repeat 5px 5px #FFF;}
+#freshslider #fs_title	{ width:79%; padding-left:26px; background:url(gfx/title.png) no-repeat 5px 5px #FFF; margin-bottom:10px;}
+#freshslider #fs_description	{ width:99%;}
+
+#freshslider #fs_link_type, #freshslider #fs_transition	{ width:20%;}
+#freshslider #fs_order_select	{ width:100%;}
+#freshslider .img_remove	{ margin:10px 0 0 0;}
+
+#fs_save	{float:right;}
+#freshslider #fs_add_slide, #freshslider #fs_save	{ margin:10px 0 10px 0;}

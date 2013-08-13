@@ -1,0 +1,75 @@
+/* Quotes */
+/* 
+Adnotation by Flow: In printed Standard English if you enclose one quotation within another quotation marks alternate like: 
+'main quote 
+	"inner 
+		'yet one more'
+	quote"
+main quote' 
+or "...'inner quote'...". Depth of embedding of quotations doesn't matter. You can use " or ' as your starting quotes.
+CSS below considers 2 levels of nested <q> tags only.
+*/
+blockquote, cite, q { font-style: italic; }
+blockquote { 
+	border-left: 0 none;
+	/* font-family: "Open Sans", Arial, sans-serif; */
+	clear: both;
+    color: #6B6A73;
+    font-size: 168.75%;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 120%;
+    margin-bottom: 2em!important;
+    margin-top: 30px;
+	position: relative;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    text-indent: 40px;
+    /* width: 100%; */
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+	word-wrap: break-word;
+}
+blockquote p {
+    font-weight: 700;
+    letter-spacing: -1px;
+	font-size: 100%;
+    line-height: 120%;
+}
+@media (max-width: 850px){ blockquote { width: 100%!important; } }
+blockquote *:first-child { text-indent: 40px; }
+.quote-left { float: left; margin: 0px 15px 15px 0px; padding-left: 65px; width: 40%; }
+.quote-right { float: right; margin: 0px 15px 0px 10px; padding-left: 65px; width: 40%; }
+/* .image_right{ float:right; margin-left: 10px; margin-bottom: 10px; }
+.image_left{ float:left; margin-right: 10px; margin-bottom: 10px; } */
+blockquote blockquote, blockquote q { quotes: "\"" "\""; position: relative; }
+blockquote * { z-index: 2; position: relative; }
+blockquote *:last-child, q *:last-child { margin-bottom: 0; }
+
+blockquote:after { border-bottom: 1px solid #00AAFF; clear: both; content: " "; display: block; float: left; padding-bottom: 30px; position: absolute; width: 40%; }
+blockquote:before { z-index: 1; quotes: "«" "»"; quotes: "\00AB" "\00BB"; border-top: 1px solid #00AAFF; color: #00AAFF; content: open-quote; font-size: 54px; left: 0; padding-top: 15px; position: absolute; text-indent: 0; top: 10px; width: 40%; }
+
+.quote-style-2 { background-color: #f7f7f7; border-radius: 8px; padding: 35px 40px 35px 40px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+.quote-style-2:after { border-bottom: 0 none; }
+.quote-style-2:before { border-top: 0 none; left: 40px; }
+q { quotes: "\"" "\""; }
+/* q:lang(en){ quotes: "\"" "\""; } This is how you specify quotation symbols for your language */
+q q { quotes: "'" "'"; }
+q:after {  }
+q:before {  }
+
+blockquote.alignright, blockquote.alignleft { padding-top: 26px; }
+blockquote.aligncenter { text-align: left; margin: 35px auto; }
+blockquote.alignright:before, blockquote.alignleft:before { top: 1px; }
+
+figure { clear: both; margin: 0 0 3em 0; }
+@media (max-width: 850px){ figure { width: 100%!important; } }
+figure a { margin: 0 0 0 0; }
+.figcontent { margin-bottom: 10px; }
+figure blockquote { padding-bottom: 15px; }
+figure > blockquote { margin-bottom: 35px!important; }
+figure blockquote + figcaption { text-align: right; font-size: 14px; line-height: 120%; }
+figure.alignright, figure.alignleft { clear: none; }
+figure.alignright blockquote.quote-style-2, figure.alignleft blockquote.quote-style-2 { margin-top: 0; margin-bottom: 15px; }

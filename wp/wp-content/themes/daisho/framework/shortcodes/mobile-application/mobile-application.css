@@ -1,0 +1,10 @@
+.mobile_app_menu_main_wrapper .header-back-to-blog-link { display: none; height: 79px; background-color: #eee; border-bottom: 1px solid #bbb; clear: both; float: none; position: relative; }
+.daisho-portfolio-viewing-project .mobile_app_menu_main_wrapper .header-back-to-blog-link { display: block; }
+	.mobile_app_menu_main_wrapper .header-back-to-blog { position: relative; width: 100%; height: 79px; padding-left: 4%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+		.mobile_app_menu_main_wrapper .header-back-to-blog-message { font-size: 200%; margin: 17px 0 0 50px; display: table-cell; vertical-align: middle; text-transform: none; font-weight: 600; }
+		
+		
+		.mobile_app_menu_main_wrapper .header-back-to-blog-message { color: #787882; opacity: 1; }
+		.mobile_app_menu_main_wrapper .header-back-to-blog-message:hover { color: #000000; opacity: 1; }
+		.mobile_app_menu_main_wrapper .compact-header-arrow-back-svg polyline { stroke: #787882; }
+		.mobile_app_menu_main_wrapper .header-back-to-blog:hover .compact-header-arrow-back-svg polyline { stroke: #000000; }

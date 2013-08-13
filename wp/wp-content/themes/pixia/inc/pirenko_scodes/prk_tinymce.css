@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#prk_shortcodes_sub {
+	position: relative;
+	top:3px;
+	left:-5px;
+}
+#prk_shortcodes_sub > table .mceMenuItem > a {
+	padding:2px 6px;	
+}
+#output_shortcode {
+	display:none;	
+}
+#prk_codes_wrapper {
+	margin-top:30px;	
+}
+input.prk_sh_input,
+textarea.prk_sh_input {
+	background-color:#EFEFEF !important;	
+}
+table.prk_tbl td {
+	vertical-align:top;	
+}
+.prk_inserter {
+	display:block;
+	width:100%;
+	text-align: center;
+}
+.prk_appender {
+	width: 100% !important;
+	display: block;
+	text-align: center;
+}

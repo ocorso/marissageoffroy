@@ -1,0 +1,36 @@
+.form-table td p {
+    color: #AAAAAA;
+    font-size: 10px;
+}
+.form-table th {
+    margin-top: 5px;
+}
+.form-table tr {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E4E4E4;
+    margin: 0;
+    padding-left: 3px;
+}
+.form-table {
+    width: 100%;
+}
+.tdlst td, .tdlst th{
+ background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-collapse: collapse;
+    font-size: 11px;
+    padding: 0 3px;
+}
+.tdlst{
+ border-collapse: collapse;
+  table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+}
+.tdlst th.nb{
+border:none;
+background-color:transparent;
+}
+.form-table td, .form-table th{
+background-color:#ffffff;
+}

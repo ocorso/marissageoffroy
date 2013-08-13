@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#blog-single-12 .post_title	{ padding-top: 60px; padding-right:10px; padding-bottom: 20px; padding-left: 10px; }
+#blog-single-12 .post_title h1	{ padding: 0; }
+
+#blog-single-12 #post_area	{ width:720px; float:left; }
+
+#blog-single-12 #post_wrapper	{ padding-top: 0; }
+#blog-single-12 #post_wrapper .post_content	{ width: 460px; float:left; padding-top: 20px; padding-left: 10px; padding-right: 10px; } 
+
+#blog-single-12 #post_wrapper .post_meta	{ width:240px; float: right; padding-top: 20px; padding-right: 0; }
+#blog-single-12 #post_wrapper .post_meta .post_gallery	{  }
+
+#blog-single-12 .big_image_wrapper { display: block; float: left; margin-right: 10px; margin-left: 10px; margin-bottom: 20px; }
+#blog-single-12 img.big_image	{ display: block; }
+#blog-single-12 .post_meta .post_gallery .small_image_wrapper { }
+#blog-single-12 .post_meta .post_gallery img.small_image	{ }
+
+#blog-single-12 #post_wrapper .post_meta .post_info_single	{ }
+#blog-single-12 #post_wrapper .post_meta .post_info_single span	{ }
+
+#blog-single-12 .sidebar	{ padding-top: 20px;}
+
+
+
+
+
+/* POST *//*
+#blog-single-12 #post_title	{ padding: 0 20px; width:940px; }
+#blog-single-12 #post_title h1	{ width:940px; padding: 58px 0 37px 0; font-size: 24px; line-height:24px;}
+#blog-single-12 #post_title h1 a	{ text-decoration:none;}
+
+#blog-single-12 #post_area	{width:719px; float:left;  }
+
+/* POST CONTENT *//*
+#blog-single-12 #post_wrapper	{ padding:0 0 0 10px;}
+#blog-single-12 #post_wrapper .post_content	{ width: 439px; float:left; padding: 0 10px 32px 10px; }
+#blog-single-12 #post_wrapper .post_meta	{ width:240px; float: right; padding:0 10px 30px 0;}
+#blog-single-12 #post_wrapper .post_meta .post_gallery	{ padding: 2px 0 10px 0; }
+#blog-single-12 .big_image_wrapper { display: block; margin: 3px 20px 36px 20px; }
+#blog-single-12 img.big_image	{display:block;}
+#blog-single-12 #post_wrapper .post_meta .post_gallery img.small_image	{margin: 0 10px 20px 10px; float:left; display:block;}
+#blog-single-12 #post_wrapper .post_meta .post_info	{ padding: 0 0 0 10px; font-size:10px; }
+#blog-single-12 #post_wrapper .post_meta .post_info span	{ width:230px; display:block;}
+
+/* SIDEBAR *//*
+#blog-single-12 .sidebar	{ padding: 0 10px 0 10px; }

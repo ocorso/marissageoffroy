@@ -1,0 +1,1018 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: aleph 2/page.php:57
+#: aleph 2/single.php:61
+msgid ""
+msgstr ""
+
+#. Text in function
+#: aleph 2/index.php:69
+#: aleph 2/template-blog.php:143
+#: aleph 2/template-blog.php:206
+#: aleph 2/archive.php:102
+#: aleph 2/archive.php:166
+msgid " comment"
+msgstr ""
+
+#. Text in function
+#: aleph 2/index.php:69
+#: aleph 2/template-blog.php:143
+#: aleph 2/template-blog.php:206
+#: aleph 2/archive.php:102
+#: aleph 2/archive.php:166
+msgid " comments"
+msgstr ""
+
+#. Text in function
+#: aleph 2/page.php:57
+#: aleph 2/single.php:61
+msgid "0"
+msgstr ""
+
+#. Text in function
+#: aleph 2/index.php:69
+#: aleph 2/template-blog.php:143
+#: aleph 2/template-blog.php:206
+#: aleph 2/archive.php:102
+#: aleph 2/archive.php:166
+#: aleph 2/page.php:57
+#: aleph 2/single.php:61
+msgid "1"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-functions.php:109
+msgid "<h4>%s</h4>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/comments.php:192
+msgid "<i class='icon-chevron-left'></i>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/comments.php:193
+msgid "<i class='icon-chevron-right'></i>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-functions.php:253
+msgid "<p>This post is password protected. To view it please enter your password below:</p>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "A button allowing to switch to fullscreen view will be displayed in top right corner"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "A button in the top right corner of the header menu will open/close a sliding panel."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Activate Cufon"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Activate contact panel"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Activate google fonts"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Activate social links"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Activate the custom log-in screen."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Add New Field"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Add New Portfolio"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Add a transparent dark layer over the background (Recommended)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Adress"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "All Fields"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Allow users to like posts"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Allow users to share posts. Check this option and then choose the services and add the text."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Apply the first font to the following elements. Enter the list of elements separated by a comma (e.g : h1, a, .class)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Apply the second font to the following elements. Enter the list of elements separated by a comma (e.g : h1, a, .class)"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/archive.php:34
+msgid "Author :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Background Stretch"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Background overlay"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Backup Options"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Backup and Restore Options"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/search.php:17
+msgid "Begin typing to search :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Blog link"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Blog text"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Body"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Body background : Default"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/template-blog.php:54
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/archive.php:26
+msgid "Category :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Check the social services to show"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Check this option and then choose the services and add your links"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Check this option and then choose your font"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Check this option to activate a second font"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Choose the elements for which you wish to use to the font"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Choosing Fonts"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:214
+msgid "Comments are closed"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Contact Panel"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Contact form email address"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Content"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Custom Favicon"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Custom code to add to the footer (e.g : google analytics code)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Custom field deleted."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Custom field updated."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Custom log-in screen"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Custom text"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/archive.php:47
+msgid "Daily Archives :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Description"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Edit Fields"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Edit Portfolio"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/contact.php:132
+msgid "Email *"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Email Adress"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Enter the link for each service"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Enter the message that will appear on mouseouver for each service"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+#: aleph 2/404.php:28
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Error 404 message"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Excerpt length"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Featured Works"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Featured Works section"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/template-portfolio.php:123
+msgid "Fields"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Font 1 - Choose Font"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Font 1 - Elements"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Font 2"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Font 2 - Choose Font"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Font 2 - Elements"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Footer"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Footer custom code"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Fullscreen button"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "General Settings"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Google Maps Lattitude"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Google Maps Longitude"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Header"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Heading 5 (H5)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Heading 6 (H6)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Height of thumbnails in the blog/archives (in px)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Homepage"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Homepage Introduction"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Homepage Layout Manager"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "If there is no logo image, the title and description of your website will be used."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Import"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Introduction"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/classes/class.options_machine.php:10
+msgid "Last Backup : "
+msgstr ""
+
+#. Text in function
+#: aleph 2/comments.php:101
+msgid "Leave a Reply"
+msgstr ""
+
+#. Text in function
+#: aleph 2/comments.php:101
+msgid "Leave a Reply to"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Leave empty for auto height"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Leave empty for auto height (Make sure that all images have the same ratio if you choose auto)"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Leave empty if you do not wish to show this information"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Links"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Logo spacing"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:116
+msgid "Mail"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Make the background fit the screen (Recommended)"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/contact.php:141
+msgid "Message *"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Meta"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/archive.php:51
+msgid "Monthly Archives :"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:107
+msgid "Name"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/contact.php:123
+msgid "Name *"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "New Field Name"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "New Portfolio"
+msgstr ""
+
+#. Text in function
+#: aleph 2/comments.php:193
+msgid "Newer comments"
+msgstr ""
+
+#. Text in function
+#: aleph 2/index.php:69
+#: aleph 2/template-blog.php:143
+#: aleph 2/template-blog.php:206
+#: aleph 2/archive.php:102
+#: aleph 2/archive.php:166
+msgid "No"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/index.php:102
+#: aleph 2/archive.php:207
+#: aleph 2/taxonomy-field.php:122
+msgid "No Posts Yet"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "No portfolios found"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/template-portfolio.php:181
+#: aleph 2/page.php:75
+#: aleph 2/single.php:78
+#: aleph 2/single-portfolio.php:107
+msgid "Not Found"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Number of words. Default : 20"
+msgstr ""
+
+#. Text in function
+#: aleph 2/comments.php:192
+msgid "Older comments"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.mediauploader.php:208
+msgid "Options"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/admin/front-end/options.php:76
+msgid "Options Reset"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Organize how you want the layout to appear on the homepage"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/search.php:36
+msgid "Pages :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Parent Field"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Parent Fields:"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-functions.php:253
+msgid "Password:"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Paste here the CSS code given by Google Fonts."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Paste here the code given by google fonts in the IMPORT tab."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Pause slideshow on hover of slide"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Phone Number"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Pin Style"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/search.php:32
+msgid "Portfolio :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio draft updated. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Portfolio link"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio published. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio restored to revision from %s"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio saved."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview portfolio</a>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio submitted. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Portfolio text"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio updated."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Portfolio updated. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Post Like"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/search.php:28
+msgid "Posts :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Read More"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Read More Link"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Recipient of contact form"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/admin/front-end/options.php:51
+#: aleph 2/framework/admin/front-end/options.php:75
+msgid "Save All Changes"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Search Fields"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Search Portfolios"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Separator line"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Services"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/theme-custom-functions.php:241
+msgid "Share this !"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/theme-custom-functions.php:192
+msgid "Share this post"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Social Share"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/index.php:105
+#: aleph 2/archive.php:210
+#: aleph 2/taxonomy-field.php:125
+msgid "Sorry, What you were looking for is not here."
+msgstr ""
+
+#. Text in echo
+#: aleph 2/template-portfolio.php:184
+#: aleph 2/page.php:78
+#: aleph 2/single.php:81
+#: aleph 2/single-portfolio.php:110
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Speed of transition"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Styling and Colors"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-functions.php:253
+msgid "Submit"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:141
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/archive.php:30
+msgid "Tag :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Text for the Read More link"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Text that will be added below the menu in footer (e.g. Copyright text)"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/inc/contact.php:117
+msgid "Thank you for contacting. We will answer as soon as possible."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "The Image"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Time between slides"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Tooltips"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Transfer Theme Options Data"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Typography"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "Update Field"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Upload a 16px x 16px Png/Gif image that will represent your website's favicon."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "Upload logo"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/theme-custom-post-type.php:19
+msgid "View Portfolio"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:126
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/inc/contact.php:54
+msgid "Wrong email format"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/archive.php:55
+msgid "Yearly Archives :"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/shortcodes/tinymce/slider/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/quotes/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/lists/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/columns/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/icons/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/alerts/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/buttons/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/tabs/window.php:10
+#: aleph 2/framework/shortcodes/tinymce/tooltips/window.php:10
+msgid "You are not allowed to be here"
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "You can set the top and bottom spacing of the logo. The resulting total spacing will be the double of the chosen value (for top and bottom)."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/admin/functions/functions.options.php:10
+msgid "You can use the two buttons below to backup your current options, and then restore it back at a later time. This is useful if you want to experiment on the options but would like to keep the old settings in case you need it back."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/inc/contact.php:54
+msgid "You forgot to fill in your name"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:32
+msgid "You must be"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:75
+#: aleph 2/comments.php:92
+msgid "Your Comment Here&hellip;"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:119
+msgid "Your Email"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:110
+msgid "Your Name"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:129
+msgid "Your Website"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/framework/theme-custom-functions.php:113
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: aleph 2/framework/inc/contact.php:54
+msgid "Your forgot to fill in your email address"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/template-blog.php:154
+#: aleph 2/template-blog.php:193
+#: aleph 2/archive.php:114
+#: aleph 2/archive.php:153
+msgid "in"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:32
+msgid "logged in"
+msgstr ""
+
+#. Text in function
+#: aleph 2/single.php:54
+msgid "tagged "
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:32
+msgid "to post a comment"
+msgstr ""
+
+#. Text in echo
+#: aleph 2/comments.php:120
+msgid "will not be published"
+msgstr ""

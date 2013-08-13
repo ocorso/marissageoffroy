@@ -1,0 +1,7 @@
+/*!
+* screenfull.js
+* v1.0.0 - 2012-05-02
+* https://github.com/sindresorhus/screenfull.js
+* (c) Sindre Sorhus; MIT License
+*/
+(function(d,a){var b=typeof Element!=="undefined"&&"ALLOW_KEYBOARD_INPUT" in Element,c=(function(){var f=[["requestFullscreen","exitFullscreen","fullscreenchange","fullscreen","fullscreenElement","fullscreenerror"],["webkitRequestFullScreen","webkitCancelFullScreen","webkitfullscreenchange","webkitIsFullScreen","webkitCurrentFullScreenElement","webkitfullscreenerror"],["mozRequestFullScreen","mozCancelFullScreen","mozfullscreenchange","mozFullScreen","mozFullScreenElement","mozfullscreenerror"]],j=0,g=f.length,h={},m,k;for(;j<g;j++){m=f[j];if(m&&m[1] in a){for(j=0,k=m.length;j<k;j++){h[f[0][j]]=m[j]}return h}}return false})(),e={isFullscreen:a[c.fullscreen],element:a[c.fullscreenElement],request:function(g){var f=c.requestFullscreen;g=g||a.documentElement;g[f](b&&Element.ALLOW_KEYBOARD_INPUT);if(!a.isFullscreen){g[f]()}},exit:function(){a[c.exitFullscreen]()},toggle:function(f){if(this.isFullscreen){this.exit()}else{this.request(f)}},onchange:function(){},onerror:function(){}};if(!c){d.screenfull=null;return}a.addEventListener(c.fullscreenchange,function(f){e.isFullscreen=a[c.fullscreen];e.element=a[c.fullscreenElement];e.onchange.call(e,f)});a.addEventListener(c.fullscreenerror,function(f){e.onerror.call(e,f)});d.screenfull=e})(window,document);

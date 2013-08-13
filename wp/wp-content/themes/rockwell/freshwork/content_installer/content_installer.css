@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#freshslider .fs_slide_box	{ margin:10px 0 10px 0;}
+.description, .description_label {display:none;}
+#freshslider .fs_slide_preview	{ margin:20px 0 0 0; width:100%;}
+
+#freshslider .column-name	{ padding:10px 10px 20px 10px;}
+#freshslider select, #freshslider input	{ margin:10px 0 0 0;}
+#freshslider input	{ padding:6px;}
+#freshslider select	{ padding:4px 2px 4px 2px; height:2.4em;}
+#freshslider #fs_head_order	{ width:12%;}
+#freshslider #fs_image_url	{ width:99%; padding-left:26px; background:url(gfx/image_url.png) no-repeat 5px 5px #FFF;}
+#freshslider #fs_link_url	{ width:79%; padding-left:26px; background:url(gfx/link_url.png) no-repeat 5px 5px #FFF;}
+#freshslider #fs_title	{ width:79%; padding-left:26px; background:url(gfx/title.png) no-repeat 5px 5px #FFF; margin-bottom:10px;}
+#freshslider #fs_description	{ width:99%;}
+
+#freshslider #fs_link_type, #freshslider #fs_transition	{ width:20%;}
+#freshslider #fs_order_select	{ width:100%;}
+#freshslider .img_remove	{ margin:10px 0 0 0;}
+
+#fs_save	{float:right;}
+#freshslider #fs_add_slide, #freshslider #fs_save	{ margin:10px 0 10px 0;}
+
+*/
+
+#content_installer	{ margin: 0 0 0 3px;}
+
+#content_installer_window_wrapper	{ width: 300px;}
+#content_installer_window_wrapper .howto	{ border-bottom: 1px solid #dddddd;}
+
+
+
+#content_installer .warning_small	{ margin: 0 5px 0 0; position: relative; top: 3px;}
+#content_installer .underline	{ border-bottom: 1px dotted red;}
+
+#content_installer .another_template	{ padding: 0 0 15px 0;}
+#content_installer .another_template_button	{ }
+#content_installer .another_template_button:hover	{ border: 1px solid #555555;}
+#content_installer .another_template_or	{ font-family: Georgia; font-style: italic; font-size: 11px; float: left; margin: 6px 7px 0 0;}	
+#content_installer .another_template_cancel	{ color: #FF0000; text-decoration: underline; font-size: 11px; float: left; margin: 6px 7px 0 0; padding: 1px 2px; cursor: pointer;}
+#content_installer .another_template_cancel:hover	{ background: #FF0000; color: #FFFFFF; text-decoration: none;}
+
+#content_installer .select_name	{ padding:6px 20px 0 0; float: left; font-size: 11px;}
+#content_installer .select_button	{  float: left; margin-right: 10px; -moz-border-radius: 99px; -webkit-border-radius: 99px; border-radius: 99px; border: 1px solid #BBB; background: url("gfx/white-grad.png") repeat-x #F2F2F2; cursor: pointer; padding: 6px 30px; font-size: 11px; text-align: center; color: #464646;   }

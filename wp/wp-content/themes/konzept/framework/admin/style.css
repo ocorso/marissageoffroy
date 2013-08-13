@@ -1,0 +1,46 @@
+.form-table td p {
+    color: #AAAAAA;
+    font-size: 10px;
+}
+.form-table th {
+    margin-top: 5px;
+}
+.form-table tr {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #E4E4E4;
+    margin: 0;
+    padding-left: 3px;
+}
+.form-table {
+    width: 100%;
+}
+.tdlst td, .tdlst th{
+ background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-collapse: collapse;
+    font-size: 11px;
+    padding: 0 3px;
+}
+.tdlst{
+ border-collapse: collapse;
+  table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+}
+.tdlst th.nb{
+border:none;
+background-color:transparent;
+}
+.form-table td, .form-table th{
+background-color:#ffffff;
+}
+
+.briskuploader { padding: 4px 9px 3px; padding: 4px 12px; cursor: pointer; margin: 0 5px; }
+.briskuploader_preview { position: relative; display: inline-block; }
+.briskuploader_preview img{ margin-bottom: 10px; margin-top: 10px; max-width: 800px; }
+.briskuploader_remove { background-image: url(../../images/cross.png); height: 17px; width: 17px; text-indent: -9999px; position: absolute; right: -9px; top: 0; cursor: pointer; }
+
+select[multiple]{
+	height:57px!important;
+}
+.pagegradient { visibility: hidden; opacity: 0; } */
