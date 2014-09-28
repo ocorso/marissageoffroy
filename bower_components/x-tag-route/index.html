@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>&lt;x-tag-route&gt;</title>
+    <script type="text/javascript" src="dist/x-tag-components.js"></script> 
+    <script type="text/javascript" src="dist/director.min.js"></script>      
+    <script type="text/javascript" src="dist/route.js"></script>      
+    <style>
+      span {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        border-radius: 4px;
+        color: #fff;
+        background-color: #5bc0de;
+        border-color: #46b8da;
+      }
+    </style>
+</head>
+<body>
+
+    <h1><a href="http://github.com/alternatex/x-route">&lt;x-route&gt;</a></h1>
+    <h2>A <a href="http://x-tags.org">X-Tag</a> element for URL routing, backed by <a href="https://github.com/flatiron/director">Flatiron Director</a>.</h2>
+
+    <!-- Define routes -->
+    <x-route route="/home" auto></x-route>
+    <x-route path="/favorites"></x-route>
+    <x-route path="/about"></x-route>
+    <x-route path="/books"></x-route>
+    <x-route path="/books/view/:bookId"></x-route>
+    <x-route path="/:foo/:bar/:bazz"></x-route>
+
+    <h2>Examples</h2>
+    <!-- Use routes -->
+    <p>Click on a route (or open in a new tab) to test &lt;x-route&gt;:</p>
+    <ul>
+        <li><a href="#/favorites">#/favorites</a></li>
+        <li><a href="#/about">#/about</a></li>
+        <li><a href="#/books">#/books</a></li>
+        <li><a href="#/books/view/25">#/books/view/25</a></li>
+        <li><a href="#/cat/hat/bat">#/cat/hat/bat</a></li>
+    </ul>
+
+    <h2>Listen for changes via the <code>route-changed</code> event</h2>
+    <pre id="console"></pre>
+
+    <h2>Usage</h2>
+    <pre>
+&lt;!-- Automatically go to a route 'home' --&gt;
+&lt;x-route route=&quot;/home&quot; auto&quot;&gt;&lt;/x-route&gt;
+
+&lt;!-- Define paths to routes we would like to support --&gt;
+&lt;x-route path=&quot;/favorites&quot;&gt;&lt;/x-route&gt;
+&lt;x-route path=&quot;/about&quot;&gt;&lt;/x-route&gt;
+&lt;x-route path=&quot;/books&quot;&gt;&lt;/x-route&gt;
+&lt;x-route path=&quot;/books/view/:bookId&quot;&gt;&lt;/x-route&gt;
+&lt;x-route path=&quot;/:foo/:bar/:bazz&quot;&gt;&lt;/x-route&gt;
+    </pre>
+
+
+  <script type="text/javascript">
+
+      var myConsole = document.querySelector('#console');
+      
+      myConsole.log = function() {
+          var args = Array.prototype.slice.call(arguments).toString();
+          this.innerHTML += '\n' + args;
+      }
+
+      document.addEventListener('route-changed', function(route){
+          myConsole.log('<span class="btn">You are on: ' + route.detail + '</span>');
+      });
+
+  </script>
+</body>
+</html>

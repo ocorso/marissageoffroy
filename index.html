@@ -2,19 +2,18 @@
 <html>
   <head>
   	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <!-- 1. Load platform support before any code that touches the DOM. -->
+
     <script src="bower_components/platform/platform.js"></script>
-    <!-- 2. Load the component using an HTML Import -->
-    <link rel="import" href="elements/my-element.html">
+    <link rel="import" href="elements/mg-scaffold.html">
+
     <style>
     body, div, #div, .oxy:unresolved, .oxy{
     	font-family: 'Oxygen', sans-serif;
     }
+
     </style>
   </head>
-  <body>
-    <!-- 3. Declare the element by its tag. -->
-    <my-element></my-element>
-
+  <body fullbleed>
+    <mg-scaffold></mg-scaffold>
   </body>
 </html>

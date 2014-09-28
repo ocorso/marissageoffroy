@@ -1,0 +1,40 @@
+{
+  "name": "x-tag-route",
+  "version": "0.3.0",
+  "description": "A X-Tag element for URL routing",
+  "author": "Gianni Furger",
+  "license": "MIT",
+  "main": [
+    "src/director.min.js",
+    "src/route.js"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "router",
+    "routing"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "x-tag-core": "0.9.4",
+    "brick-common": "0.1.2"
+  },
+  "homepage": "https://github.com/alternatex/x-route",
+  "_release": "0.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.0",
+    "commit": "08a3702edcf1ab81ed9c8886abafc7f225da7bb9"
+  },
+  "_source": "git://github.com/alternatex/x-route.git",
+  "_target": "~0.3.0",
+  "_originalSource": "x-tag-route",
+  "_direct": true
+}
