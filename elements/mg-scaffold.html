@@ -10,6 +10,7 @@
 <link rel="import" href="../bower_components/flatiron-director/flatiron-director.html">
 
 
+
 <polymer-element name="mg-scaffold" is="auto-binding" attributes="page">
 
   <template>
@@ -53,7 +54,7 @@
     transform: translateZ(0);
   }
 
-  core-pages > mg-portfolio {
+  core-pages mg-portfolio, core-pages div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,13 +118,14 @@
           <div id="mg_logo" class="oxy" tool><span class="first-name">Marissa</span> <span class="last-name">Geoffroy.</span></div>
         </core-toolbar>
 
-    <div layout horizontal center center-justified fit style="overflow-x: hidden;">
+    <div main layout horizontal center center-justified fit style="overflow-x: hidden;">
       <core-pages selected="{{route}}" valueattr="hash">
-        <template repeat="{{page, i in pages}}">
+          <div hash="home"><paper-shadow z="2"></paper-shadow>Home</div>
           <mg-portfolio hash="{{page.hash}}">
-            <paper-shadow z="2"></paper-shadow>
-            {{page.name}}
+            <paper-shadow z="2">
           </mg-porfolio>
+          <div hash="about"><paper-shadow z="2"></paper-shadow>About</div>
+          <div hash="contact"><paper-shadow z="2"></paper-shadow>Contact</div>
         </template>
       </core-pages>
     </div>
