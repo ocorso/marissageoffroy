@@ -1,0 +1,73 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/core-scaffold/core-scaffold.html">
+<link rel="import" href="../../bower_components/core-header-panel/core-header-panel.html">
+<link rel="import" href="../../bower_components/core-menu/core-menu.html">
+<link rel="import" href="../../bower_components/core-item/core-item.html">
+<link rel="import" href="../../bower_components/core-icon-button/core-icon-button.html">
+<link rel="import" href="../../bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" href="../../bower_components/core-menu/core-submenu.html">
+<link rel="import" href="../../bower_components/core-animated-pages/core-animated-pages.html">
+<link rel="import" href="../../bower_components/core-scroll-header-panel/core-scroll-header-panel.html">
+<link rel="import" href="../../bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="../../bower_components/flatiron-director/flatiron-director.html">
+<link rel="import" href="../mg-elements.html?v=3">
+
+<polymer-element name="mg-scaffold" is="auto-binding" attributes="page">
+
+  <template>
+      <link rel="stylesheet" href="mg-scaffold.css">
+      <flatiron-director route="{{route}}" autoHash
+                     on-director-route="{{routeChanged}}"></flatiron-director>
+    <core-scaffold fit> 
+      <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
+          <core-toolbar id="core_toolbar"></core-toolbar>
+          <core-menu>
+            <template repeat="{{page, i in pages}}">
+              <core-item 
+                icon="{{page.icon}}" 
+                label="{{page.name}}" 
+                active?="{{route == page.hash}}"
+                class="{{ {'core-selected' : route == page.hash} | tokenList }}">
+                <a href="#{{page.hash}}"></a>
+              </core-item>
+            </template>
+          </core-menu>
+        </core-header-panel>
+        <core-toolbar tool flex>
+        <div id="mg_logo" class="oxy" tool><span class="first-name">Marissa</span> <span class="last-name">Geoffroy.</span></div>
+      </core-toolbar>
+
+      <core-scroll-header-panel condenses>
+        <core-toolbar flex class="tall">
+          <div flex></div>
+          <div class="bottom indent title">{{route}}</div>
+        </core-toolbar>
+        <core-animated-pages class="content" selected="{{route}}" valueattr="hash" transitions="cross-fade-all">
+            <mg-home class="fade" hash="home"></mg-home>
+            <mg-about class="fade" hash="about"></mg-about>
+            <mg-contact class="fade" hash="contact"></mg-contact>
+            <mg-portfolio class="fade" hash="portfolio"></mg-portfolio>
+        </core-animated-pages>
+      </core-scroll-header-panel>
+    </core-scaffold>
+  </template>
+
+  <script>
+
+    Polymer(
+      { pages:[
+          {name: 'Home', hash: 'home', icon:'home'},
+          {name: 'Portfolio', hash: 'portfolio', icon:'view-module'},
+          {name: 'About', hash: 'about', icon:'account-box'},
+          {name: 'Contact', hash: 'contact', icon:'mail'},
+        ],
+        ready: function(){ console.log("mg-scaffold ready");
+          this.route = this.route || 'home';
+      },
+        routeChanged:function($r,$i){ console.log("routeChanged: ");}
+      }
+    );
+
+  </script>
+
+</polymer-element>

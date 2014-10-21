@@ -1,91 +1,91 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../core-ajax/core-ajax.html">
+<link rel="import" href="../google-signin/google-signin.html">
+
+<!--
+Element for interacting with Google Sheets.
+
+`<google-sheets>` pulls cell data from the Google Sheet specified by `key`.
+A spreadsheet's key can be found in the URL when viewing it in google docs (e.g. `docs.google.com/spreadsheet/ccc?key=<KEY>#gid=0`).
+
+Optionally pass the `gid` attribute to specify a particular worksheet tab in the spreadsheet.If `gid` is updated at a later time, the underlying data is also updated. **API calls
+are cached** as to not make extraneous calls.
+
+See [developers.google.com/google-apps/spreadsheets](http://developers.google.com/google-apps/spreadsheets) for full Spreadsheets API documentation.
+
+#### Example
+
+    <google-sheets key="..." gid="0" clientId="..."></google-sheets>
+
+    <script>
+      var sheet = document.querySelector('google-sheets');
+
+      sheet.addEventListener('google-sheet-data', function(e) {
+       // this.spreadsheets - list of the user's spreadsheets
+       // this.tab - information on the tab that was fetched
+       // this.rows - cell row information for the tab that was fetched
+      });
+
+      sheet.addEventListener('core-error', function(e) {
+       // e.detail.response
+      });
+    </script>
+
+<b>Example</b> - `published` is a perf optimization and hints that the spreadsheet has been published (public):
+
+    <google-sheets key="0Anye-JMjUkZZdDBkMVluMEhZMmFGeHpYdDJJV1FBRWc" published></google-sheets>
+
+<b>Example</b> - leaving off the `key` returns as list of the user's spreadsheets.
+
+    <google-sheets clientId="..."></google-sheets>
+
+<b>Example</b> - show a list of Map markers, using data-binding features inside Polymer:
+
+    <google-sheets
+      key="0Anye-JMjUkZZdDBkMVluMEhZMmFGeHpYdDJJV1FBRWc" gid="0" rows="{{rows}}"
+      clientId="...">
+    </google-sheets>
+    <google-map>
+      <template repeat="{{row in rows}}">
+        <google-map-marker latitude="{{row.gsx$lat.$t}}" longitude="{{row.gsx$lng.$t}}">
+      </template>
+    </google-map>
+
+@element google-sheets
+@blurb Element for interacting with Google Sheets.
+@status alpha
+@homepage http://googlewebcomponents.github.io/google-sheets
+-->
+
+<!--
+Fired when the spreadsheet's cell information is available.
+
+@event google-sheet-data
+@param {Object} detail
+@param {Object} detail.data The data returned by the Spreadsheet API.
+@param {string} detail.type The type of data that was fetched. One of 'spreadsheets', 'tab', 'rows' to correspond to the feed type.
+-->
+
+<polymer-element name="google-sheets" attributes="clientId key gid published rows">
+<template>
+  <!-- TODO(ericbidelman): remove clientId when
+       https://github.com/GoogleWebComponents/google-signin/issues/7 is fixed. -->
+  <template if="{{!published}}">
+    <google-signin clientId="{{clientId}}" scopes="https://spreadsheets.google.com/feeds"
+                   on-google-signin-success="{{onSignInSuccess}}"
+                   on-google-signin-failure="{{onSignInFail}}"></google-signin>
+  </template>
+
+  <core-ajax id="publicajax" auto params='{"alt": "json"}' handleAs="json"
+             on-core-response="{{onCellRows}}"></core-ajax>
+  <core-ajax id="listsheetsajax" auto params='{"alt": "json"}' handleAs="json"
+             on-core-response="{{onSpreadsheetList}}"></core-ajax>
+  <core-ajax id="worksheetajax" auto params='{"alt": "json"}' handleAs="json"
+             on-core-response="{{onWorksheet}}"></core-ajax>
+  <core-ajax id="cellrowsajax" auto params='{"alt": "json"}' handleAs="json"
+             on-core-response="{{onCellRows}}"></core-ajax>
+
+</template>
 <script>
 (function() {
   var SCOPE_ = 'https://spreadsheets.google.com/feeds';
@@ -363,3 +363,4 @@
 
 })();
 </script>
+</polymer-element>

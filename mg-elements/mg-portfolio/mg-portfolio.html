@@ -1,0 +1,24 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="../../bower_components/google-sheets/google-sheets.html">
+
+<polymer-element name="mg-portfolio" attributes="hash">
+
+<template>
+  <google-sheets id="sheet" key="1vxK6BMZF1aTX9wnYKONv2ncK-124oW90wGW2ELaLoUM" published rows="{{rows}}"></google-sheets>
+  <link rel="stylesheet" href="mg-portfolio.css">
+  <div class="container">
+  <template repeat="{{row in rows}}">
+  	<div class="card"><img src="http://ored.net/marissageoffroy/img/thumbs/om.jpg" alt="Owen and Marissa" /><paper-shadow z="1"></paper-shadow></div>
+  </template>
+
+  </div>
+
+</template>
+  <script>
+
+    Polymer({
+
+    });
+  </script>
+</polymer-element>

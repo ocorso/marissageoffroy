@@ -1,0 +1,75 @@
+  :host {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+
+      }
+      #core_header_panel {
+
+        background-color: rgb(255, 255, 255);
+      }
+      #core_toolbar {
+        background-color: #9D9D9D;
+        fill: #f1f1f1;
+    
+      }
+    .title {
+      color: white;
+      -webkit-transform-origin: 0;
+      transform-origin: 0;
+      font-size: 40px;
+    }
+      #core_menu {
+        font-size: 16px;
+      }
+      #mg_logo{
+        font-size: 18px;
+      }
+      .first-name{
+        color:#D6CBC7;
+      }
+      .last-name{
+        color: #8FA3AD;
+      }
+
+core-animated-pages{
+/*  position: static;*/
+}
+    core-scroll-header-panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    /* background for toolbar when it is at its full size */
+    core-scroll-header-panel::shadow #headerBg {
+      background-image: url('../../img/bg9.jpg');
+          background-color: transparent;
+    }
+
+    /* background for toolbar when it is condensed */
+    core-scroll-header-panel::shadow #condensedHeaderBg {
+      background-color: #f4b400;
+    }
+
+
+
+    .content {
+      padding: 8px;
+      background-color: #eee;
+    }
+
+
+    @media all and (max-width: 480px) {
+    .paper-shadow  {
+      display: none;
+    }
+
+  }
