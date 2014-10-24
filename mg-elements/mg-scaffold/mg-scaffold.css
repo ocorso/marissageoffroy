@@ -36,7 +36,9 @@
       .last-name{
         color: #8FA3AD;
       }
-
+#page_heading{
+/*  margin-top:64px;*/
+}
 core-animated-pages{
 /*  position: static;*/
 }
@@ -49,6 +51,9 @@ core-animated-pages{
     }
 
     /* background for toolbar when it is at its full size */
+    core-scroll-header-panel::shadow core_toolbar{
+      position: relative;
+    }
     core-scroll-header-panel::shadow #headerBg {
       background-image: url('../../img/bg9.jpg');
           background-color: transparent;

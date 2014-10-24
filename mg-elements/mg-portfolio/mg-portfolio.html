@@ -1,24 +1,45 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="../../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../../bower_components/paper-dialog/paper-dialog-transition.html">
 <link rel="import" href="../../bower_components/google-sheets/google-sheets.html">
-
-<polymer-element name="mg-portfolio" attributes="hash">
+<link rel="import" href="../mg-elements.html">
+<polymer-element name="mg-portfolio" attributes="hash dialog">
 
 <template>
-  <google-sheets id="sheet" key="1vxK6BMZF1aTX9wnYKONv2ncK-124oW90wGW2ELaLoUM" published rows="{{rows}}"></google-sheets>
+  <google-sheets id="sheet" key="1vxK6BMZF1aTX9wnYKONv2ncK-124oW90wGW2ELaLoUM" published rows="{{rows}}" on-google-sheet-data="onDataComplete"></google-sheets>
   <link rel="stylesheet" href="mg-portfolio.css">
   <div class="container">
   <template repeat="{{row in rows}}">
-  	<div class="card"><img src="http://ored.net/marissageoffroy/img/thumbs/om.jpg" alt="Owen and Marissa" /><paper-shadow z="1"></paper-shadow></div>
+    <div on-click="{{onCardClick}}" class="card"><img src="http://ored.net/marissageoffroy/img/thumbs/om.jpg" alt="Owen and Marissa" /><paper-shadow z="1"></paper-shadow></div>
   </template>
+      	<a hpoop="http://localhost:8000/#portfolio/om" on-click="{{onCardClick}}" class="card"><img src="../../img/thumbs/om.jpg" alt="Owen and Marissa" /><paper-shadow z="1"></paper-shadow></a>
 
   </div>
-
+  <mg-detail id="dialog" heading="Dialog" transition="paper-dialog-transition-center"></mg-detail>
 </template>
   <script>
 
     Polymer({
+      isDetail: false,
+      ready:function(event){ 
+        console.log("mg-portfolio ready. isDetail? "+this.isDetail);
+        this.$.sheet.addEventListener('google-sheet-data', function(e) {
+          // this.spreadsheets - list of the user's spreadsheets
+          // this.tab - information on the tab that was fetched
+          console.log(this.rows);// - cell row information for the tab that was fetched
+        });
 
+        this.$.sheet.addEventListener('core-error', function(e) {
+          console.error(e);
+        });
+      },
+      onCardClick: function(event){ 
+        console.log("Card Clicked");
+        this.isDetail = true;
+        this.$.dialog.toggle();
+      },
+      onDataComplete:function(data){ console.log("boom");}
     });
   </script>
 </polymer-element>
