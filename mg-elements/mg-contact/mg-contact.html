@@ -1,13 +1,18 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 <link rel="import" href="../../bower_components/paper-input/paper-input.html">
 <link rel="import" href="../../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../../bower_components/paper-shadow/paper-shadow.html">
+
 <polymer-element name="mg-contact" attributes="">
 	<template>
 		<link rel="stylesheet" href="mg-contact.css">
-		<paper-input placeholder="Name"></paper-input>
-		<paper-input placeholder="Email"></paper-input>
-		<paper-input placeholder="Message"></paper-input>
-		<paper-fab icon="arrow-forward" role="button" tabindex="5" aria-label="arrow-forward" style="overflow: visible;"></paper-fab>
+		<section layout vertical center>
+			<paper-input placeholder="Name"></paper-input>
+			<paper-input placeholder="Email"></paper-input>
+			<paper-input placeholder="Message"></paper-input>
+			<paper-fab icon="arrow-forward" role="button" tabindex="5" aria-label="arrow-forward" style="overflow: visible;"></paper-fab>
+			<paper-shadow z="2"/>
+		</section>
 	</template>
 	<script>
 		Polymer({
