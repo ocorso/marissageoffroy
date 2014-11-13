@@ -15,13 +15,28 @@
       	<a hpoop="http://localhost:8000/#portfolio/om" on-click="{{onCardClick}}" class="card"><img src="../../img/thumbs/om.jpg" alt="Owen and Marissa" /><paper-shadow z="1"></paper-shadow></a>
 
   </div>
-  <mg-detail id="dialog" heading="Dialog" transition="paper-dialog-transition-center"></mg-detail>
+  <mg-detail id="dialog" heading="{{current.title}}" transition="paper-dialog-transition-center"></mg-detail>
 </template>
   <script>
 
     Polymer({
       isDetail: false,
-      
+      current:{
+        title:"poopy"
+      },
+      ready:function(event){ 
+
+        console.log("mg-portfolio ready. isDetail? "+this.isDetail);
+        this.$.sheet.addEventListener('google-sheet-data', function(e) {
+          // this.spreadsheets - list of the user's spreadsheets
+          // this.tab - information on the tab that was fetched
+          console.log(this.rows);// - cell row information for the tab that was fetched
+        });
+
+        this.$.sheet.addEventListener('core-error', function(e) {
+          console.error(e);
+        });
+      },
       onCardClick: function(event){ 
         console.log("Card Clicked");
         this.isDetail = true;
