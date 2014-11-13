@@ -24,18 +24,9 @@
       current:{
         title:"poopy"
       },
-      ready:function(event){ 
-
+      ready:function(event){  
         console.log("mg-portfolio ready. isDetail? "+this.isDetail);
-        this.$.sheet.addEventListener('google-sheet-data', function(e) {
-          // this.spreadsheets - list of the user's spreadsheets
-          // this.tab - information on the tab that was fetched
-          console.log(this.rows);// - cell row information for the tab that was fetched
-        });
-
-        this.$.sheet.addEventListener('core-error', function(e) {
-          console.error(e);
-        });
+       
       },
       onCardClick: function(event){ 
         console.log("Card Clicked");
