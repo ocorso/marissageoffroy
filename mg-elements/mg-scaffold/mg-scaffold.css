@@ -37,7 +37,7 @@
         color: #8FA3AD;
       }
 #page_heading{
-/*  margin-top:64px;*/
+text-transform: capitalize;
 }
 core-animated-pages{
 /*  position: static;*/

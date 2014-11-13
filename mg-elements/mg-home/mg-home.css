@@ -1,5 +1,8 @@
+h1{
+	margin: 25px;
+}
 .home-img{
 	padding: 20px;
-	padding-top: 150px;
+	padding-top: 50px;
 	min-width: 1000px
 }
