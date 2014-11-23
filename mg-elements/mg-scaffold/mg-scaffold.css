@@ -53,7 +53,15 @@ core-animated-pages{
     /* background for toolbar when it is at its full size */
     core-scroll-header-panel::shadow core_toolbar{
       position: relative;
+    
     }
+  core-toolbar {
+      color: #f1f1f1;
+      fill: #f1f1f1;
+      background-color: transparent;
+/*      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+  }
+
     core-scroll-header-panel::shadow #headerBg {
       background-image: url('../../img/bg9.jpg');
           background-color: transparent;
@@ -61,7 +69,7 @@ core-animated-pages{
 
     /* background for toolbar when it is condensed */
     core-scroll-header-panel::shadow #condensedHeaderBg {
-      background-color: #f4b400;
+      background-color: #8FA3AD;
     }
 
 

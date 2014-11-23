@@ -1,11 +1,19 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
-<polymer-element name="mg-card" attributes="thumb title description">
+<link rel="import" href="../../bower_components/paper-ripple/paper-ripple.html">
+<polymer-element name="mg-card" attributes="filename mg-thumb mg-title description" is="auto-binding">
 	<template>
 		<link rel="stylesheet" href="mg-card.css">
+		<div class="card"><img src="http://ored.net/marissageoffroy/img/thumbs/{{filename}}" alt="Owen and Marissa" />
+			<paper-shadow z="1"></paper-shadow>
+			<paper-ripple></paper-ripple>
+		</div>
+
 	</template>
 	<script>
 		Polymer({
-			
+			ready:function($data){
+				console.log("card ready");
+			}
 		});
 	</script>
 </polymer-element>

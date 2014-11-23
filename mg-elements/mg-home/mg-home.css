@@ -4,5 +4,6 @@ h1{
 .home-img{
 	padding: 20px;
 	padding-top: 50px;
-	min-width: 1000px
+	width: 100%	;
+	max-width: 785px;
 }
