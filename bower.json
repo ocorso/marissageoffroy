@@ -1,17 +1,18 @@
 {
-  "name": "MG",
-  "version": "0.0.1",
+  "name": "MarissaGeoffroy's Portfolio",
+  "version": ".8",
   "homepage": "https://github.com/ocorso/marissageoffroy",
   "authors": [
     "Owen Corso <owen@ored.net>"
   ],
-  "description": "A painting portfolio for Marissa Geoffroy",
+  "description": "A painting portfolio site build featuring Polymer Web Components and Material Design",
   "main": "index.html",
   "moduleType": [
     "node"
   ],
   "keywords": [
-    "Painting"
+    "ored",
+    "marissageoffroy"
   ],
   "license": "MIT",
   "ignore": [
@@ -22,17 +23,23 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.4.2",
-    "core-elements": "Polymer/core-elements#~0.4.2",
-    "paper-elements": "Polymer/paper-elements#~0.4.2",
-    "director": "Flatiron/director#~1.2.2",
-    "google-sheets": "GoogleWebComponents/google-sheets#~0.0.3"
+    "polymer": "Polymer/polymer#~0.5.1",
+    "core-elements": "Polymer/core-elements#~0.5.1",
+    "paper-elements": "Polymer/paper-elements#~0.5.1",
+    "google-sheets": "GoogleWebComponents/google-sheets#~0.0.4"
   },
   "resolutions": {
-    "google-apis": "~0.4.2",
     "core-component-page": "^0.5.0",
     "polymer": "^0.5.1",
-    "core-ajax": "^0.5.1",
-    "core-shared-lib": "~0.5.1"
+    "core-icon": "^0.5.0",
+    "core-iconset": "^0.5.0",
+    "core-icons": "^0.5.0",
+    "core-iconset-svg": "^0.5.0",
+    "core-meta": "^0.5.0",
+    "core-shared-lib": "~0.5.1",
+    "core-signals": "^0.5.0",
+    "paper-ripple": "^0.5.0",
+    "font-roboto": "^0.5.0",
+    "google-apis": "~0.4.2"
   }
 }

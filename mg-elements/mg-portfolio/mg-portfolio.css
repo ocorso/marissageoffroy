@@ -4,17 +4,7 @@
       height: 200px;
       position: relative;
       margin: 16px;
-      border-radius: 2px;
       display: block;
       float: left;
       cursor: pointer;
-    }
-
-    .card-inner {
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      border-radius: 2px;
     }

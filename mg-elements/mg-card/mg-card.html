@@ -3,10 +3,8 @@
 <polymer-element name="mg-card" attributes="filename mg-thumb mg-title description" is="auto-binding">
 	<template>
 		<link rel="stylesheet" href="mg-card.css">
-		<div class="card"><img src="http://ored.net/marissageoffroy/img/thumbs/{{filename}}" alt="Owen and Marissa" />
-			<paper-shadow z="1"></paper-shadow>
-			<paper-ripple></paper-ripple>
-		</div>
+		<img class="card" src="http://ored.net/marissageoffroy/img/thumbs/{{filename}}" alt="title" />
+		<paper-shadow z="1"></paper-shadow>
 
 	</template>
 	<script>

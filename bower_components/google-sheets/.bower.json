@@ -40,6 +40,7 @@
     "commit": "7a39be3f1a28bf9cdfa4476ccaa952f3b3a829ca"
   },
   "_source": "git://github.com/GoogleWebComponents/google-sheets.git",
-  "_target": "~0.0.3",
-  "_originalSource": "GoogleWebComponents/google-sheets"
+  "_target": "~0.0.4",
+  "_originalSource": "GoogleWebComponents/google-sheets",
+  "_direct": true
 }

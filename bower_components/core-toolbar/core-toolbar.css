@@ -18,7 +18,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   /* typography */
   font-size: 1.3em;
   /* background */
-/*  background-color: #616161;*/
+  background-color: #CFD8DC;
 }
 
 :host(.animate) {
@@ -88,8 +88,8 @@ polyfill-next-selector { content: ':host.core-narrow .toolbar-tools, .core-narro
 }
 
 /* make elements (e.g. buttons) respond to mouse/touch events */
-polyfill-next-selector { content: '.toolbar-tools > *'; }
-::content > * {
+polyfill-next-selector { content: '.toolbar-tools > *:not([disabled])'; }
+::content > *:not([disabled]) {
   pointer-events: auto;
 }
 

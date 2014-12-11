@@ -39,18 +39,14 @@
         <div id="mg_logo" class="oxy" tool><span class="first-name">Marissa</span> <span class="last-name">Geoffroy.</span></div>
       </core-toolbar>
 
-      <core-scroll-header-panel keepCondensedHeader condenses>
-        <core-toolbar id="page_heading" flex class="tall">
-          <div flex></div>
-          <div id="page_heading" class="bottom indent title">{{route}}</div>
-        </core-toolbar>
-        <core-animated-pages class="content" selected="{{route}}" valueattr="hash" transitions="cross-fade-all">
-            <mg-home class="fade" hash="home"></mg-home>
-            <mg-about class="fade" hash="about"></mg-about>
-            <mg-contact class="fade" hash="contact"></mg-contact>
-            <mg-portfolio class="fade" hash="portfolio"></mg-portfolio>
+        <core-animated-pages fit class="content" selected="{{route}}" valueattr="hash" transitions="tile-cascade cross-fade slide-up slide-down">
+            <mg-home hash="home"></mg-home>
+            <mg-about hash="about"></mg-about>
+            <mg-contact hash="contact"></mg-contact>
+            <mg-portfolio hash="portfolio"></mg-portfolio>
+          </core-scroll-header-panel>
         </core-animated-pages>
-      </core-scroll-header-panel>
+
     </core-scaffold>
   </template>
 
