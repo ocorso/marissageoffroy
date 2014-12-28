@@ -9,6 +9,12 @@
         left: 0px;
 
       }
+          :host /deep/ *, body, div, #div, .oxy:unresolved, .oxy{
+      
+      font-family: 'Oxygen', sans-serif;
+      
+    }
+
       #core_header_panel {
 
         background-color: rgb(255, 255, 255);
@@ -24,25 +30,25 @@
       transform-origin: 0;
       font-size: 40px;
     }
-      #core_menu {
-        font-size: 16px;
-      }
-      #mg_logo{
-        font-size: 18px;
-      }
-      .first-name{
-        color:#D6CBC7;
-      }
-      .last-name{
-        color: #8FA3AD;
-      }
-#page_heading{
-text-transform: capitalize;
-}
-core-animated-pages{
-/*  position: static;*/
-}
-    core-scroll-header-panel {
+    #core_menu {
+      font-size: 16px;
+    }
+    #mg_logo{
+      font-size: 18px;
+    }
+    .first-name{
+      color:#D6CBC7;
+    }
+    .last-name{
+      color: #8FA3AD;
+    }
+    core-animated-pages,    core-animated-pages.content{
+     height: 100%;
+    }
+    #page_heading{
+    text-transform: capitalize;
+    }
+    :host /deep/ core-scroll-header-panel {
       position: absolute;
       top: 0;
       right: 0;
@@ -50,27 +56,27 @@ core-animated-pages{
       left: 0;
     }
 
-    /* background for toolbar when it is at its full size */
-    core-scroll-header-panel::shadow core_toolbar{
-      position: relative;
-    
-    }
-  core-toolbar {
-      color: #f1f1f1;
-      fill: #f1f1f1;
-      background-color: transparent;
-/*      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
-  }
-
-    core-scroll-header-panel::shadow #headerBg {
+    :host /deep/ core-scroll-header-panel::shadow #headerBg {
       background-image: url('../../img/bg9.jpg');
-          background-color: transparent;
+      background-color: transparent;
     }
 
     /* background for toolbar when it is condensed */
-    core-scroll-header-panel::shadow #condensedHeaderBg {
+    :host /deep/ core-scroll-header-panel::shadow #condensedHeaderBg {
       background-color: #8FA3AD;
     }
+
+    /* background for toolbar when it is at its full size */
+    :host /deep/ core-scroll-header-panel::shadow core_toolbar{
+      position: relative;
+    
+    }
+  core-toolbar, :host ::shadow core-toolbar {
+      color: #f1f1f1;
+      fill: #f1f1f1;
+      background-color: #616161 !important;
+/*      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+  }
 
 
 

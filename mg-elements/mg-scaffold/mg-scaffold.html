@@ -6,7 +6,7 @@
       <link rel="stylesheet" href="mg-scaffold.css">
       <flatiron-director route="{{route}}" autoHash
                      on-director-route="{{routeChanged}}"></flatiron-director>
-    <core-scaffold fit> 
+    <core-scaffold flex> 
       <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
           <core-toolbar id="core_toolbar"></core-toolbar>
           <core-menu>
@@ -22,15 +22,16 @@
           </core-menu>
         </core-header-panel>
         <core-toolbar tool flex>
-        <div id="mg_logo" class="oxy" tool><span class="first-name">Marissa</span> <span class="last-name">Geoffroy.</span></div>
+        <div id="mg_logo" class="oxy" tool>
+          <span class="first-name">Marissa</span> <span class="last-name">Geoffroy.</span>
+        </div>
       </core-toolbar>
 
-        <core-animated-pages fit class="content" selected="{{route}}" valueattr="hash" transitions="tile-cascade cross-fade slide-up slide-down">
+        <core-animated-pages relative class="content" selected="{{route}}" valueattr="hash" transitions="tile-cascade cross-fade slide-up slide-down">
             <mg-home hash="home"></mg-home>
             <mg-about hash="about"></mg-about>
             <mg-contact hash="contact"></mg-contact>
             <mg-portfolio hash="portfolio"></mg-portfolio>
-          </core-scroll-header-panel>
         </core-animated-pages>
 
     </core-scaffold>

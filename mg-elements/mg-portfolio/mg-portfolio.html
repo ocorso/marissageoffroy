@@ -5,10 +5,11 @@
 <template>
   <google-sheets id="sheet" key="1vxK6BMZF1aTX9wnYKONv2ncK-124oW90wGW2ELaLoUM" published rows="{{rows}}"></google-sheets>
   <link rel="stylesheet" href="mg-portfolio.css">
-  <div class="container" tile-cascade>
+  <div slide-up layout horizontal wrap tile-cascade>
     <template repeat="{{row in rows}}" >
-      <div>
-        <mg-card class="card" id="{{row.gsx$id.$t}}" 
+      <div layout center center-justified class="card" >
+        <img id="{{row.gsx$id.$t}}" 
+          src="http://ored.net/marissageoffroy/img/thumbs/{{row.gsx$filename.$t}}"
           filename="{{row.gsx$filename.$t}}" 
           data-filename="{{row.gsx$filename.$t}}" 
           data-heading="{{row.gsx$title.$t}}" 
@@ -16,11 +17,11 @@
           data-medium="{{row.gsx$medium.$t}}"
           data-substrate="{{row.gsx$substrate.$t}}"
           on-click="{{onCardClick}}">
-        </mg-card>
+        </img>
       </div>
     </template>
-  <mg-detail id="dialog" maxHeight="100%" backdrop transition="paper-dialog-transition-center"></mg-detail>
   </div>
+  <mg-detail id="dialog" maxHeight="100%" backdrop transition="paper-dialog-transition-center"></mg-detail>
  
 </template>
   <script>

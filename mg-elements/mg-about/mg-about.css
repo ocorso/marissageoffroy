@@ -1,40 +1,16 @@
 :host{
 
-	height:800px;
+	height:100%;
 }
 .container{
 	margin: 20px;
 }
 .mg-about-img{
 	margin:20px;
+  max-height: 655px;
 }
-
-    core-scroll-header-panel {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
-
-    /* background for toolbar when it is at its full size */
-    core-scroll-header-panel::shadow core_toolbar{
-      position: relative;
-    
-    }
-  core-toolbar {
+core-toolbar{
       color: #f1f1f1;
       fill: #f1f1f1;
       background-color: transparent;
-/*      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
-  }
-
-    core-scroll-header-panel::shadow #headerBg {
-      background-image: url('../../img/bg9.jpg');
-          background-color: transparent;
-    }
-
-    /* background for toolbar when it is condensed */
-    core-scroll-header-panel::shadow #condensedHeaderBg {
-      background-color: #8FA3AD;
-    }
+}

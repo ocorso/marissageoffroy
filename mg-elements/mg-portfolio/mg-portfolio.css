@@ -1,10 +1,9 @@
 	 .card {
-      background: red;
+      background: #D6CBC7;
       width: 200px;
       height: 200px;
       position: relative;
       margin: 16px;
-      display: block;
-      float: left;
       cursor: pointer;
     }
+    

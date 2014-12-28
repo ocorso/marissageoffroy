@@ -1,14 +1,14 @@
 <link rel="import" href="../mg-elements.html">
 
-<polymer-element name="mg-about" extends="core-scroll-header-panel" attributes="" keepCondensedHeader condenses flex>
+<polymer-element name="mg-about" attributes="" keepCondensedHeader condenses>
 	<template>
 		<link rel="stylesheet" href="mg-about.css">
-        <core-toolbar slide-up id="page_heading" flex class="tall">
+        <core-toolbar slide-down id="page_heading" flex class="tall core-header">
           <div flex></div>
           <div id="page_heading" class="bottom indent title">About</div>
         </core-toolbar>
-		
-		<p class="content">
+		<div class="container" layout horizontal slide-up>
+		<p class="content" flex three>
 			Portrait and the human figure play a prominent role in my recent work.  I am interested in the long tradition of portraying the human form in art, and the dichotomy of the figure as both universal and deeply individual and personal.   I choose to emphasize the personal element – my paintings and drawings are of specific individuals: myself, my partner, my mother.  I aim to portray an enigmatic mood, a sense of isolation and interpersonal distance.  In the banality of everyday scenes I hope to communicate elements of the human condition – personally and individually experienced, and universally relatable. 
 Self-portrait allows me to eliminate a degree of separation between myself and what I am expressing to the viewer.  It is also an act of vulnerability, of putting myself out there with my art, which is an important exercise for me.  
 I work with paint, graphite, and charcoal on canvas and on paper.  My work is representational, but the rendering is more about suggestion than realism.  I often add in or leave behind negative space – my mind fills in what exists there, or what used to exist there at the time the memory was captured.  I try to suggest enough so that the viewer can do the same – in that way they are connected to me, seeing the world through my eyes, and also attributing their personal experience to it.  It is in this way that I try to achieve universality.  
@@ -16,10 +16,11 @@ I work with paint, graphite, and charcoal on canvas and on paper.  My work is re
 	The style and content of my work has many influences.  I found particular inspiration in recent exhibits of Balthus and Hopper, in their content, mood, and style.  Their works show figures in space, in everyday and often private scenes, devoid of certain emotive warmth and both deeply relatable and starkly isolating.  Since moving to San Francisco in the last year, I have been especially influenced by the Bay Area Figurative artists Elmer Bischoff and Richard Diebenkorn.  They applied the lessons of Abstract Expressionism to a return to figurative work, accomplishing a representation more truthful than realism.  The rendering of their figures and the interplay between planes and forms influence and inspire my artistic choices.</p>
 	
 			<img class="mg-about-img" src="../../img/mg.jpg" alt="Picture of Marissa"/>
+		</div>
 	</template>
 	<script>
 		Polymer({
-			
+			ready:function(event){ this.super();}
 		});
 	</script>
 </polymer-element>

@@ -4,7 +4,10 @@
 	<template>
 		<link rel="stylesheet" href="mg-detail.css">
 		<section layout vertical>
-			<img src="{{filename}}" />
+			<div layout horizontal center center-justified>
+		        <paper-spinner id="spinner" center active></paper-spinner>
+				<img id="main_img" style="display:none;" src="{{filename}}" />
+			</div>
 			<h1>{{heading}}, {{year}}</h1>
 			<h2>{{medium}} on {{substrate}}</h2>
 			 <div id="actions" layout horizontal>
@@ -17,9 +20,18 @@
 	<script>
 		Polymer({
 			closeSelector: '[affirmative],[dismissive]',
-//			ready:function(event){ console.log("dialog ready"); this.super(event); this.resizeHandler(); },
+			ready:function(event){ console.log("dialog ready"); this.super(); 
+				this.$.main_img.addEventListener("load",function(event){ 
+					console.log("imgload"+this.$.spinner); 
+					this.$.spinner.style.display = "none";
+					this.$.main_img.style.display = "block"; 
+					this.resizeHandler();
+				}.bind(this));
+			},
 			updateDetail:function($data){
 				console.log("updateDetail: ",$data.filename);
+				this.$.spinner.style.display = "block";
+				this.$.main_img.style.display = "none"; 
 				this.filename 	= "http://ored.net/marissageoffroy/img/large/" + $data.filename;
 				this.heading 	= $data.heading;
 				this.year		= $data.year;

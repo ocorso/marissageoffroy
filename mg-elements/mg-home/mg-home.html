@@ -1,9 +1,12 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
-<link rel="import" href="../../bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="../mg-elements.html">
 <polymer-element name="mg-home" attributes="">
 	<template>
 		<link rel="stylesheet" href="mg-home.css">
-		<div cross-fade layout horizontal center center-justified  ><img class="home-img" src="../../img/mg-about.jpg" alt="Marissa Portrait" /></div>
+		<core-header-panel flex mode="waterfall-tall">
+			<div class="core-header">HOME</div>
+			<div class="content"></div>
+		</core-header-panel>
+		<div slide-up layout horizontal center center-justified  ><img class="home-img" src="../../img/mg-about.jpg" alt="Marissa Portrait" /></div>
 	</template>
 	<script>
 		Polymer({
