@@ -7,7 +7,8 @@ section {
 	margin: 10px;
 }
 :host /deep/ [autofocus] {
-      color: #03a9f4;
+      color: #8FA3AD;
+      	font-family: "Oxygen", sans-serif;
 }
 img{
 

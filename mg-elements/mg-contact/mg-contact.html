@@ -3,18 +3,27 @@
 <polymer-element name="mg-contact" attributes="">
 	<template>
 		<link rel="stylesheet" href="mg-contact.css">
-		<section layout vertical>
-			<h1>Feel free to say hello by filling out this form</h1>
-			<paper-input placeholder="Name"></paper-input>
-			<paper-input placeholder="Email"></paper-input>
-			<paper-input placeholder="Message"></paper-input>
-			<div><paper-fab icon="arrow-forward" role="button" tabindex="5" aria-label="arrow-forward" style="overflow: visible;"></paper-fab></div>
-			<paper-shadow z="2"/>
-		</section>
+		<core-style ref="mg-pageheader" hidden></core-style>
+		<link rel="stylesheet" href="mg-home.css">
+		<core-scroll-header-panel keepCondensedHeader condenses slide-down>
+			<core-toolbar class="tall" mode="waterfall-tall">
+				<div class="bottom indent title">HOME</div>
+			</core-toolbar>
+			<section layout vertical slide-up>
+				<h1>Feel free to say hello by filling out this form</h1>
+				<paper-input placeholder="Name"></paper-input>
+				<paper-input placeholder="Email"></paper-input>
+				<paper-input placeholder="Message"></paper-input>
+				<div><paper-fab icon="arrow-forward" role="button" tabindex="5" aria-label="arrow-forward" style="overflow: visible;"></paper-fab></div>
+				<paper-shadow z="2"/>
+			</section>
+		</core-scroll-header-panel>	
 	</template>
 	<script>
 		Polymer({
-			
+			ready:function(event){
+				console.log("mg-contact ready");
+			}
 		});
 	</script>
 </polymer-element>

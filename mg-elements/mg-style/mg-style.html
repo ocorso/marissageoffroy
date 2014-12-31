@@ -1,0 +1,42 @@
+<link rel="import" href="../mg-elements.html">
+
+<script>
+
+  CoreStyle.g.theme = {
+    mgBlue: '#abcdef',
+    mgDarkGrey: '#123456',
+    mgMediumGrey: '#224433'
+  }
+</script>
+
+<core-style id="mg-pageheader">
+h1{ font-weight: 300; }
+    core-scroll-header-panel {
+      position: absolute;
+      top: 64;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #eee;
+    }
+      
+  /* background for toolbar when it is at its full size */
+    core-scroll-header-panel::shadow #headerBg {
+      background-image: url(../../img/bg9.jpg);
+    }
+    core-toolbar {
+      background-color: transparent;
+    }
+    /* background for toolbar when it is condensed */
+    core-scroll-header-panel::shadow #condensedHeaderBg {
+      background-color: #f4b400;
+    }
+    .content {
+      padding: 8px;
+    }
+
+.title{
+  color: #D6CBC7;
+  font-size: 24px;
+}
+</core-style>

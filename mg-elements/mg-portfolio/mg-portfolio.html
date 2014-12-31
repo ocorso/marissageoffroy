@@ -1,28 +1,33 @@
 <link rel="import" href="../mg-elements.html">
 
-<polymer-element name="mg-portfolio" attributes="rows hash dialog" is="auto-binding">
+<polymer-element name="mg-portfolio" attributes="rows hash dialog">
 
-<template>
+<template >
   <google-sheets id="sheet" key="1vxK6BMZF1aTX9wnYKONv2ncK-124oW90wGW2ELaLoUM" published rows="{{rows}}"></google-sheets>
+  <core-style ref="mg-pageheader" hidden></core-style>
   <link rel="stylesheet" href="mg-portfolio.css">
-  <div slide-up layout horizontal wrap tile-cascade>
-    <template repeat="{{row in rows}}" >
-      <div layout center center-justified class="card" >
-        <img id="{{row.gsx$id.$t}}" 
-          src="http://ored.net/marissageoffroy/img/thumbs/{{row.gsx$filename.$t}}"
-          filename="{{row.gsx$filename.$t}}" 
-          data-filename="{{row.gsx$filename.$t}}" 
-          data-heading="{{row.gsx$title.$t}}" 
-          data-year="{{row.gsx$year.$t}}"
-          data-medium="{{row.gsx$medium.$t}}"
-          data-substrate="{{row.gsx$substrate.$t}}"
-          on-click="{{onCardClick}}">
-        </img>
-      </div>
-    </template>
-  </div>
-  <mg-detail id="dialog" maxHeight="100%" backdrop transition="paper-dialog-transition-center"></mg-detail>
- 
+  <core-scroll-header-panel keepCondensedHeader condenses slide-down>
+    <core-toolbar class="tall" mode="waterfall-tall">
+      <h1 class="bottom indent title">PORTFOLIO</h1>
+    </core-toolbar>
+    <div slide-up layout horizontal wrap tile-cascade>
+      <template repeat="{{row in rows}}">
+        <div layout center center-justified class="card" >
+          <img id="{{row.gsx$id.$t}}" 
+            src="http://ored.net/marissageoffroy/img/thumbs/{{row.gsx$filename.$t}}"
+            filename="{{row.gsx$filename.$t}}" 
+            data-filename="{{row.gsx$filename.$t}}" 
+            data-heading="{{row.gsx$title.$t}}" 
+            data-year="{{row.gsx$year.$t}}"
+            data-medium="{{row.gsx$medium.$t}}"
+            data-substrate="{{row.gsx$substrate.$t}}"
+            on-click="{{onCardClick}}">
+          </img>
+        </div>
+      </template>
+    </div>
+    <mg-detail id="dialog" maxHeight="100%" backdrop transition="paper-dialog-transition-center"></mg-detail>
+  </core-scroll-header-panel>
 </template>
   <script>
 

@@ -1,16 +1,15 @@
 <link rel="import" href="../mg-elements.html">
-<polymer-element name="mg-home" attributes="">
+<polymer-element name="mg-home" noscript>
 	<template>
+		<core-style ref="mg-pageheader" hidden></core-style>
 		<link rel="stylesheet" href="mg-home.css">
-		<core-header-panel flex mode="waterfall-tall">
-			<div class="core-header">HOME</div>
-			<div class="content"></div>
-		</core-header-panel>
-		<div slide-up layout horizontal center center-justified  ><img class="home-img" src="../../img/mg-about.jpg" alt="Marissa Portrait" /></div>
+		<core-scroll-header-panel keepCondensedHeader condenses slide-down>
+			<core-toolbar class="tall" mode="waterfall-tall">
+				<h1 class="bottom indent title">HOME</h1>
+			</core-toolbar>
+			<div slide-up layout horizontal center center-justified  flex>
+				<img class="home-img" src="../../img/mg-about.jpg" alt="Marissa Portrait" />
+			</div>
+		</core-scroll-header-panel>
 	</template>
-	<script>
-		Polymer({
-			
-		});
-	</script>
 </polymer-element>

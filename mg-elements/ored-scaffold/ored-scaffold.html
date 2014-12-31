@@ -1,9 +1,9 @@
 <link rel="import" href="../mg-elements.html?v=4">
 
-<polymer-element name="mg-scaffold" attributes="page">
+<polymer-element name="ored-scaffold" attributes="page">
 
   <template>
-      <link rel="stylesheet" href="mg-scaffold.css">
+      <link rel="stylesheet" href="ored-scaffold.css">
       <flatiron-director route="{{route}}" autoHash
                      on-director-route="{{routeChanged}}"></flatiron-director>
     <core-scaffold flex> 
@@ -31,8 +31,6 @@
         <core-animated-pages relative class="content" selected="{{route}}" valueattr="hash" transitions="tile-cascade cross-fade slide-up slide-down">
             <mg-home hash="home"></mg-home>
             <mg-about hash="about"></mg-about>
-            <mg-contact hash="contact"></mg-contact>
-            <mg-portfolio hash="portfolio"></mg-portfolio>
         </core-animated-pages>
 
     </core-scaffold>
@@ -43,12 +41,10 @@
     Polymer(
       { pages:[
           {name: 'Home', hash: 'home', icon:'home'},
-          {name: 'Portfolio', hash: 'portfolio', icon:'view-module'},
           {name: 'About', hash: 'about', icon:'account-box'},
-          {name: 'Contact', hash: 'contact', icon:'mail'},
         ],
         ready: function(event){ 
-          console.log("mg-scaffold ready");
+          console.log("ored-scaffold ready");
           this.route = this.route || 'home';
           
         },
