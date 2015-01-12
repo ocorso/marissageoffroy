@@ -9,7 +9,7 @@
         left: 0px;
 
       }
-          :host /deep/ *, body, div, #div, .oxy:unresolved, .oxy{
+      :host /deep/ *, body, div, #div, .oxy:unresolved, .oxy, :host /deep/ .oxy{
       
       font-family: 'Oxygen', sans-serif;
       
@@ -33,9 +33,11 @@
     }
     .first-name{
       color:#D6CBC7;
+      font-family: 'Oxygen', sans-serif;
     }
     .last-name{
       color: #8FA3AD;
+      font-family: 'Oxygen', sans-serif;
     }
     core-animated-pages{
      height: 100vh;

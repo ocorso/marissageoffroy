@@ -1,14 +1,11 @@
 :host{
 	display: block;
 	height: 100%;
-
-     /* background-color: transparent;*/
 }
 
 .home-img{
 	padding: 20px;
 	padding-top: 50px;
-	width: 100%	;
-	max-width: 785px;
+	max-width: 385px;
+	width: 100%;
 }
-

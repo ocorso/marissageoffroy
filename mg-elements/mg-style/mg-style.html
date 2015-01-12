@@ -5,7 +5,8 @@
   CoreStyle.g.theme = {
     mgBlue: '#abcdef',
     mgDarkGrey: '#123456',
-    mgMediumGrey: '#224433'
+    mgMediumGrey: '#224433',
+    mgFont: "'Oxygen', sans-serif"
   }
 </script>
 
@@ -38,5 +39,11 @@ h1{ font-weight: 300; }
 .title{
   color: #D6CBC7;
   font-size: 24px;
+  font-family: 'Oxygen', sans-serif;
 }
+</core-style>
+<core-style id="mg-font">
+html, body, h1, div, p, *{
+  font-family: {{g.theme.mgFont}};
+} 
 </core-style>
